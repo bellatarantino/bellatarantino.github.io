@@ -3,16 +3,16 @@ Below are the course plans, break plans, etc. for sophomore year, the 2021 - 202
 
 ### Coursework 
 
-| Class       | Semester    | Credits     | Grade       |
+| Class       | Semester    | Credits     | Requirement       |
 | ----------- | ----------- | ----------- | ----------- |
-| CHINESE 130A      | FALL 2021| 4| TBD|
-| MATH 22A   | FALL 2021| 4|  TBD |
-| PHYSICS 15C   | FALL 2021| 4| TBD |
-| GENED 1038   | FALL 2021 | 4 | TBD |
-| CHINESE 130B   | SPRING 2022 | 4 | TBD |
-| MATH 22B   | SPRING 2022 | 4 | TBD |
-| PHYSICS 15B   | SPRING 2022 | 4 | TBD |
-| PHYSICS 143A   | SPRING 2022 | 4 | TBD |
+| CHINESE 130A      | FALL 2021| 4| Arts and Humanities, Language Citation|
+| MATH 22A   | FALL 2021| 4|  Concentration |
+| PHYSICS 15C   | FALL 2021| 4| Concentration |
+| GENED 1038   | FALL 2021 | 4 | Science and Technology |
+| CHINESE 130B   | SPRING 2022 | 4 | Language Citation |
+| MATH 22B   | SPRING 2022 | 4 | Concentration |
+| PHYSICS 15B   | SPRING 2022 | 4 | Concentration |
+| PHYSICS 143A   | SPRING 2022 | 4 | Concentration |
 
 ### Deadlines and Reminders 
 
@@ -25,3 +25,4 @@ Below are the course plans, break plans, etc. for sophomore year, the 2021 - 202
 | SPRING 2022 | Maker Space Training | 
 
 ### Winter Session Plans 
+

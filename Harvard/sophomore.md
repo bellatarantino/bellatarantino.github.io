@@ -26,3 +26,9 @@ Below are the course plans, break plans, etc. for sophomore year, the 2021 - 202
 
 ### Winter Session Plans 
 
+#### Programming Languages 
+
+| Language | Documentation | Resources | 
+| --- | --- | --- |
+| ROOT | Declare concentration | |
+| Python | Language citation forms | | 

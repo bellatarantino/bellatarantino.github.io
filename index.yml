@@ -1,4 +1,4 @@
-- name: Harvard
+- name: harvard
   files:
     - name: freshman
       path: freshman.md

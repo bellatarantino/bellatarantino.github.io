@@ -5,24 +5,23 @@ Below are the course plans, break plans, etc. for sophomore year, the 2021 - 202
 
 | Class       | Semester    | Credits     | Grade       |
 | ----------- | ----------- | ----------- | ----------- |
-| CHINESE 130A      | Fall 2021| 4| TBD|
-| MATH 22A   | Fall 2021| 4|  TBD |
-| PHYSICS 15C   | Fall 2021| 4| TBD |
-| GENED 1038   | Fall 2021 | 4 | TBD |
-| CHINESE 130B   | Spring 2022 | 4 | TBD |
-| MATH 22B   | Spring 2022 | 4 | TBD |
-| PHYSICS 15B   | Spring 2022 | 4 | TBD |
-| PHYSICS 143A   | Spring 2022 | 4 | TBD |
+| CHINESE 130A      | FALL 2021| 4| TBD|
+| MATH 22A   | FALL 2021| 4|  TBD |
+| PHYSICS 15C   | FALL 2021| 4| TBD |
+| GENED 1038   | FALL 2021 | 4 | TBD |
+| CHINESE 130B   | SPRING 2022 | 4 | TBD |
+| MATH 22B   | SPRING 2022 | 4 | TBD |
+| PHYSICS 15B   | SPRING 2022 | 4 | TBD |
+| PHYSICS 143A   | SPRING 2022 | 4 | TBD |
 
 ### Deadlines and Reminders 
 
 | Semester | Item | 
 | --- | --- |
-| Fall 2021 | Declare concentration | 
-| Fall 2021 | Language citation forms | 
-| Spring 2022 | Declare language citation |
-| Spring 2022 | Machine Shop Training | 
-| Spring 2022 | Maker Space Training | 
+| FALL 2021 | Declare concentration | 
+| FALL 2021 | Language citation forms | 
+| SPRING 2022 | Declare language citation |
+| SPRING 2022 | Machine Shop Training | 
+| SPRING 2022 | Maker Space Training | 
 
 ### Winter Session Plans 
-

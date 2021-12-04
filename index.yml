@@ -1,0 +1,6 @@
+- name: Harvard
+  files:
+    - name: freshman
+      path: freshman.md
+    - name: sophomore
+      path: sophomore.md

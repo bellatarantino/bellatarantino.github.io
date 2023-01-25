@@ -1,2 +1,2 @@
 # README 
-empty stuff.
+bella tarantino personal website -- WIP. 

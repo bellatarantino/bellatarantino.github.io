@@ -1,0 +1,57 @@
+/* Font settings */
+body,
+html, 
+div>div>div>p.uk-navbar-item.uk-logo, 
+#nav-sub {
+    font-family: 'Courier New', serif;
+    color: black;
+}
+
+/* Hide scrollbar but allow overflow */
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* Homepage navigation bar styling */
+.main-nav {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+    background-color: white;
+}
+
+p.nav-item {
+    text-indent: 30px;
+}
+
+div>div>div>p>span#nav-header,
+div>div>div>p {
+    text-indent: -30px;
+    font-size: 1.5em;
+    transition-duration: 0.2s;
+
+}
+
+div>div>div>p.nav-item:hover {
+    transition-duration: 0.7s;
+    text-indent: 50px;
+    cursor: pointer;
+}
+
+div>div>div>p.uk-navbar-item.uk-logo {
+    font-weight: bold;
+    margin: 0 0 0 0;
+    min-height: 0;
+}
+
+#nav-sub {
+    margin: 0 0 0 0;
+    text-indent: -30px;
+    font-size: 1.3em;
+}
+

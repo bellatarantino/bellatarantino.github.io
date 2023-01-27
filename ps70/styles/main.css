@@ -2,8 +2,9 @@
 body,
 html, 
 div>div>div>p.uk-navbar-item.uk-logo, 
-#nav-sub {
-    font-family: 'Courier New', serif;
+#nav-sub,
+h3 {
+    font-family: 'Consolas', serif;
     color: black;
 }
 
@@ -40,7 +41,14 @@ div>div>div>p {
 div>div>div>p.nav-item:hover {
     transition-duration: 0.7s;
     text-indent: 50px;
-    cursor: pointer;
+}
+
+div>div>div>p.nav-item>a {
+    color: black;
+}
+
+div>div>div>p.nav-item>a:hover {
+    text-decoration: none;
 }
 
 div>div>div>p.uk-navbar-item.uk-logo {
@@ -55,3 +63,45 @@ div>div>div>p.uk-navbar-item.uk-logo {
     font-size: 1.3em;
 }
 
+nav>div>a.uk-logo {
+    font-family: 'Consolas', serif;
+    color: black;
+    font-weight: bold;
+}
+
+.code {
+    font-family: 'Consolas', sans-serif !important;
+    letter-spacing: 0.01em;
+    background-color: #F8F8F8;
+
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.code-top {
+    background-color: #F9DEE9;
+    color: #904187;
+    margin-bottom: 10px;
+    padding: 2px 2px 2px 2px;
+}
+
+.fieldname {
+    color: #234FAD;
+}
+
+.fieldlink:hover {
+    color: #9A1500;
+    text-decoration: underline;
+}
+
+.linenum {
+    color: #380086;
+}
+
+.string, .fieldlink {
+    color: #9A1500;
+}
+
+.number {
+    color: #308753;
+}

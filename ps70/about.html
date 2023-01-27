@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- UIKit -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
@@ -19,7 +20,215 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/fonts.css">
 </head>
+
 <body>
-    
+
+    <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
+        <div class="uk-navbar-left uk-margin-medium-left">
+            <a class="uk-navbar-item uk-logo" href="index.html">PS 70</a>
+        </div>
+        <div class="uk-navbar-right uk-margin-medium-right">
+            <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+            <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="uk-active"><a>About</a></li>
+                    <li><a href="assignments.html">Assignments</a></li>
+                    <li><a href="project.html">Final Project</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="uk-child-width-expand@s uk-margin-medium-left uk-margin-medium-right uk-margin-medium-top" uk-grid>
+        <div class="uk-width-1-4@m">
+            <img src="../resources/images/profile.png" alt="a really cool picture of me">
+        </div>
+        <div class="uk-width-3-4@m">
+            <h3>Hi, I'm Bella.</h3>
+            <p>
+                My name is Bella Tarantino, and I'm a member of the Class of 2024 at Harvard University. I was born and raised in Bronx, NY and now live in Cambridge, MA. I'm concentrating in Physics with a secondary in Computer Science and a language citation in Chinese. My career interests include data science and software development, and my experience includes an internship at Google, research at the Large Hadron Collider at CERN in Switzerland, and research with the Black Hole Initiative at Harvard. My current obsessions are bouldering, photography, and photos of me bouldering. 
+                <br>
+                <br>
+                Check out my resume and contact info below :) 
+            </p>
+        </div>
+        
+        <div class="uk-width-10-3@m">
+            <div class="code uk-margin-small-bottom">
+                <div class="code-top"><span class="uk-margin-small-left">bellatarantino.com &rsaquo; ps70 &rsaquo; about.html</span></div>
+                <div class="code-body">
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left"">1</span> {
+                    <br>
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">2</span> <span class="fieldname uk-margin-medium-left"
+                        id="ok">"firstname"</span>:<span class="fieldval string">"Bella"</span>,
+                    <br>
+        
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">3</span> <span
+                        class="fieldname uk-margin-medium-left">"lastname"</span>:<span
+                        class="fieldval string">"Tarantino"</span>,
+                    <br>
+        
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">4</span> <span
+                        class="fieldname uk-margin-medium-left">"age"</span>:<span class="fieldval number">20</span>,
+                    <br>
+        
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">5</span> <span
+                        class="fieldname uk-margin-medium-left">"location"</span>:<span class="fieldval string">"Cambridge,
+                        MA"</span>,
+                    <br>
+        
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">6</span> <span
+                        class="fieldname uk-margin-medium-left">"education"</span>: {
+                    <br>
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">7</span> <span
+                        class="fieldname uk-margin-large-left">"institution"</span>:<span class="fieldval string">"Harvard
+                        University"</span>,
+                    <br>
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">8</span> <span
+                        class="fieldname uk-margin-large-left">"degree"</span>:<span class="fieldval string">"Physics
+                        B.A."</span>,
+                    <br>
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">9</span> <span
+                        class="fieldname uk-margin-large-left">"graduation year"</span>:<span
+                        class="fieldval number">2024</span>
+                    <br>
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">10</span><span class="uk-margin-medium-left">},</span>
+                    <br>
+        
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">11</span><span
+                        class="fieldname uk-margin-medium-left">"languages"</span>: [<span class="fieldval">
+                        <br>
+                        <span class="linenum uk-margin-medium-right uk-margin-small-left">12</span><span class="string uk-margin-large-left">"english
+                            (native)"</span>,
+                        <br>
+                        <span class="linenum uk-margin-medium-right uk-margin-small-left">13</span><span class="string uk-margin-large-left">"chinese
+                            (intermediate)"</span>
+                        <br>
+                        <span class="linenum uk-margin-medium-right uk-margin-small-left">14</span><span class="uk-margin-medium-left"></span>
+                    </span>],
+                    <br>
+        
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">15</span><span
+                        class="fieldname uk-margin-medium-left">"hobbies"</span>: [<span class="fieldval">
+                        <br>
+                        <span class="linenum uk-margin-medium-right uk-margin-small-left">16</span><span
+                            class="uk-margin-large-left string">"bouldering"</span>,
+                        <br>
+                        <span class="linenum uk-margin-medium-right uk-margin-small-left">17</span><span
+                            class="uk-margin-large-left string">"photography"</span>,
+                        <br>
+                        <span class="linenum uk-margin-medium-right uk-margin-small-left">18</span><span
+                            class="uk-margin-large-left string">"minecraft"</span>,
+                        <br>
+                        <span class="linenum uk-margin-medium-right uk-margin-small-left">19</span><span
+                            class="uk-margin-large-left string">"woodworking"</span>
+                        <br>
+                        <span class="linenum uk-margin-medium-right uk-margin-small-left">20</span><span class="uk-margin-medium-left"></span>
+                    </span>],
+                    <br>
+        
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">21</span><span
+                        class="fieldname uk-margin-medium-left">"resume"</span>:<span
+                        class="fieldval string"><a class="fieldlink" href="bellatarantino.com/files/resume.pdf">"bellatarantino.com/files/resume.pdf"</a></span>,
+                    <br>
+        
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">22</span><span
+                        class="fieldname uk-margin-medium-left">"email"</span>:<span
+                        class="fieldval string"><a class="fieldlink" href="mailto:bellatarantino@college.harvard.edu">"bellatarantino@college.harvard.edu"</a></span>
+                    <br>
+                    <span class="linenum uk-margin-medium-right uk-margin-small-left">23</span> }
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 
+    <div class="code">
+        <div class="code-top"><span class="uk-margin-small-left">bellatarantino.com &rsaquo; ps70 &rsaquo; about.html</span></div>
+        <div class="code-body">
+            <span class="linenum uk-margin-medium-right uk-margin-small-left"">1</span> {
+            <br>
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">2</span> <span class="fieldname uk-margin-medium-left"
+                id="ok">"firstname"</span>:<span class="fieldval string">"Bella"</span>,
+            <br>
+
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">3</span> <span
+                class="fieldname uk-margin-medium-left">"lastname"</span>:<span
+                class="fieldval string">"Tarantino"</span>,
+            <br>
+
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">4</span> <span
+                class="fieldname uk-margin-medium-left">"age"</span>:<span class="fieldval number">20</span>,
+            <br>
+
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">5</span> <span
+                class="fieldname uk-margin-medium-left">"location"</span>:<span class="fieldval string">"Cambridge,
+                MA"</span>,
+            <br>
+
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">6</span> <span
+                class="fieldname uk-margin-medium-left">"education"</span>: {
+            <br>
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">7</span> <span
+                class="fieldname uk-margin-large-left">"institution"</span>:<span class="fieldval string">"Harvard
+                University"</span>,
+            <br>
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">8</span> <span
+                class="fieldname uk-margin-large-left">"degree"</span>:<span class="fieldval string">"Physics
+                B.A."</span>,
+            <br>
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">9</span> <span
+                class="fieldname uk-margin-large-left">"graduation year"</span>:<span
+                class="fieldval number">2024</span>
+            <br>
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">10</span><span class="uk-margin-medium-left">},</span>
+            <br>
+
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">11</span><span
+                class="fieldname uk-margin-medium-left">"languages"</span>: [<span class="fieldval">
+                <br>
+                <span class="linenum uk-margin-medium-right uk-margin-small-left">12</span><span class="string uk-margin-large-left">"english
+                    (native)"</span>,
+                <br>
+                <span class="linenum uk-margin-medium-right uk-margin-small-left">13</span><span class="string uk-margin-large-left">"chinese
+                    (intermediate)"</span>
+                <br>
+                <span class="linenum uk-margin-medium-right uk-margin-small-left">14</span><span class="uk-margin-medium-left"></span>
+            </span>],
+            <br>
+
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">15</span><span
+                class="fieldname uk-margin-medium-left">"hobbies"</span>: [<span class="fieldval">
+                <br>
+                <span class="linenum uk-margin-medium-right uk-margin-small-left">16</span><span
+                    class="uk-margin-large-left string">"bouldering"</span>,
+                <br>
+                <span class="linenum uk-margin-medium-right uk-margin-small-left">17</span><span
+                    class="uk-margin-large-left string">"photography"</span>,
+                <br>
+                <span class="linenum uk-margin-medium-right uk-margin-small-left">18</span><span
+                    class="uk-margin-large-left string">"minecraft"</span>,
+                <br>
+                <span class="linenum uk-margin-medium-right uk-margin-small-left">19</span><span
+                    class="uk-margin-large-left string">"woodworking"</span>
+                <br>
+                <span class="linenum uk-margin-medium-right uk-margin-small-left">20</span><span class="uk-margin-medium-left"></span>
+            </span>],
+            <br>
+
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">21</span><span
+                class="fieldname uk-margin-medium-left">"resume"</span>:<span
+                class="fieldval string"><a class="fieldlink" href="bellatarantino.com/files/resume.pdf">"bellatarantino.com/files/resume.pdf"</a></span>,
+            <br>
+
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">22</span><span
+                class="fieldname uk-margin-medium-left">"email"</span>:<span
+                class="fieldval string"><a class="fieldlink" href="mailto:bellatarantino@college.harvard.edu">"bellatarantino@college.harvard.edu"</a></span>
+            <br>
+            <span class="linenum uk-margin-medium-right uk-margin-small-left">23</span> }
+        </div>
+    </div> -->
+
 </body>
+
 </html>

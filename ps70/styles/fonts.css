@@ -34,8 +34,8 @@
 
 @font-face {
     font-family: 'Consolas';
-    src: url('https://bellatarantino.com/ps70/styles/fonts/consolas-webfont.woff2') format('woff2'),
-         url('https://bellatarantino.com/ps70/styles/fonts/consolas-webfont.woff') format('woff');
+    src: url('https://bellatarantino.com/ps70/styles/fonts/consola-webfont.woff2') format('woff2'),
+         url('https://bellatarantino.com/ps70/styles/fonts/consola-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

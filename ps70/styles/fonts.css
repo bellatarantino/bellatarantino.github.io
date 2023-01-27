@@ -31,3 +31,11 @@
     font-weight: 600;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Consolas';
+    src: url('https://bellatarantino.com/ps70/styles/fonts/consolas-webfont.woff2') format('woff2'),
+         url('https://bellatarantino.com/ps70/styles/fonts/consolas-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

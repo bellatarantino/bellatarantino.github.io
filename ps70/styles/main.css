@@ -3,10 +3,13 @@ body,
 html, 
 div>div>div>p.uk-navbar-item.uk-logo, 
 #nav-sub,
-h3 {
+h3,
+h1, 
+* {
     font-family: 'Consolas', serif;
     color: black;
 }
+
 
 /* Hide scrollbar but allow overflow */
 html::-webkit-scrollbar {
@@ -28,10 +31,12 @@ html::-webkit-scrollbar {
 
 p.nav-item {
     text-indent: 30px;
+    font-size: 1.5em;
+    transition-duration: 0.2s;
 }
 
 div>div>div>p>span#nav-header,
-div>div>div>p {
+div>div>div>p.uk-navbar-item {
     text-indent: -30px;
     font-size: 1.5em;
     transition-duration: 0.2s;
@@ -105,3 +110,20 @@ nav>div>a.uk-logo {
 .number {
     color: #308753;
 }
+
+div.grid-item {
+    /* background-image: url('../../resources/images/climbing-wall.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    background-position: bottom; */
+    border: black 1px solid;
+    transition-duration: 0.5s;
+}  
+
+div.grid-item:hover {
+    /* background-image: url('../../resources/images/climbing-wall.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    background-position: bottom; */
+    transition-duration: 1s;
+}  

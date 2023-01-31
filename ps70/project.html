@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- UIKit -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
@@ -21,7 +22,110 @@
 
     <link rel="icon" href="../resources/icons/ps70_icon.svg">
 </head>
+
 <body>
-    
+
+    <div class="uk-position-relative uk-margin-large-bottom">
+        <div class="uk-height-viewport uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+            data-src="../resources/images/climbing-wall.jpg" uk-img="loading: eager">
+            <div class="uk-position-top">
+                <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
+                    <div class="uk-navbar-left uk-margin-medium-left">
+                        <a class="uk-navbar-item uk-logo" href="index.html">PS 70</a>
+                    </div>
+                    <div class="uk-navbar-right uk-margin-medium-right">
+                        <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="assignments.html">Assignments</a></li>
+                                <li class="uk-active"><a>Final Project</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <h1>Final Project</h1>
+        </div>
+    </div>
+
+    <div class="uk-container-small uk-margin-auto uk-margin-large-bottom">
+        <div uk-grid class="uk-child-width-expand@s">
+
+            <div>
+                <h3>Background</h3>
+                <p>
+                    One of the most popular training tools to increase hand and finger strength in climbing is known
+                    as
+                    a hangboard (or fingerboard). Hangboards are oft made of plastic or wood and have a variety of
+                    holds
+                    to hang from and train on. By slowly increasing the duration of a hang or the shallowness of the
+                    holds you hang from, you can train and track improvement in finger and hand strength.
+                </p>
+            </div>
+            <div class="uk-width-2-5@m uk-margin-medium-top">
+                <img src="../resources/images/hangboard.png" alt="hangboard">
+            </div>
+        </div>
+
+
+        <div class="uk-child-width-expand@s uk-margin-large-bottom" uk-grid>
+
+            <div>
+                <h3 class="uk-text-center">Motivation</h3>
+                <p>
+                    Tracking your progress in climbing can be hard as the difficulty between grades increases.
+                    Though
+                    finger strength is not the most important factor in your climbing journey, it can be a good
+                    indicator of improvement. You often hear the phrase, "Numbers aren't important." But to that I
+                    say,
+                    "Why does my self worth rely entirely on them, then?" How can you obtain a more accurate measure
+                    of
+                    your strength and also get your fix of sweet, sweet numerical validation?
+                </p>
+            </div>
+
+        </div>
+        <div class="uk-child-width-expand@s" uk-grid>
+            <div class="uk-width-2-5@m">
+                <img src="../resources/images/pressure-sensor.png" alt="pressure sensor arduino">
+            </div>
+            <div class="uk-text-right">
+                <h3>Proposal</h3>
+                <p>
+                    My final project would be a pressure-sensitive hangboard that measures the magnitude of force
+                    each
+                    hand — or finger, depending on the hold — is applying to the board. This could help
+                    quantitatively
+                    identify strength imbalances from hand to hand or finger to finger and help track improvement
+                    more
+                    concretely. Disclaimer: I discovered that this product does, in fact, exist already —
+                    the <a href="https://climbro.com/">Climbro</a> smart board — but it's nearly $800.
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- <div class="uk-child-width-expand@s" uk-grid>
+
+            <div>
+                <h3>Features</h3>
+                <div class="indent-small">
+                    <span uk-icon="phone"></span> Connect your hangboard to an app using Bluetooth to get live force
+                    readings
+                    <div class="uk-padding-small"></div>
+                    <span uk-icon="server"></span> Save your session data and track your progress over multiple sessions
+                    <div class="uk-padding-small"></div>
+                    <span uk-icon="happy"></span> Be cool, flex on your climber friends
+                </div>
+            </div>
+
+        </div> -->
+    </div>
+
+
 </body>
+
 </html>

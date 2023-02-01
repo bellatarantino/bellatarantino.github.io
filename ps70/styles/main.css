@@ -1,10 +1,10 @@
 /* Font settings */
 body,
-html, 
-div>div>div>p.uk-navbar-item.uk-logo, 
+html,
+div>div>div>p.uk-navbar-item.uk-logo,
 #nav-sub,
 h3,
-h1, 
+h1,
 * {
     font-family: 'Consolas', serif;
     color: black;
@@ -103,7 +103,8 @@ nav>div>a.uk-logo {
     color: #380086;
 }
 
-.string, .fieldlink {
+.string,
+.fieldlink {
     color: #9A1500;
 }
 
@@ -118,7 +119,7 @@ div.grid-item {
     background-position: bottom; */
     border: black 1px solid;
     transition-duration: 0.5s;
-}  
+}
 
 div.grid-item:hover {
     /* background-image: url('../../resources/images/climbing-wall.jpg');
@@ -126,4 +127,22 @@ div.grid-item:hover {
     background-size: 100% 60%;
     background-position: bottom; */
     transition-duration: 1s;
-}  
+}
+
+
+
+.uk-transition-toggle:hover .uk-transition-scale-up,
+.uk-transition-toggle:focus .uk-transition-scale-up,
+.uk-transition-active.uk-active .uk-transition-scale-up {
+    transform: scale(1.3, 1.3)
+}
+
+.uk-transition-toggle:hover .uk-transition-scale-down,
+.uk-transition-toggle:focus .uk-transition-scale-down,
+.uk-transition-active.uk-active .uk-transition-scale-down {
+    transform: scale(1, 1)
+}
+
+div>h3.assignment-subtitle {
+    margin-top: 0;
+}

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UIKit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit-icons.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    <title>Week 4</title>
+
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/main.css">
+
+    <link rel="icon" href="../../resources/icons/ps70_icon.svg">
+</head>
+
+<body>
+    <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
+        <div class="uk-navbar-left uk-margin-medium-left">
+            <a class="uk-navbar-item uk-logo" href="https://bellatarantino.com/ps70/">PS 70</a>
+        </div>
+        <div class="uk-navbar-right uk-margin-medium-right">
+            <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+            <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li><a href="https://bellatarantino.com/ps70/about.html">About</a></li>
+                    <li><a href="https://bellatarantino.com/ps70/assignments.html">Assignments</a></li>
+                    <li><a href="https://bellatarantino.com/ps70/project.html">Final Project</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="uk-container">
+        <div class="uk-text-center">
+            <h1 class="uk-margin-medium-top assignment-title">Week 4</h1>
+            <h3 class="assignment-subtitle">microcontroller programming</h3>
+        </div>
+
+        <div class="uk-container-small uk-margin-large-top uk-margin-auto">
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Assignment Prompt</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <p>
+                            Program an Arduino board to do something. The examples in the Arduino Projects Book provide
+                            good starting points. You may also wish to use this assignment to build on the previous
+                            assignment.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Introduction</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <p>
+                            Since the last assignment (kinetic sculptures) didn't quite lend itself to my final project,
+                            I decided to work on something that would benefit me in the long run this week: a digital
+                            scale.
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Soldering</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <p>
+                            The scale only has a few components: a load cell, an amplifier, a petentiometer, a button,
+                            and an LCD
+                            screen. The body of the scale is built out of the load cell, two acrylic plates, and two
+                            acrylic spacers. The output runs through the amplifier before displaying on a digital
+                            screen. To tare and ready the scale, the user has to hit one small button. Before getting to
+                            the programming component, though, I had to solder pins and the
+                            load cell to the amplifier, as seen below. Honestly, I did a pretty good job with the
+                            soldering, pretty proud of that. Soldering that is NOT shown: the button, because I am
+                            significantly less proud of that.
+                        <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom" tabindex="-1"
+                            uk-slider>
+
+                            <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_solder_1.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_solder_2.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_solder_3.jpg" alt="">
+                                    </div>
+                                </li>
+                                <!-- <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_4_solder_4.jpg" alt="">
+                                            </div>
+                                        </li> -->
+                            </ul>
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                uk-slidenav-next uk-slider-item="next"></a>
+
+                        </div>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Using the LCD</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <p>
+                            Before using the LCD for output, I had to figure out how to, well, use it. A few online
+                            tutorials later, and we have the following! The LCD has 16 pins, though we only need 12. We
+                            hook the LCD up to the potentiometer, which is set to be a variable resistor, to adjust the
+                            contrast of the LCD. Too high or low a voltage, and the text will not be visible.
+
+                        <pre><code>#include &lt;LiquidCrystal.h&gt;
+LiquidCrystal lcd(4, 5, 6, 7, 15, 16); 
+
+// start lcd 
+void setup() {
+    lcd.begin(16, 2);  
+}
+
+// display and clear text 
+void loop() {
+    lcd.print("This is a test");  
+    delay(3000);                  
+    lcd.clear();                  
+}
+</code></pre>
+
+                        <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom" tabindex="-1"
+                            uk-slider>
+
+                            <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_lcd_1.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_lcd_2.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_lcd_3.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_lcd_4.jpg" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                uk-slidenav-next uk-slider-item="next"></a>
+                        </div>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Using the Load Cell</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <p>
+                            Before the load cell can be used as a scale, we need to calibrate it. We calibrate by
+                            zeroing the scale, placing an object of known weight on it, and then dividing the measured
+                            weight by its known weight. This gives us a calibration factor that we will multiply all
+                            future measurements by to ensure accuracy.
+
+                            <br>
+                            <br>
+
+                            I chose to use my airpods case as my object of known weight. On another scale, I measured it
+                            to be 50.8 grams. The calibration factor, for which the code is provided below, is roughly
+                            212.5. After assembling the full scale and adding the wooden frame, the calibration factor
+                            became 238. After measuring a few other objects, I can confirm that the weight it returns is
+                            accurate-ish, within about a gram of error. One small source of frustration is the fact that
+                            the load cell has huge fluctuations from measurement to measurement. Even when not weighing
+                            anything, it returns values roughly between -1.0g and 1.0g. This leads to issues with
+                            calibration, as one cannot get a "perfect" calibration factor due to the fluctuations. To
+                            reduce this error, I have the scale return the average of 50 readings instead of a single,
+                            which has helped a bit, though it increases the amount of time it takes to get the reading.
+                            Below, I measured my Apple Pencil (real weight:
+                            20.7g), my airpod case (real weight: 50.8g), and my airpod case with airpods included (real
+                            weight: 61.4g).
+
+                        <pre><code>#include &lt;Arduino.h&gt;
+#include "soc/rtc.h"
+#include "HX711.h"
+#include "esp32-hal-cpu.h"
+#include &lt;LiquidCrystal.h&gt;
+
+// HX711 circuit wiring
+const int LOADCELL_DOUT_PIN = 1;
+const int LOADCELL_SCK_PIN = 2;
+
+LiquidCrystal lcd(4, 5, 6, 7, 15, 16);  
+HX711 scale;
+
+void setup() {
+    Serial.begin(57600);
+    scale.begin(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN);
+    lcd.begin(16, 2);  
+    lcd.print("Ok!");
+
+}
+
+void loop() {
+
+    if (scale.is_ready()) {
+        // get scale ready and set calibration factor, 212.5
+        scale.set_scale(212.5);
+        lcd.clear();
+        lcd.print("Ready");
+            delay(5000);
+
+        // tare the scale 
+        scale.tare();
+        lcd.clear(); 
+        lcd.print("Tared, place.");
+            delay(5000);
+        lcd.clear();
+
+        // take 50 readings and return the average result
+        lcd.print("reading:");
+        lcd.print(scale.get_units(50));
+            delay(5000);
+        scale.power_down();			        
+    } 
+    lcd.clear();
+    scale.power_up();
+
+}</code></pre>
+
+                        <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom" tabindex="-1"
+                            uk-slider>
+
+                            <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_measuring_1.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_measuring_2.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_measuring_3.jpg" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                uk-slidenav-next uk-slider-item="next"></a>
+                        </div>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Final Product</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <p>
+                            When we put all of the above together (and throw in a button to start the measurement
+                            process), we get the below! This was a lot of fun to make, and I feel I learned a lot in the
+                            process. Included below are photos of the scale and the cardboard prototype, a video of the
+                            scale in action, the schematic of the circuit, and the design for the three wooden plates that make up the body.
+
+                        <pre><code>#include &lt;Arduino.h&gt;
+#include "soc/rtc.h"
+#include "HX711.h"
+#include "esp32-hal-cpu.h"
+#include &lt;LiquidCrystal.h&gt;
+
+// Set pins for HX711 and button
+const int LOADCELL_DOUT_PIN = 1;
+const int LOADCELL_SCK_PIN = 2;
+const int BUTTON = 42;
+
+// Initialize input states
+int button_state = 0;
+
+// Instantiate LCD and HX711
+LiquidCrystal lcd(4, 5, 6, 7, 15, 16);
+HX711 scale;
+
+void setup() {
+    Serial.begin(57600);
+    scale.begin(LOADCELL_DOUT_PIN, LOADCELL_SCK_PIN);
+    lcd.begin(16, 2);
+    lcd.print("Ok!");
+    pinMode(BUTTON, INPUT);
+}
+
+void loop() {
+
+    button_state = digitalRead(BUTTON);
+    lcd.setCursor(0,0);
+    lcd.print("Press button to");
+    lcd.setCursor(0, 1);
+    lcd.print("use scale.");
+
+    if (button_state == HIGH) {
+    scale.power_up();
+
+        if (scale.is_ready()) {
+            // get scale ready and set calibration factor, 212.5
+            scale.set_scale(238);
+            lcd.clear();
+
+            // tare the scale
+            scale.tare();
+            lcd.setCursor(0,0);
+            lcd.print("Scale tared,");
+            lcd.setCursor(0,1);
+            lcd.print("place item.");
+            delay(5000);
+            lcd.clear();
+
+            // take 50 readings and return the average result
+            lcd.setCursor(0,0);
+            lcd.print("Reading, please");
+            lcd.setCursor(0, 1);
+            lcd.print("wait...");
+            long weight = scale.get_units(50);
+            lcd.clear();
+            lcd.setCursor(0,0);
+            lcd.print("Weight:");
+            lcd.setCursor(0, 1);
+            lcd.print(weight);
+            lcd.print("g");
+            delay(2000);
+            scale.power_down();  
+        }
+    }
+}
+                            </code></pre>
+
+                        <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom" tabindex="-1"
+                            uk-slider>
+
+                            <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_final_1.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_final_2.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_final_3.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_prototype_1.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_prototype_2.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_dxf_1.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_dxf_2.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <video src="../../resources/images/week_4_final_video_1.mov" uk-video="autoplay: inview"></video>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-panel">
+                                        <img src="../../resources/images/week_4_scale_schematic.jpg" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                uk-slidenav-next uk-slider-item="next"></a>
+                        </div>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

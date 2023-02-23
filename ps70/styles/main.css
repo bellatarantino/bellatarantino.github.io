@@ -148,3 +148,7 @@ div>h3.assignment-subtitle {
     margin-top: 0;
 }
 
+pre, code {
+    background-color: #f8f8f8;
+    border: 0 solid black;
+}

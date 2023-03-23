@@ -1,0 +1,107 @@
+// Libraries
+#include &lt;SPI.h&gt;
+#include &lt;Wire.h&gt;
+#include &lt;Adafruit_GFX.h&gt;
+#include &lt;Adafruit_SSD1306.h&gt;
+
+// Constants
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+
+#define I2C_SDA 20
+#define I2C_SCL 19
+
+#define OLED_RESET -1
+#define SCREEN_ADDRESS 0x3C
+
+const int RIGHT_PIN = 41;
+const int UP_PIN = 42;
+const int DOWN_PIN = 2;
+const int LEFT_PIN = 1;
+const int RESET_PIN = 40;
+
+int pos_X = 64;
+int pos_Y = 32;
+
+int UP_STATE = 0;
+int DOWN_STATE = 0;
+int RIGHT_STATE = 0;
+int LEFT_STATE = 0;
+int RESET_STATE = 0;
+
+// Init hardware
+TwoWire I2C_screen = TwoWire(0);
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &I2C_screen, OLED_RESET);
+
+void setup() {
+
+  Serial.begin(115200);
+  I2C_screen.begin(I2C_SDA, I2C_SCL, 100000);
+
+  if (!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
+
+    Serial.println(F("SSD1306 allocation failed"));
+    for (;;)
+      ;
+  }
+
+  pinMode(RIGHT_PIN, INPUT);
+  pinMode(LEFT_PIN, INPUT);
+  pinMode(UP_PIN, INPUT);
+  pinMode(DOWN_PIN, INPUT);
+  pinMode(RESET_PIN, INPUT);
+
+  display.display();
+  delay(500);
+  display.clearDisplay();
+
+  // Draw pixel at initial position, center of screen
+  display.drawPixel(pos_X, pos_Y, SSD1306_WHITE);
+  display.display();
+}
+
+void loop() {
+
+  // read current button states
+  UP_STATE = digitalRead(UP_PIN);
+  DOWN_STATE = digitalRead(DOWN_PIN);
+  RIGHT_STATE = digitalRead(RIGHT_PIN);
+  LEFT_STATE = digitalRead(LEFT_PIN);
+  RESET_STATE = digitalRead(RESET_PIN);
+
+  // move up one pixel
+  if (UP_STATE == HIGH) {
+    pos_Y -= 1;
+    Serial.println(F("UP"));
+  }
+  
+  // move down one pixel
+  if (DOWN_STATE == HIGH) {
+    pos_Y += 1;
+    Serial.println(F("DOWN"));
+  }
+
+  // move right one pixel
+  if (RIGHT_STATE == HIGH) {
+    pos_X += 1;
+    Serial.println(F("RIGHT"));
+  }
+
+  // move left one pixel
+  if (LEFT_STATE == HIGH) {
+    pos_X -= 1;
+    Serial.println(F("LEFT"));
+  }
+
+  // clear the screen and set the pixel position back to the center of the screen
+  if (RESET_STATE == HIGH) {
+    pos_X = 64;
+    pos_Y = 32;
+    Serial.println(F("RESET"));
+    display.clearDisplay();
+  }
+
+  // draw the new pixel and display
+  display.drawPixel(pos_X, pos_Y, SSD1306_WHITE);
+  display.display();
+}

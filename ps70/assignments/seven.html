@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UIKit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit-icons.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    <title>Week 7</title>
+
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/main.css">
+
+    <link rel="icon" href="../../resources/icons/ps70_icon.svg">
+</head>
+
+<body>
+    <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
+        <div class="uk-navbar-left uk-margin-medium-left">
+            <a class="uk-navbar-item uk-logo" href="https://bellatarantino.com/ps70/">PS 70</a>
+        </div>
+        <div class="uk-navbar-right uk-margin-medium-right">
+            <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+            <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li><a href="https://bellatarantino.com/ps70/about.html">About</a></li>
+                    <li><a href="https://bellatarantino.com/ps70/assignments.html">Assignments</a></li>
+                    <li><a href="https://bellatarantino.com/ps70/project.html">Final Project</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="uk-container">
+        <div class="uk-text-center">
+            <h1 class="uk-margin-medium-top assignment-title">Week 7</h1>
+            <h3 class="assignment-subtitle">electronic output devices</h3>
+
+            <ul class="uk-subnav uk-flex-center" uk-switcher="connect: .switcher-container">
+                <li><a href="#">Digital Etch-a-Sketch</a></li>
+                <li><a href="#">CNC Milling Prep</a></li>
+            </ul>
+        </div>
+
+        <div class="uk-container-small uk-margin-large-top uk-margin-auto">
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Assignment Prompt</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <p>
+                                    Write a microcontroller program that integrates at least one input device and one output device, using an output device you haven't used before. Use an oscilloscope to discover the time domain at which your output device is operating. Is it on a fixed clock? What's its speed? Share images and describe your findings.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Prepare CAD files for CNC (next class). Consider either 2D DXF files for routing sheet material (like plywood or OSB), or 3D STL files to mill out a (2.5D) shape. We will also cover molding & casting, so you may want to consider milling a mold.
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Process</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <p>
+                                    For this assignment, I decided to do something simple and fun: a digital Etch-a-Sketch! I used an OLED screen, 5 buttons, and a laser cut body for the Etch-a-Sketch. Rather than using dials (or potentiometers) for movement, I decided to use buttons to make it easier to control. 
+                                    <br>
+                                    <br>
+                                    The code is also relatively straightforward. You begin by drawing a pixel in the center of the screen, and, upon each click of a button, add or subtract one pixel from the current coordinates. For example, if your starting pixel is (x,y), pressing the right button draws a pixel at (x+1, y). The code for this is below: 
+
+                                    <div>
+                                        <pre><code>// Libraries
+#include &lt;SPI.h&gt;
+#include &lt;Wire.h&gt;
+#include &lt;Adafruit_GFX.h&gt;
+#include &lt;Adafruit_SSD1306.h&gt;
+
+// Constants
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+
+#define I2C_SDA 20
+#define I2C_SCL 19
+
+#define OLED_RESET -1
+#define SCREEN_ADDRESS 0x3C
+
+const int RIGHT_PIN = 41;
+const int UP_PIN = 42;
+const int DOWN_PIN = 2;
+const int LEFT_PIN = 1;
+const int RESET_PIN = 40;
+
+int pos_X = 64;
+int pos_Y = 32;
+
+int UP_STATE = 0;
+int DOWN_STATE = 0;
+int RIGHT_STATE = 0;
+int LEFT_STATE = 0;
+int RESET_STATE = 0;
+
+// Init hardware
+TwoWire I2C_screen = TwoWire(0);
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &I2C_screen, 
+                         OLED_RESET);
+
+void setup() {
+
+    Serial.begin(115200);
+    I2C_screen.begin(I2C_SDA, I2C_SCL, 100000);
+
+    if (!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
+
+    Serial.println(F("SSD1306 allocation failed"));
+    for (;;)
+        ;
+    }
+
+    pinMode(RIGHT_PIN, INPUT);
+    pinMode(LEFT_PIN, INPUT);
+    pinMode(UP_PIN, INPUT);
+    pinMode(DOWN_PIN, INPUT);
+    pinMode(RESET_PIN, INPUT);
+
+    display.display();
+    delay(500);
+    display.clearDisplay();
+
+    // Draw pixel at initial position, center of screen
+    display.drawPixel(pos_X, pos_Y, SSD1306_WHITE);
+    display.display();
+}
+
+void loop() {
+
+    // read current button states
+    UP_STATE = digitalRead(UP_PIN);
+    DOWN_STATE = digitalRead(DOWN_PIN);
+    RIGHT_STATE = digitalRead(RIGHT_PIN);
+    LEFT_STATE = digitalRead(LEFT_PIN);
+    RESET_STATE = digitalRead(RESET_PIN);
+
+    // move up one pixel
+    if (UP_STATE == HIGH) {
+    pos_Y -= 1;
+    Serial.println(F("UP"));
+    }
+    
+    // move down one pixel
+    if (DOWN_STATE == HIGH) {
+    pos_Y += 1;
+    Serial.println(F("DOWN"));
+    }
+
+    // move right one pixel
+    if (RIGHT_STATE == HIGH) {
+    pos_X += 1;
+    Serial.println(F("RIGHT"));
+    }
+
+    // move left one pixel
+    if (LEFT_STATE == HIGH) {
+    pos_X -= 1;
+    Serial.println(F("LEFT"));
+    }
+
+    // clear the screen and set the pixel position back to the center 
+    if (RESET_STATE == HIGH) {
+    pos_X = 64;
+    pos_Y = 32;
+    Serial.println(F("RESET"));
+    display.clearDisplay();
+    }
+
+    // go to left side of screen if overcome right side
+    if (pos_X &gt; 128) {
+        pos_X = 0; 
+    }
+    
+    // go to right side of screen if overcome left side
+    if (pos_X &lt; 0) {
+        pos_X = 128;
+    }
+
+    // go to bottom of screen if overcome top
+    if (pos_Y &lt; 0) {
+        pos_Y = 64; 
+    }
+
+    // go to top of screen if overcome bottom
+    if (pos_Y &gt; 64) {
+        pos_Y = 0;
+    }
+
+    // draw the new pixel and display
+    display.drawPixel(pos_X, pos_Y, SSD1306_WHITE);
+    display.display();
+}</code></pre>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    Unfortunately, the oscilloscope did not go as well. When I went to OH, no one knew how to use it, so I (along with many classmates) was unable to get the readings on this. 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    For the milling/CNC week, I want to start making the hangboard body. Because a full hangboard is very long, I instead am opting to make a one-handed hangboard, pictured below. These guys are smaller, less costly, and definitely easier to mill, mold, cast, or whatever else you want to do with it.  
+                                </p>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Photos</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <p>Below are some photos of the final product along with a short demo. In the demo, I actually accidentally went out of bounds of the screen, but you get the idea. I corrected for this in my code by having the drawing loop around once it overcomes the boundaries of the screen. </p>
+
+                                <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom"
+                                    tabindex="-1" uk-slider>
+
+                                    <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_7_etchasketch_1.jpg" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_7_etchasketch_2.jpg" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <video src="../../resources/images/week_7_etchasketch_vid.mov" uk-video="autoplay: inview"></video>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-next uk-slider-item="next"></a>
+
+                                </div>
+
+                            </li>
+                            <li>
+                                <p> So below is a quick photo of the 2D model for the hangboard I had, and then a photo of what I was going for. I am considering adding a second pocket at the top for pinching strength, but I would have to talk to Nathan first and see how the sensors and stuff would work for that. </p>
+
+                                <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom"
+                                    tabindex="-1" uk-slider>
+
+                                    <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_7_hangboard_dxf.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_7_hangboard_inspo.jpg" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-next uk-slider-item="next"></a>
+
+                                </div>
+
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

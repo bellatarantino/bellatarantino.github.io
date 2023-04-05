@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UIKit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit-icons.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    <title>Week 9</title>
+
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/main.css">
+
+    <link rel="icon" href="../../resources/icons/ps70_icon.svg">
+</head>
+
+<body>
+    <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
+        <div class="uk-navbar-left uk-margin-medium-left">
+            <a class="uk-navbar-item uk-logo" href="https://bellatarantino.com/ps70/">PS 70</a>
+        </div>
+        <div class="uk-navbar-right uk-margin-medium-right">
+            <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+            <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li><a href="https://bellatarantino.com/ps70/about.html">About</a></li>
+                    <li><a href="https://bellatarantino.com/ps70/assignments.html">Assignments</a></li>
+                    <li><a href="https://bellatarantino.com/ps70/project.html">Final Project</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="uk-container">
+        <div class="uk-text-center">
+            <h1 class="uk-margin-medium-top assignment-title">Week 9</h1>
+            <h3 class="assignment-subtitle">radio, wifi, and bluetooth</h3>
+        </div>
+
+        <div class="uk-container-small uk-margin-large-top uk-margin-auto">
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Assignment Prompt</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <p>
+                            Work with a partner or group of 3. Program one or more microcontroller(s) to obtain and respond to information from the internet or radio. Your project should include at least one input and one output.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Introduction</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <p>
+                            For this assignment, I worked with David and Ashley.  We wanted to do something simple but fun, so we decided on a "Vibe Checker," which would involve three identical devices that communicate over WiFi using the Firebase Realtime Database.  The concept is this: each person has a vibe checker with a screen and four buttons.  Three of the buttons correspond to vibes (bad, neutral, good).  The fourth button sends a message to all of the other devices requesting a "vibe check"; that is, each person will get a request asking for them to submit their mood.  Once the fourth button is pressed, the OLED will display live updates of each party's vibe.  Until all 3 are submitted, users can change their "vibe" as much as they want.  Once all three are submitted, the vibe check ends and the final vibes are displayed on the screen until the next user requests a check. 
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Code</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <p>
+                            The code for the vibe checker is relatively simple.  A press of the fourth button triggers the vibe checking, which turns on the LED on each Vibe Checker and displays each device's live status.  A press of the first through third buttons (once the vibe check begins) sunmits your mood.  As long as the vibe check is in progress, you can change your mood as many times as you'd like.  Once all devices submit their moods, the vibe check ends until the next press of the fourth button.  Each device has slightly different code -- the name of the device, along with which field in the firebase "VIBES" table it updates is different, but other than that it is the same for each.  In the end, we decided to only make two since I was going to be heading home on Thursday for Easter, so three devices weren't necessary.  The circuit and build for each, though, is identical, so they are easy to produce and it is very easy to expand to as many devices as we want (given we change a few lines of code). 
+
+                            <pre><code>// Key: SECRET! 
+// Database Link: https://esp32-vibecheck-default-rtdb.firebaseio.com/
+
+#include &lt;Wire.h&gt;
+#include &lt;Adafruit_SSD1306.h&gt;
+#include &lt;Adafruit_GFX.h&gt;
+#include &lt;Button.h&gt;
+#include &lt;WiFi.h&gt;                                 
+#include &lt;FirebaseESP32.h&gt;                        
+
+// Wifi and Firebase Details
+#define FIREBASE_HOST "esp32-vibecheck-default-rtdb.firebaseio.com"  
+#define FIREBASE_AUTH "SECRET!"                                
+#define WIFI_SSID "MAKERSPACE"                                    
+#define WIFI_PASSWORD "12345678"   
+
+// Define pins 
+#define OLED_SDA 16
+#define OLED_SCL 17
+#define OLED_WIDTH 128
+#define OLED_HEIGHT 64
+#define OLED_ADDRESS 0x3C
+
+#define BUTTON_1 11
+#define BUTTON_2 12
+#define BUTTON_3 13
+#define BUTTON_4 4
+
+#define LED 37
+
+#define DEVICES 3
+
+// Init devices + firebase 
+Adafruit_SSD1306 display(OLED_WIDTH, OLED_HEIGHT, &Wire, -1);
+Button button1(BUTTON_1);
+Button button2(BUTTON_2);
+Button button3(BUTTON_3);
+Button button4(BUTTON_4);
+FirebaseData firebaseData;
+
+int vibes[DEVICES] = {0, 0, 0};
+int vibe_check = 0;
+char* vibe_A = "";
+char* vibe_B = "";
+char* vibe_C = "";
+
+void setup() {
+
+    Serial.begin(115200);
+
+    // Init buttons and LED
+    button1.begin();
+    button2.begin();
+    button3.begin();
+    button4.begin();
+
+    pinMode(LED, OUTPUT);
+
+    // Init OLED         
+    Wire.begin(OLED_SDA, OLED_SCL);
+    if(!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDRESS)) {
+        Serial.println(F("SSD1306 allocation failed"));
+        for(;;); 
+    }
+
+    display.clearDisplay();
+    display.setTextSize(1);
+    display.setTextColor(WHITE);
+    display.display(); 
+
+    // Connect to WiFi and report connection status 
+    WiFi.begin(WIFI_SSID, WIFI_PASSWORD);                         
+    while (WiFi.status() != WL_CONNECTED) {
+        Serial.println(F("Not connected to WiFi."));
+        delay(1000);
+    }
+
+    // Init and connect to Firebase 
+    Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);                  
+    Firebase.reconnectWiFi(true);
+
+    // Set values for vibes of each device 
+    // (A = device Ashley, B = device Bella, C = device David) 
+    Firebase.set(firebaseData, "/VIBES", 0);              
+    Firebase.set(firebaseData, "/VIBES/A", 0);              
+    Firebase.set(firebaseData, "/VIBES/B", 0);              
+    Firebase.set(firebaseData, "/VIBES/C", 0);              
+    Firebase.set(firebaseData, "/VIBE_CHECK", 0);
+
+    write_oled("Welcome to the vibe checker", 0, 1);
+
+}
+
+void loop() {
+
+    // Read state of all buttons 
+    button1.read();
+    button2.read();
+    button3.read();
+    button4.read();
+
+    // Clear the existing vibes and start the vibe check process
+    if (button4.pressed()) {
+        clear_vibes();
+
+        vibes[0] = 0;
+        vibes[1] = 0;
+        vibes[2] = 0;
+
+        Firebase.set(firebaseData, "/VIBE_CHECK", 1);
+        write_oled("Vibe check requested. Pending responses...", 0, 1);
+        delay(500);
+    }
+
+    // Constantly be scanning firebase to see if another device 
+    // has initiated vibe check 
+    vibe_check = read_firebase("/VIBE_CHECK");
+
+    // If vibe check initiated...
+    if (vibe_check == 1) {
+        digitalWrite(LED, HIGH);
+        
+        vibes[0] = read_firebase("/VIBES/A");
+        vibes[1] = read_firebase("/VIBES/B");
+        vibes[2] = read_firebase("/VIBES/C");
+
+        // Submit vibes to VIBES/B (different for other devices)
+        if (button1.pressed()) {
+            Firebase.set(firebaseData, "/VIBES/B", 1);
+        }
+
+        if (button2.pressed()) {
+            Firebase.set(firebaseData, "/VIBES/B", 2);
+        }
+
+        if (button3.pressed()) {
+            Firebase.set(firebaseData, "/VIBES/B", 3);
+        }
+
+        // Get messages to display for each of the vibes from firebase 
+        vibe_A = interpret_vibes(read_firebase("/VIBES/A"), "Ashley");
+        vibe_B = interpret_vibes(read_firebase("/VIBES/B"), "Bella");
+        vibe_C = interpret_vibes(read_firebase("/VIBES/C"), "David");
+
+        // Display vibes on OLED 
+        write_oled(vibe_A, 0, 1);
+        write_oled(vibe_B, 20, 0);
+        write_oled(vibe_C, 40, 0);
+
+        // End vibe check once all 3 have submitted  
+        if((vibes[0] != 0) && (vibes[1] != 0) && (vibes[2] != 0)) {
+            Firebase.set(firebaseData, "/VIBE_CHECK", 0);
+            digitalWrite(LED, LOW);
+        }
+    }
+
+}
+
+// Function that takes text, a y line position, and a refresh param. 
+// Displays text at pos (0, ypos) and clears the screen beforehand 
+// if refresh=1. 
+void write_oled(char* text, int ypos, int refresh) {
+    if (refresh == 1) {
+        display.clearDisplay();
+    }
+    display.setCursor(0, ypos);
+    display.println(F(text));
+    display.display();
+}
+
+// Reads and returns data from specified directory
+int read_firebase(char* directory) {
+    int data = 0;
+    Firebase.get(firebaseData, directory);                     
+    data = firebaseData.intData();  
+    return data;
+}
+
+// Sets all of the user-submitted vibes to "pending...""
+void clear_vibes() {
+    Firebase.set(firebaseData, "/VIBES/A", 0);              
+    Firebase.set(firebaseData, "/VIBES/B", 0);              
+    Firebase.set(firebaseData, "/VIBES/C", 0);  
+}
+
+// Takes an integer representing a vibe as input
+// Returns a message for the OLED 
+    // 0 -&gt; not submitted 
+    // 1 -&gt; bad vibes 
+    // 2 -&gt; meh vibes 
+    // 3 -&gt; good vibes 
+// "pos" is the device name
+char* interpret_vibes(int vibe, char* pos) {
+    std::string vibe_string = "";
+
+    switch(vibe) {
+    case 0:
+        vibe_string = std::string(pos) + std::string(": pending...");
+        break;
+    case 1:
+        vibe_string = std::string(pos) + std::string(": NOT SLAY!");
+        break;
+    case 2:
+        vibe_string = std::string(pos) + std::string(": COULD BE SLAYER!");
+        break;
+    case 3:
+        vibe_string = std::string(pos) + std::string(": SO SLAY!");
+        break;
+    }
+
+    return strdup(vibe_string.c_str()); 
+}
+</code></pre>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Photos</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <p>
+                            For the build, we used <a href="https://en.makercase.com/#/basicbox">MakerCase</a> to simplify the process.  We cut out a body for the board, drilled five holes for the buttons and LED, made space for the plug to the ESP32, and cut emotes for each of the buttons.  Once this was done, we soldered the buttons and LED, hot glued it together, and we had 2 beautiful Vibe Checkers!  Progress pictures and videos, final pictures and videos, and photo of Firebase RTDB layout below. 
+
+                            <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom"
+                                    tabindex="-1" uk-slider>
+
+                                    <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_9_breadboard_build.jpg" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_9_firebase_rtdb.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_9_device_final.jpg" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <video src="../../resources/images/week_9_proto_vid.mp4" uk-video="autoplay: inview"></video>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <video src="../../resources/images/week_9_final_product_vid.mov" uk-video="autoplay: inview"></video>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-next uk-slider-item="next"></a>
+
+                            </div>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.highcharts.com/stock/highstock.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.16/dist/css/uikit.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.16/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.16/dist/js/uikit-icons.min.js"></script>
+  <style>
+    body {
+      min-width: 310px;
+      max-width: 800px;
+      height: 400px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-family: Arial;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <br>
+  <br>
+  <h2>Tension Tester: Live Readings</h2>
+  <br>
+<!-- 
+  <div class="uk-text-center">
+    <button id="toggle" class="uk-button uk-button-default" onclick="toggleChartPause()">Toggle Reading</button>
+  </div> -->
+  <div id="chart-force" class="container"></div>
+  <h2>Maximum Force Per Session</h2>
+  <div id="chart-max" class="container"></div>
+
+  <br>
+  <br>
+  <div class="uk-text-center">
+    <h2 id="indivdual_session_data">Show Individual Session Data</h2>
+    <div style="display: hidden !important;" id="session_chart">
+      <h2 id="session-chart-title"></h2>
+      <div id="chart-sessions" class="container"></div>
+    </div>
+    <div class="uk-inline ">
+      <select id="select_session" name="select_session" class="uk-select" style="min-width:80px;">
+        <option value="none">----</option>
+      </select>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+
+  <script>
+    // --------------------------------------------------
+    // --------------   INITIALIZING STUFF   ------------
+    // --------------------------------------------------
+    let data = []
+    let max = []
+
+    let threshold = 1
+    let paused = false
+    let previous_session = 0
+
+    let previous_x_time = 0
+
+    const MAX_DATAPOINT = 2
+
+    $("#session_chart").hide()
+
+    // --------------------------------------------------
+    // --------------       FUNCTIONS       -------------
+    // --------------------------------------------------
+
+    function toggleChartPause() {
+      paused = !paused;
+
+      if (paused) {
+        clearTimeout(liveForceChart.updateTimer);
+        liveForceChart.updateTimer = null;
+        liveForceChart.redraw(false);
+      } else {
+        updateChartData();
+      }
+    }
+
+    update_axes = () => {
+      let y_axes = liveForceChart.axes[1].getExtremes();
+      let y_diff = y_axes.dataMax - y_axes.dataMin;
+
+      var x_now = new Date().getTime()
+
+      // liveForceChart.axes[0].setExtremes(x_now, x_now + 15*10)
+      liveForceChart.axes[0].setExtremes(x_now - 5000, x_now)
+
+      if (y_diff < 100) {
+        liveForceChart.axes[1].setExtremes(Math.max(0, y_axes.dataMin - 10), Math.max(0, y_axes.dataMin - 10) + 130)
+      }
+    }
+
+
+    function updateChartData() {
+      let xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          let x = (new Date()).getTime(),
+            y = parseFloat(this.responseText)
+
+          data.push(y)
+          liveForceChart.series[0].addPoint([x, y], true, false, false)
+
+          if (liveForceChart.series[0].data.length > 40) {
+            liveForceChart.series[0].addPoint([x, y], true, true, false);
+          }
+          else {
+            liveForceChart.series[0].addPoint([x, y], true, false, false);
+          }
+        }
+      };
+      xhttp.open("GET", "/force", true);
+      xhttp.send();
+      update_axes();
+
+      if (!paused) {
+        setTimeout(updateChartData, 100);
+      }
+    }
+
+
+    // Identifies a "session," a period of activity in which the user is exerting force on the device 
+    identify_sessions = (data, threshold) => {
+      let sessions = [[]] // sessions[i][j] = jth datapoint of session i
+      let session_num = 0
+
+      // loop through data and add sessions to the sessions array when applicable 
+      for (let i = 0; i < data.length; i++) {
+        if (data[i] >= threshold) {
+          sessions[session_num].push(data[i])
+        }
+        else if (sessions[session_num].length > 0) {
+          session_num++
+          sessions[session_num] = []
+        }
+      }
+
+      // create and return final array of sessions. filter out particularly short ones.
+      let sessions_final = sessions.filter(session => session.length > 5)
+
+      // loop through the newly added sessions and add option to display session data to <select> 
+      for (let i = previous_session; i < sessions_final.length; i++) {
+        let new_select = $("<option>").val(i).text("Session " + (i + 1));
+        $("#select_session").append(new_select);
+      }
+      previous_session = sessions_final.length
+      return sessions_final
+    }
+
+
+    // Identify the maximum of the sessions. 
+    identify_max = (sessions) => {
+      let max = []
+      for (let i = 0; i < sessions.length; i++) {
+        max.push(Math.max(...sessions[i]))
+      }
+      return max
+    }
+
+    // --------------------------------------------------
+    // --------------       GET DATA        -------------
+    // --------------------------------------------------
+
+
+    setInterval(function () {
+      let xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          let x = (new Date()).getTime(),
+            y = parseFloat(this.responseText)
+
+          data.push(y)
+
+          if (liveForceChart.series[0].data.length > 40) {
+            liveForceChart.series[0].addPoint([x, y], true, true, false);
+          }
+          else {
+            liveForceChart.series[0].addPoint([x, y], true, false, false);
+          }
+        }
+      };
+      xhttp.open("GET", "/force", true);
+      xhttp.send();
+      update_axes();
+    }, 100);
+
+
+    // --------------------------------------------------
+    // --------------        CHARTS        --------------
+    // --------------------------------------------------
+
+    // LIVE TENSION DATA chart
+    var liveForceChart = new Highcharts.Chart({
+      chart: {
+        renderTo: 'chart-force',
+        type: 'spline',
+      },
+      animation: true,
+      title: { text: ' ' },
+      series: [{
+        showInLegend: false,
+        data: [],
+      }],
+
+      plotOptions: {
+        line: {
+          animation: true,
+          dataLabels: {
+            enabled: true
+          },
+          series: { color: '#059e8a' },
+          marker: {
+            enabled: false
+          }
+        },
+      },
+      xAxis: {
+        type: 'linear',
+        labels: {
+          formatter: function () {
+            return '';
+          },
+        },
+      },
+      yAxis: {
+        title: { text: 'Tension (pounds)' }
+      },
+      credits: { enabled: false }
+    });
+
+    // Initialize the MAX FORCE PER SESSION chart 
+    var maxForceChart = new Highcharts.Chart({
+      chart: { renderTo: 'chart-max' },
+      title: { text: ' ' },
+      series: [{
+        showInLegend: false,
+        data: [],
+        lineWidth: 1
+      }],
+      plotOptions: {
+        line: {
+          animation: false,
+          dataLabels: {
+            enabled: true
+          },
+          connectNulls: false,
+          marker: {
+            enabled: false,
+          },
+        },
+      },
+      yAxis: {
+        title: { text: 'Tension (pounds)' }
+      },
+      credits: { enabled: false }
+    });
+
+    // Initialize the SESSION "N" chart 
+    var sessionForceChart = new Highcharts.Chart({
+      chart: { renderTo: 'chart-sessions' },
+      title: { text: ' ' },
+      series: [{
+        showInLegend: false,
+        data: [],
+        lineWidth: 1
+      }],
+      plotOptions: {
+        line: {
+          animation: false,
+          dataLabels: {
+            enabled: true
+          },
+          connectNulls: false,
+          marker: {
+            enabled: false,
+          },
+        },
+      },
+      yAxis: {
+        title: { text: 'Tension (pounds)' }
+      },
+      credits: { enabled: false }
+    });
+
+
+    // --------------------------------------------------
+    // --------------       PLOTTING        -------------
+    // --------------------------------------------------
+
+    // begin the process of plotting data 
+    updateChartData();
+
+    // add datapoints to sessions every second and plot the maximum of each 
+    setInterval(function () {
+
+      sessions = identify_sessions(data, threshold)
+      max = identify_max(sessions)
+
+      for (let i = 0; i < max.length; i++) {
+        maxForceChart.series[0].addPoint([i, max[i]], true, false, false);
+      }
+
+      update_axes()
+    }, 3000)
+
+    // display the "SESSION N" chart if the user selects a session from the dropdown
+    $(document).ready(function () {
+      $("#select_session").on("change", function () {
+        if ($(this).val() != "none") {
+          let session = parseInt($(this).val())
+          let chart_data = sessions[session]
+          if (sessionForceChart.series[0].data.length > 0) {
+            sessionForceChart.series[0].remove(true)
+            sessionForceChart.addSeries({
+              showInLegend: false,
+              data: [],
+              lineWidth: 1
+            })
+          }
+          for (let i = 0; i < chart_data.length; i++) {
+            sessionForceChart.series[0].addPoint([i, chart_data[i]], true, false, false);
+          }
+          $("#session-chart-title").text("Session " + (session + 1) + " Data")
+          $("#session_chart").show();
+          $("#indivdual_session_data").hide();
+
+        }
+        else {
+          $("#session_chart").hide();
+          $("#indivdual_session_data").show();
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>

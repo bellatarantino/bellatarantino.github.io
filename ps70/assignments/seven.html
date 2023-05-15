@@ -65,12 +65,17 @@
                         <ul class="uk-switcher switcher-container uk-margin">
                             <li>
                                 <p>
-                                    Write a microcontroller program that integrates at least one input device and one output device, using an output device you haven't used before. Use an oscilloscope to discover the time domain at which your output device is operating. Is it on a fixed clock? What's its speed? Share images and describe your findings.
+                                    Write a microcontroller program that integrates at least one input device and one
+                                    output device, using an output device you haven't used before. Use an oscilloscope
+                                    to discover the time domain at which your output device is operating. Is it on a
+                                    fixed clock? What's its speed? Share images and describe your findings.
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    Prepare CAD files for CNC (next class). Consider either 2D DXF files for routing sheet material (like plywood or OSB), or 3D STL files to mill out a (2.5D) shape. We will also cover molding & casting, so you may want to consider milling a mold.
+                                    Prepare CAD files for CNC (next class). Consider either 2D DXF files for routing
+                                    sheet material (like plywood or OSB), or 3D STL files to mill out a (2.5D) shape. We
+                                    will also cover molding & casting, so you may want to consider milling a mold.
                                 </p>
                             </li>
                         </ul>
@@ -92,13 +97,19 @@
                         <ul class="uk-switcher switcher-container uk-margin">
                             <li>
                                 <p>
-                                    For this assignment, I decided to do something simple and fun: a digital Etch-a-Sketch! I used an OLED screen, 5 buttons, and a laser cut body for the Etch-a-Sketch. Rather than using dials (or potentiometers) for movement, I decided to use buttons to make it easier to control. 
+                                    For this assignment, I decided to do something simple and fun: a digital
+                                    Etch-a-Sketch! I used an OLED screen, 5 buttons, and a laser cut body for the
+                                    Etch-a-Sketch. Rather than using dials (or potentiometers) for movement, I decided
+                                    to use buttons to make it easier to control.
                                     <br>
                                     <br>
-                                    The code is also relatively straightforward. You begin by drawing a pixel in the center of the screen, and, upon each click of a button, add or subtract one pixel from the current coordinates. For example, if your starting pixel is (x,y), pressing the right button draws a pixel at (x+1, y). The code for this is below: 
+                                    The code is also relatively straightforward. You begin by drawing a pixel in the
+                                    center of the screen, and, upon each click of a button, add or subtract one pixel
+                                    from the current coordinates. For example, if your starting pixel is (x,y), pressing
+                                    the right button draws a pixel at (x+1, y). The code for this is below:
 
-                                    <div>
-                                        <pre><code>// Libraries
+                                <div>
+                                    <pre><code>// Libraries
 #include &lt;SPI.h&gt;
 #include &lt;Wire.h&gt;
 #include &lt;Adafruit_GFX.h&gt;
@@ -226,18 +237,23 @@ void loop() {
     display.drawPixel(pos_X, pos_Y, SSD1306_WHITE);
     display.display();
 }</code></pre>
-                                    </div>
-                                    <br>
-                                    <br>
-                                    Unfortunately, the oscilloscope did not go as well. When I went to OH, no one knew how to use it, so I (along with many classmates) was unable to get the readings on this. 
+                                </div>
+                                <br>
+                                <br>
+                                Unfortunately, the oscilloscope did not go as well. When I went to OH, no one (including
+                                the TF) knew how to use it, so I (along with many classmates) was unable to get the
+                                readings on this.
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    For the milling/CNC week, I want to start making the hangboard body. Because a full hangboard is very long, I instead am opting to make a one-handed hangboard, pictured below. These guys are smaller, less costly, and definitely easier to mill, mold, cast, or whatever else you want to do with it.  
+                                    For the milling/CNC week, I want to start making the hangboard body. Because a full
+                                    hangboard is very long, I instead am opting to make a one-handed hangboard, pictured
+                                    below. These guys are smaller, less costly, and definitely easier to mill, mold,
+                                    cast, or whatever else you want to do with it.
                                 </p>
                             </li>
-                            
+
                         </ul>
 
                     </div>
@@ -252,7 +268,10 @@ void loop() {
                     <div class="uk-text-left">
                         <ul class="uk-switcher switcher-container uk-margin">
                             <li>
-                                <p>Below are some photos of the final product along with a short demo. In the demo, I actually accidentally went out of bounds of the screen, but you get the idea. I corrected for this in my code by having the drawing loop around once it overcomes the boundaries of the screen. </p>
+                                <p>Below are some photos of the final product along with a short demo. In the demo, I
+                                    actually accidentally went out of bounds of the screen, but you get the idea. I
+                                    corrected for this in my code by having the drawing loop around once it overcomes
+                                    the boundaries of the screen. </p>
 
                                 <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom"
                                     tabindex="-1" uk-slider>
@@ -270,7 +289,8 @@ void loop() {
                                         </li>
                                         <li>
                                             <div class="uk-panel">
-                                                <video src="../../resources/images/week_7_etchasketch_vid.mov" uk-video="autoplay: inview"></video>
+                                                <video src="../../resources/images/week_7_etchasketch_vid.mov"
+                                                    uk-video="autoplay: inview"></video>
                                             </div>
                                         </li>
                                     </ul>
@@ -283,7 +303,10 @@ void loop() {
 
                             </li>
                             <li>
-                                <p> So below is a quick photo of the 2D model for the hangboard I had, and then a photo of what I was going for. I am considering adding a second pocket at the top for pinching strength, but I would have to talk to Nathan first and see how the sensors and stuff would work for that. </p>
+                                <p> So below is a quick photo of the 2D model for the hangboard I had, and then a photo
+                                    of what I was going for. I am considering adding a second pocket at the top for
+                                    pinching strength, but I would have to talk to Nathan first and see how the sensors
+                                    and stuff would work for that. </p>
 
                                 <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom"
                                     tabindex="-1" uk-slider>
@@ -308,6 +331,37 @@ void loop() {
 
                                 </div>
 
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                            </li>
+                            <li>
+                                <h3>Files</h3>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li></li>
+                            <li>
+                                <p>
+                                    Click the links below to download.
+                                <ul style="list-style-type: none;">
+                                    <li><a href="../../resources/files/mini_hangboard.dxf"
+                                            download>mini_hangboard.dxf</a></li>
+                                </ul>
+                                </p>
                             </li>
                         </ul>
 

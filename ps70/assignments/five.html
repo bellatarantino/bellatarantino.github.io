@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UIKit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit-icons.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    <title>Week 5</title>
+
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/main.css">
+
+    <link rel="icon" href="../../resources/icons/ps70_icon.svg">
+</head>
+
+<body>
+    <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
+        <div class="uk-navbar-left uk-margin-medium-left">
+            <a class="uk-navbar-item uk-logo" href="https://bellatarantino.com/ps70/">PS 70</a>
+        </div>
+        <div class="uk-navbar-right uk-margin-medium-right">
+            <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+            <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li><a href="https://bellatarantino.com/ps70/about.html">About</a></li>
+                    <li><a href="https://bellatarantino.com/ps70/assignments.html">Assignments</a></li>
+                    <li><a href="https://bellatarantino.com/ps70/project.html">Final Project</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="uk-container">
+        <div class="uk-text-center">
+            <h1 class="uk-margin-medium-top assignment-title">Week 5</h1>
+            <h3 class="assignment-subtitle">3D design & printing</h3>
+
+            <ul class="uk-subnav uk-flex-center" uk-switcher="connect: .switcher-container">
+                <li><a href="#">3D Printing</a></li>
+                <li><a href="#">3D Scanning</a></li>
+            </ul>
+        </div>
+
+        <div class="uk-container-small uk-margin-large-top uk-margin-auto">
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Assignment Prompt</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <p>
+                                    Design and print a small object that could not be (easily) made by subtractive methods. Upload your 3D model file, STL file, and sliced gcode file to your documentation.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Scan something using a photogrammetry, LIDAR, or other application.
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <ul class="uk-switcher switcher-container uk-margin">
+                        <li>
+                            <div>
+                            <h3>Inspiration</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                            <h3>Process</h3>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="uk-width-2-3@s">
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <p>
+                                    For the 3D printing assignment, I decided it would be fun to design a QR code stand for the final project fair.  The QR code I printed would link to my PS70 website so that folks could view my other assignments.  My inspiration came from <a href="https://www.printables.com/model/155573-wifi-qr-code-sign">this</a> Printables project in which someone printed a QR code for WiFi access. 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    For this assignment, I used the <a href="https://poly.cam/">Polycam</a> application on my iPhone.  I scanned a can of red bull with (some) success, and a near and dear <a href="https://store.linefriends.com/collections/shooky">Shooky</a> the cookie plushie that I got when I was but a mere high schooler.  Perhaps because of the shininess of the can, but Polycam had some trouble modelling the Red Bull.  Where there were reflections of objects in the can, there are divots.  The Shooky model came out quite well, though, as the shape and size were captured accurately.  To get photos from every angle of the plushie, I moved it manually, which led the little metal hook at the end of the plushie to split into three.  I solved this by cropping it out.
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <ul class="uk-switcher switcher-container uk-margin">
+                        <li>
+                            <div>
+                            <h3>Process</h3>
+                            </div>
+                        </li>
+                        <li>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="uk-width-2-3@s">
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <p>
+                                    My original thought for making the QR code was that I would get a QR code, add it to my sketch as a canvas in Fusion 360, trace over it, and extrude the squares into shapes. This sounded, though, tiring and annoying. Instead, I found the <a href="https://tapnair.github.io/QRCoder/">QRCoder add-on</a> for Fusion 360, an extension that would supposedly turn my QR code into a Fusion 360 body. It required the installation of a Python library that I am CONFIDENT I installed but it refused to recognize, so I had to settle for a second option. Instead, I found the <a href="https://github.com/hanskellner/Fusion360Image2Surface">Image2Surface add-on</a>, which was significantly easier to install. After creating a QR code and creating the mesh of it using Image2Surface, I simply combined it with a rectangular back plate and printed it. 
+                                    <br>
+                                    <br>
+                                    <img src="">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    To make it stand, I cut a small base out of wood and slotted the QR code into it. To get the proper color contrast required for a QR code to scan, I ended up painting the raised portions yellow since I was not sure how to print with two fillaments and the printers were mostly taken up aside from the one loaded with green fillament. 
+                                </p>
+                            </li>
+                            <li>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Photos</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom"
+                                    tabindex="-1" uk-slider>
+
+                                    <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                        
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_2_polygon_3d_render.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_2_polygon_3d_sketch.png" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-next uk-slider-item="next"></a>
+
+                                </div>
+
+                            </li>
+                            <li>
+                                <p>Below are pictures of the original objects along with videos of their 3D scans.</p>
+                                <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom"
+                                    tabindex="-1" uk-slider>
+
+                                    <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                        <li>
+                                            <div class="uk-panel">
+                                                <video src="../../resources/images/week_5_3d_scan_video_1.mp4" uk-video="autoplay: inview"></video>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <video src="../../resources/images/week_5_3d_scan_video_2.mp4" uk-video="autoplay: inview"></video>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_5_3d_scan_original_1.jpg" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_5_3d_scan_original_2.jpg" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-next uk-slider-item="next"></a>
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Files</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <p>
+                                    Click the links below to download.  To download the STL files for the Minecraft bee, please see the Printables link in the <b>3D Printing and Cutting</b> section above.
+                                    <ul style="list-style-type: none;">
+                                        <li><a href="../../resources/files/yellow_motor_key.dxf" download>yellow_motor_key.dxf</a></li>
+                                        <li><a href="../../resources/files/kinetic_sculpture_box.svg" download>kinetic_sculpture_box.svg</a></li>
+                                        <li><a href="../../resources/files/kinetic_sculpture.ino" download>kinetic_sculpture.ino</a></li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Click the links below to download.
+                                    <ul style="list-style-type: none;">
+                                        <li><a href="../../resources/files/redbull_scan.stl" download>redbull_scan.stl</a></li>
+                                        <li><a href="../../resources/files/shooky_scan.stl" download>shooky_scan.stl</a></li>
+                                    </ul>
+                                </p>
+                            </li>
+                    </div>
+
+                </div>
+
+            </div>
+            
+
+        </div>
+
+    </div>
+</body>
+
+</html>

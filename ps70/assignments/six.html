@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UIKit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit-icons.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    <title>Week 6</title>
+
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/main.css">
+
+    <link rel="icon" href="../../resources/icons/ps70_icon.svg">
+</head>
+
+<body>
+    <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
+        <div class="uk-navbar-left uk-margin-medium-left">
+            <a class="uk-navbar-item uk-logo" href="https://bellatarantino.com/ps70/">PS 70</a>
+        </div>
+        <div class="uk-navbar-right uk-margin-medium-right">
+            <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+            <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li><a href="https://bellatarantino.com/ps70/about.html">About</a></li>
+                    <li><a href="https://bellatarantino.com/ps70/assignments.html">Assignments</a></li>
+                    <li><a href="https://bellatarantino.com/ps70/project.html">Final Project</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="uk-container">
+        <div class="uk-text-center">
+            <h1 class="uk-margin-medium-top assignment-title">Week 6</h1>
+            <h3 class="assignment-subtitle">electronic input devices</h3>
+
+            <ul class="uk-subnav uk-flex-center" uk-switcher="connect: .switcher-container">
+                <li><a href="#">Capacitive Sensor</a></li>
+                <li><a href="#">Ultrasonic Sensor</a></li>
+            </ul>
+        </div>
+
+        <div class="uk-container-small uk-margin-large-top uk-margin-auto">
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Assignment Prompt</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <p>
+                                    Make a capacitive sensor to measure a physical quantity with your microcontroller.
+                                    Avoid the delay() function; use timers instead. Include schematics of the sensor.
+                                    Calibrate the sensor by plotting points on a graph. Discuss the relationship between
+                                    the signals recorded by your microcontroller and the physical quantities that you're
+                                    measuring.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Choose a sensor from the lab. Include schematics of the sensor. Calibrate the sensor
+                                    by plotting points on a graph. Discuss the relationship between the signals recorded
+                                    by your microcontroller and the physical quantities that you're measuring.
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Sensor</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <p>
+                                    For this assignment, I decided to create a capacitive button. The physical quantity
+                                    that my sensor measures is touch -- in an ideal world, the sensor maps the TOUCH
+                                    event to 1 and NO TOUCH event to 0. In the real world, we read and write a bunch of
+                                    differentials and, if no change occurs, we expect the value the sensor outputs to be
+                                    relatively constant. On the event of a touch, the readings should surpass some sort
+                                    of "threshold" which we define to be the difference between an untouched and touched
+                                    button. Schematic:
+                                    <br>
+                                    <br>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    For this assignment, I wanted to use a sensor I was not yet familiar with, so I
+                                    tried out the ultrasonic distance sensor. To my knowledge, this sensor uses SONAR to
+                                    determine the distance between itself and an object. To measure distance, the sensor
+                                    outputs a "ping" of sorts, and we measure the time it takes for this "ping" to
+                                    reflect back to the sensor. Once we know how much time it took, we can turn this
+                                    into a measurement for distance. Schematic:
+                                    <br>
+                                    <br>
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Calibration</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <p>
+                                    To make the button, I simply appended some copper foil to a wooden block (though the
+                                    block is not necessary, it adds stability) and wired it up as we learned to in lab.
+                                    Photos of the circuit are below. Using the code I wrote below, I got readings from
+                                    the sensor. We take into account some "baseline" reading in hopes of only measuring
+                                    the change of the sensor output from the baseline rather than the raw values. I
+                                    found that the differential ("delta" value) of the untouched button tended to float
+                                    around 4 to 50. The touched button returned differentials of significantly larger
+                                    values, anywhere from 160 to 350. I calibrated by graphing a few of the outputted
+                                    values versus the quantity they are measuring (y = 0 for NO TOUCH, 1 for TOUCH).
+                                    This lead me to create a threshold of about 100.
+                                    <br>
+                                    <br>
+                                    <img src="../../resources/images/week_6_calibrate_button.png">
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    To calibrate the ultrasonic sensor, I positioned a large object (my kinetic
+                                    sculpture) at various distances between 2 and 10cm from the sensor and plotted the
+                                    output to input readings. Below is a plot of the real distance (on the x-axis)
+                                    versus the reading from the sensor (y-axis). As we can see, the readings are fairly
+                                    linear.
+                                    <br>
+                                    <br>
+                                    <img src="../../resources/images/week_6_calibrate_ultrasonic_data.png">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    We then can use a linear regression calculator to fit the data, which gives us:
+                                    distance = 55.3 * time - 15.6. Plotting this with the data:
+                                    <br>
+                                    <br>
+                                    <img src="../../resources/images/week_6_calibrate_ultrasonic_fit.png">
+                                    <br>
+                                    <br>
+                                    <br>
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <h3>Photos</h3>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom"
+                                    tabindex="-1" uk-slider>
+
+                                    <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_6_button_circuit.jpg" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <video src="../../resources/images/week_6_button_final.mov"
+                                                    uk-video="autoplay: inview"></video>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-next uk-slider-item="next"></a>
+
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom"
+                                    tabindex="-1" uk-slider>
+
+                                    <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_6_ultrasonic_setup.jpg" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/week_6_ultrasonic_setup_2.jpg" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-next uk-slider-item="next"></a>
+
+                                </div>
+
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

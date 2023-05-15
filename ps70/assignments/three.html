@@ -212,7 +212,9 @@ void loop() {
                         restarts at the lowest speed. The loop, though, takes less time than the actual pressing of a
                         button, resulting in one button press changing the speed 5-10 times. To counteract this, I added
                         a short delay after the first detection of a button press, after which the user should already
-                        have removed their finger.
+                        have removed their finger. Using the multimeter, I found that, on the low setting, the voltage
+                        running through the motor was 2.8V. On medium speed, 3.7V. On the high speed, 4.1V. The voltage
+                        running through the button was approximately 3.3V.
                         </p>
                     </div>
 

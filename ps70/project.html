@@ -24,108 +24,372 @@
 </head>
 
 <body>
+    <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
+        <div class="uk-navbar-left uk-margin-medium-left">
+            <a class="uk-navbar-item uk-logo" href="https://bellatarantino.com/ps70/">PS 70</a>
+        </div>
+        <div class="uk-navbar-right uk-margin-medium-right">
+            <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+            <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                    <li><a href="https://bellatarantino.com/ps70/about.html">About</a></li>
+                    <li><a href="https://bellatarantino.com/ps70/assignments.html">Assignments</a></li>
+                    <li><a href="https://bellatarantino.com/ps70/project.html">Final Project</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <div class="uk-position-relative uk-margin-large-bottom">
-        <div class="uk-height-viewport uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
-            data-src="../resources/images/climbing-wall.jpg" uk-img="loading: eager">
-            <div class="uk-position-top">
-                <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-margin" uk-navbar>
-                    <div class="uk-navbar-left uk-margin-medium-left">
-                        <a class="uk-navbar-item uk-logo" href="index.html">PS 70</a>
+    <div class="uk-container">
+        <div class="uk-text-center">
+            <h1 class="uk-margin-medium-top assignment-title">Final Project</h1>
+            <h3 class="assignment-subtitle">the tension tester</h3>
+
+            <ul class="uk-subnav uk-flex-center" uk-switcher="connect: .switcher-container">
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Process</a></li>
+                <li><a href="#">Final Fair</a></li>
+            </ul>
+        </div>
+
+        <div class="uk-container-small uk-margin-large-top uk-margin-auto">
+
+            <ul class="uk-switcher switcher-container uk-margin">
+                <li>
+                    <div uk-grid class="uk-text-center">
+                        <iframe width="1120" height="630" src="https://www.youtube.com/embed/jxJc_4PTqeM" title="YouTube video player" frameborder="0" style="display: block; margin: 0 auto;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
                     </div>
-                    <div class="uk-navbar-right uk-margin-medium-right">
-                        <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
-                        <div class="uk-navbar-dropdown">
-                            <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="assignments.html">Assignments</a></li>
-                                <li class="uk-active"><a>Final Project</a></li>
-                            </ul>
-                        </div>
+                    <br>
+                    <br>
+                </li>
+                <li>
+                    <p class="uk-text-center"><b>Note: for detailed information on the Tension Tester software, along with code snippets and downloadable files, please see the <a href="https://bellatarantino.com/ps70/assignments/ten.html">Week 10</a> assignment.</b></p>
+                    <br>
+                    <br>
+                </li>
+            </ul>
+
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <h3>Background</h3>
+                            </li>
+                            <li>
+                                <h3>Load Cells</h3>
+                            </li>
+                            <li>
+                                <h3>Feats of Strength</h3>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
-            </div>
+                </div>
+                <div class="uk-width-2-3@s">
 
-            <h1>Final Project</h1>
-        </div>
-    </div>
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <p>
+                                    One of the most popular training tools to increase hand and finger strength in
+                                    climbing is known as a hangboard (or fingerboard). Hangboards are oft made of
+                                    plastic or wood and have a variety of holds to hang from and train on. By slowly
+                                    increasing the duration of a hang or the shallowness of the holds you hang from, you
+                                    can train and track improvement in finger and hand strength.
+                                    <br>
+                                    <br>
+                                    Tracking your progress in climbing, though, can be hard as the difficulty between
+                                    grades increases. Though finger and pulling strength is not the most important
+                                    factor in your climbing journey, it can be a good indicator of improvement. You
+                                    often hear the phrase, "Numbers aren't important." But to that I say, "Why does my
+                                    self worth rely entirely on them, then?" How can you obtain a more accurate measure
+                                    of your strength and also get your fix of sweet, sweet numerical validation?
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The foundation of the Tension Tester is a load cell. What is, then, a load cell? A load cell is a type of sensor used to measure force or weight. It typically consists of a metal body with strain gauges attached that detect the deformation caused by a load applied to the cell, which is then converted into an electrical signal proportional to the applied force. The metal body is often made of a flexible yet strong metal such as aluminum. What, then, is a strain gauge? A strain gauge is, at its essence, a coiled wire. As the object that the strain gauge is adhered to deforms, the strain gauge's metal foil or wire also deforms, causing a change in its electrical resistance, which can be measured and used to calculate the force applied to the object. The change in resistance (and therefore voltage) is, according to the beautiful laws of physics, linear. Below are photographs of a diagram of a strain gauge, a strain gauge under a microscope, and an S-type load cell from a hanging scale.
+                                    <br>
+                                    <br>
+                                    <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom"
+                                    tabindex="-1" uk-slider>
 
-    <div class="uk-container-small uk-margin-auto uk-margin-large-bottom">
-        <div uk-grid class="uk-child-width-expand@s">
+                                        <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                            <li>
+                                                <div class="uk-panel">
+                                                    <img src="https://www.michsci.com/wp-content/gallery/illustrations/strain-gauge-diagram-example.png" alt="">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="uk-panel">
+                                                    <img src="../../resources/images/final_load_cell_marked_up.jpg" alt="">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="uk-panel">
+                                                    <img src="../../resources/images/final_strain_gauge_microscope.jpg" alt="">
+                                                </div>
+                                            </li>
+                                        </ul>
 
-            <div>
-                <h3>Background</h3>
-                <p>
-                    One of the most popular training tools to increase hand and finger strength in climbing is known
-                    as
-                    a hangboard (or fingerboard). Hangboards are oft made of plastic or wood and have a variety of
-                    holds
-                    to hang from and train on. By slowly increasing the duration of a hang or the shallowness of the
-                    holds you hang from, you can train and track improvement in finger and hand strength.
-                </p>
-            </div>
-            <div class="uk-width-2-5@m uk-margin-medium-top">
-                <img src="../resources/images/hangboard.png" alt="hangboard">
-            </div>
-        </div>
+                                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                            uk-slidenav-previous uk-slider-item="previous"></a>
+                                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                            uk-slidenav-next uk-slider-item="next"></a>
 
+                                    </div>
+                                    For this project, I attempted to create my own load cell using 2 half-bridge strain gauges. A half bridge strain gauge is simply two strain gauges with one end of the wires on each connected to each other such that they form half of a Wheatstone Bridge. A Wheatstone Bridge is simply a particular configuration of resistors (in this case, each strain gauge is a resistor) such that changes in resistance are easier to measure and readings are averaged out among multiple strain gauges to increase accuracy. Though I did not photograph my attempt at the full load cell and the resultant failure due to oversight and a time crunch, I did document the creation of the load body cell itself. 
+                                    <br>
+                                    <br>
+                                    <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom"
+                                    tabindex="-1" uk-slider>
 
-        <div class="uk-child-width-expand@s uk-margin-large-bottom" uk-grid>
+                                        <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                            <li>
+                                                <div class="uk-panel">
+                                                    <img src="https://www.utilcell.com/upload/img1.jpg" alt="">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="uk-panel">
+                                                    <img src="https://www.allaboutcircuits.com/uploads/articles/half-bridge-strain-gauge-circuit.jpg" alt="">
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="uk-panel">
+                                                    <img src="https://testview.co.il/wp-content/uploads/2022/01/3142_0-scaled.jpg" alt="">
+                                                </div>
+                                            </li>
+                                        </ul>
 
-            <div>
-                <h3 class="uk-text-center">Motivation</h3>
-                <p>
-                    Tracking your progress in climbing can be hard as the difficulty between grades increases.
-                    Though
-                    finger strength is not the most important factor in your climbing journey, it can be a good
-                    indicator of improvement. You often hear the phrase, "Numbers aren't important." But to that I
-                    say,
-                    "Why does my self worth rely entirely on them, then?" How can you obtain a more accurate measure
-                    of
-                    your strength and also get your fix of sweet, sweet numerical validation?
-                </p>
-            </div>
+                                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                            uk-slidenav-previous uk-slider-item="previous"></a>
+                                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                            uk-slidenav-next uk-slider-item="next"></a>
 
-        </div>
-        <div class="uk-child-width-expand@s" uk-grid>
-            <div class="uk-width-2-5@m">
-                <img src="../resources/images/pressure-sensor.png" alt="pressure sensor arduino">
-            </div>
-            <div class="uk-text-right">
-                <h3>Proposal</h3>
-                <p>
-                    My final project would be a pressure-sensitive hangboard that measures the magnitude of force
-                    each
-                    hand — or finger, depending on the hold — is applying to the board. This could help
-                    quantitatively
-                    identify strength imbalances from hand to hand or finger to finger and help track improvement
-                    more
-                    concretely. Disclaimer: I discovered that this product does, in fact, exist already —
-                    the <a href="https://climbro.com/">Climbro</a> smart board — but it's nearly $800.
-                </p>
-            </div>
+                                    </div>
+                                    Should you want to create a full-bridge S-type load cell using two half-bridge strain gauges, simply do the following. Take your two, three-wire half-bridge strain gauges and arrange them such that they are symmetric and each of their wires touch. The portion where the top two wires meet is now the RED load cell wire. The bottom is the BLACK. The middle left wire is the GREEN, and the middle right is WHITE. See the diagram below:
+                                    <br>
+                                    <br>
+                                    <img src="../resources/images/final_wheatstone_config.png">
+                                    <br>
+                                    <br>
+                                    <br>
+                                    Now, cut your load cell using the water jet cutter. (Note: all files are available for download at the bottom of this page.) Using a mill, make a small divot at the center of the load cell on each side and two small holes in it, as pictured below. Place one half-bridge strain gauge on one side, and another on the other side. Tape down the strain gauges, and thread the wires through the small holes. Solder and join to make a wheatstone bridge with four output wires, as detailed above. Using epoxy glue, adhere the strain gauges to the load cell body.  
+                                </p>
+                            </li>
+                            <li>
+                                For my final project setup, I thought it would be fun to have people interact with my project as much as possible. To faciliate this, I went for a carnival game vibe where, if a passerby stuck around long enough to hear my spiel, they could weigh in, have a few goes at the tension tester, and, if they could pull 70% or more of their bodyweight with ONE arm, they won a Dum Dum Pop. I was a bit worried about asking people to weigh in, but I made sure to explain that weighing in and competing for a lolipop was entirely optional, and multiple people politely declined the offer to weigh in but still had a go at the Tension Test. Anyways, it was a lot more popular than I anticipated, and I got lots of folks to give it a try. Shoutout to my classmate Lane who holds the record for "highest percentage of bodyweight pulled" at over 100% (he can almost do a one-arm pull-up). About 5 or 6 people were able to pull more than 70% of their bodyweight, less than anticipated, but most folks were able to pull more than 50%, which I thought was interesting. A few folks who stopped by told me about Lattice Training for climbing, which apparently utilizes the exact same device I made.
+                                <br>
+                                <br>
+                                <div class="uk-position-relative uk-visible-toggle uk-margin-medium-bottom"
+                                    tabindex="-1" uk-slider>
 
-        </div>
+                                    <ul class="uk-slider-items uk-child-width-1-3 uk-grid" uk-height-match=".uk-panel">
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/final_device_hanging.jpg" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/final_fai_setup_2.jpg" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/final_fair_setup_1.jpg" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <img src="../../resources/images/final_hangboard_print.jpg" alt="">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <video src="../../resources/images/final_demo_eric.mov" uk-video="autoplay: inview"></video>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <video src="../../resources/images/final_demo_phillip.mov" uk-video="autoplay: inview"></video>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-panel">
+                                                <video src="../../resources/images/final_pull_ups.mov" uk-video="autoplay: inview"></video>
+                                            </div>
+                                        </li>
+                                    </ul>
 
+                                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                                        uk-slidenav-next uk-slider-item="next"></a>
 
-        <!-- <div class="uk-child-width-expand@s" uk-grid>
+                                </div> 
+                            </li>
 
-            <div>
-                <h3>Features</h3>
-                <div class="indent-small">
-                    <span uk-icon="phone"></span> Connect your hangboard to an app using Bluetooth to get live force
-                    readings
-                    <div class="uk-padding-small"></div>
-                    <span uk-icon="server"></span> Save your session data and track your progress over multiple sessions
-                    <div class="uk-padding-small"></div>
-                    <span uk-icon="happy"></span> Be cool, flex on your climber friends
+                        </ul>
+
+                    </div>
+
                 </div>
             </div>
 
-        </div> -->
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <h3>The Tension Tester</h3>
+                            </li>
+                            <li>
+                                <h3>The Body</h3>
+                            </li>
+                            <li>
+                                <h3>Thank you!</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                                <p>
+                                    My final project, the Tension Tester (pictured above, below, and in many other places), helps climbers measure their pulling and finger strength in a few steps. Simply connect the Tension Tester to your local WiFi, tie it to a pull-up bar or ceiling beam, connect your fingerboard, and pull!  While the Tension Tester is on, live force readings will display on its web app, identifying both individual "pulling sessions" and your maximum force across them.  This tool allows you to measure your maximum pulling force, see how quickly it decays, and track your progress over time. 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    The body for the Tension Tester was a challenge, as my skills in Fusion 360 were not as honed. Because I used a load cell from a hanging scale, I simply took measurements from the load cell; primarily, the distance from the top of the load cell to the center of the holes at the top and bottom, along with the distance from the sides of the load cell to the center of the screwholes, and the dimensions of the load cell overall. This allowed me to make a case that closed properly, had a place to mount the load cell onto to prevent it from moving, and that had openings for the users to hang the device from a wall or bar. After modeling the load cell in Fusion 360, I was able to make a case for and 3D print it using PLA filament. Instead of relying on screws, I used nuts and bolts, which I think gave the case a cool, rugged look. Below are a few photos of the case in progress (along with the failed print) and all put together. 
+                                    <br>
+                                    <br>
+                                    The body should take approximately 4 hours to print. This print had a lot of trouble staying on the bed, so I suggest raising the heat to 75-80 degrees and slowing down the speed of the first layer to about 90% to ensure a quality base and prevent curling. 
+                                </p>
+                            </li>
+                            <li>
+                                <p>I just wanted to include a small display of my gratitude somewhere on the website. This has been such an outstanding class. I've never had more fun or had more freedom to just MAKE things. It's such a blessing. Nathan is such a kind, genuine, and helpful teacher, and his good vibes transferred well to the class, who bonded like I've never seen in any of my other courses. Every week was a hoot, and I'm recommending this class to everyone I know. Thanks for doing what you do, and thanks for making this semester an amazing one.
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                            </li>
+                            <li>
+                                <h3>The Circuitry</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                            </li>
+                            <li>
+                                <p>
+                                    The actual Tension Tester hardware is fairly simple. It is just a load cell, an amplifier, and an ESP32 Xiao. The connections between the ESP32 Xiao, load cell, and amplifier go as such: 
+                                    <br>
+                                    <br>
+                                    <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2022/04/Arduino-load-cell-diagram_bb.png?w=1506&quality=100&strip=all&ssl=1"> 
+                                    <br>
+                                    <br>
+                                    <br>
+                                    The load cell here is pictured with four wires (red, white, black, and green) as discussed in the Load Cell section. The load cell pictured is not an S-type and is primarily for compression rather than tension, but the wiring is the same. We connect the red wire to E+, black to E-, white to A-, and green to A+ on the HX711 amplifier. We then feed DT and SCK to data pins of our choice, while GND and VCC go to GND and 5V, respectively. For my project, I connected SCK and DT to D9 and D10, respectively, on the ESP32 Xiao. 
+                                </p>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                            </li>
+                            <li>
+                                <h3>The Hangboard</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                            </li>
+                            <li>
+                                <p>
+                                    The final part of this project is making the hangboard attachment from which to hang. I found a model for a mini hangboard on <a href="https://www.thingiverse.com/thing:4256529">Thingiverse</a> with a suitably deep pocket and small size, so I sliced and printed it at about 1.5x size. 
+                                </p>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+            <div uk-grid>
+                <div class="uk-grid-item-match uk-width-1-3@s">
+                    <div>
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                            </li>
+                            <li>
+                                <h3>Files</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uk-width-2-3@s">
+
+                    <div class="uk-text-left">
+                        <ul class="uk-switcher switcher-container uk-margin">
+                            <li>
+                            </li>
+                            <li>
+                                As a reminder, for detailed information on the software for the final project along with downloadable files, please see the <a href="https://bellatarantino.com/ps70/assignments/ten.html">Week 10</a> assignment.
+                                <br>
+                                <br>
+                                <ul style="list-style-type: none;">
+                                    <li><a href="../../resources/files/load_cell.dxf" download>load_cell.dxf</a></li>
+                                    <li><a href="../../resources/files/load_cell_case.stl" download>load_cell_case.stl</a></li>
+                                    <li><a href="../../resources/files/load_cell_case.gcode" download>load_cell_case.gcode</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
-
+    </div>
 </body>
 
 </html>

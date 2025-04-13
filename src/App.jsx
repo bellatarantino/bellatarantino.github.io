@@ -110,7 +110,7 @@ function FAQItem({ question, answer, isOpen, onClick }) {
   return (
     <div className="border rounded-lg overflow-hidden scale-[1.05] transition-shadow hover:shadow">
       <button
-        className="w-full flex justify-between items-center px-5 py-4 text-left text-lg font-medium"
+        className="w-full flex justify-between items-center px-5 py-4 text-left text-base md:text-lg font-medium"
         onClick={onClick}
       >
         {question}
@@ -138,7 +138,7 @@ function FAQItem({ question, answer, isOpen, onClick }) {
 
 function Navbar() {
   return (
-    <header className="w-full flex justify-between items-center px-12 py-10 text-2xl">
+    <header className="hidden md:flex w-full justify-between items-center px-12 py-10 text-2xl">
       <a href="#" className="hover:font-bold">HOME</a>
       <nav className="flex gap-12">
         <a href="#" className="font-bold">FAQ</a>
@@ -157,22 +157,22 @@ export default function FAQPage() {
 
       <main className="flex-1 flex justify-center items-center px-10 text-[1.05rem]">
         <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
-          <div className="h-full flex flex-col">
-            <h2 className="text-[2.6rem] font-bold">
+          <div className="h-full flex flex-col mt-4 md:mt-0">
+            <h2 className="text-[2.6rem] md:text-[2.6rem] text-[1.6rem] font-bold pt-6 md:pt-0">
               <span className="text-teal-600">Frequently</span> <br /> Asked Questions
             </h2>
 
-            <div className="mt-3 overflow-y-auto pr-8 w-full px-4 py-2 h-[22rem]">
-            <div className="flex flex-col gap-4">
-              {faqs.map((faq, i) => (
-                <FAQItem
-                  key={i}
-                  question={faq.question}
-                  answer={faq.answer}
-                  isOpen={i === openIndex}
-                  onClick={() => setOpenIndex(i === openIndex ? null : i)}
-                />
-              ))}
+            <div className="mt-3 md:overflow-y-auto md:h-[22rem] pr-8 w-full px-4 py-2">
+              <div className="flex flex-col gap-4">
+                {faqs.map((faq, i) => (
+                  <FAQItem
+                    key={i}
+                    question={faq.question}
+                    answer={faq.answer}
+                    isOpen={i === openIndex}
+                    onClick={() => setOpenIndex(i === openIndex ? null : i)}
+                  />
+                ))}
               </div>
             </div>
           </div>
@@ -186,6 +186,9 @@ export default function FAQPage() {
           </div>
         </div>
       </main>
+      <footer className="w-full text-center py-3 bg-red-600 text-white text-sm mt-8">
+        This website is currently in development as of April 2025.
+      </footer>
     </div>
   );
 }

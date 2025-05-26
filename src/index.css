@@ -11,3 +11,17 @@
      small {
         left: calc(50% - 50px);
      }
+
+     @keyframes growHighlight {
+      from {
+        transform: scaleX(0);
+      }
+      to {
+        transform: scaleX(1);
+      }}
+
+      @keyframes highlightReveal {
+         to {
+           background-size: 100% 100%;
+         }
+       }

@@ -3923,11 +3923,11 @@ Sherlock Holmes`}),a("div",{className:"mt-3 flex justify-end gap-2",children:a("
 Below, we explore ways to help structure, plan, and write your short responses for college entrance exams in English. 
 
 ## Structure
-All argumentative short responses follow, roughly, the same format. Before you write your essay, you'll want to prepare your:
+All argumentative (論争的な) short responses follow, roughly (大まかに), the same format (形式). Before you write your essay, you'll want to prepare your:
 
-* **Opinion:** What is your response to the prompt? Do you support or oppose the idea? What is your choice or suggestion? 
+* **Opinion:** What is your response to the prompt (設問)? Do you support (支持する) or oppose (反対する) the idea? What is your choice or suggestion (提案)? 
 * **Reasons:** Depending on the question, you should have one to three supporting arguments. These should justify your opinion. 
-* **Evidence:** Depending on the question, you *may* have evidence. If you're knowledgeable about the topic, you might have statistics or trends to mention. If the topic comes with tables or data, you might make use of those. In this article, we'll combine the reasons with the evidence.
+* **Evidence:** Depending on the question, you *may* have evidence (証拠). If you're knowledgeable (知識がある) about the topic, you might have statistics (統計) or trends (傾向) to mention. If the topic comes with tables or data, you might make use of those. In this article, we'll combine (組み合わせる) the reasons with the evidence.
 
 You shouldn't start writing before you've organized this information. Otherwise, you'll end up with an unorganized and aimless essay. For the sake of this article, we'll use the following prompt and argument:
 
@@ -3940,22 +3940,22 @@ You shouldn't start writing before you've organized this information. Otherwise,
 | Reason #2      | AI stunts learning and development.      |
 | Evidence | In a recent study, scientists found that people who use AI had far less brain activity compared to those who don't.  |
 
-Now, we can use this information to structure our essay in the following way. 
+Now, we can use this information to structure (構成する) our essay in the following way. 
 
-* First, state your **opinion** and, briefly, your reasoning. For more information, read the article on **thesis statements**. 
-* Second, state **Reason #1**. If there is evidence that goes along with this, include it. Make sure to elaborate. 
-* Third, state **Reason #2**. If there is evidence that goes along with this, include it. Make sure to elaborate. 
-* Finally, write your **conclusion**. This is basically going to be a reiteration of your thesis, but in different terms.  
+* First, state your **opinion** and, briefly, your reasoning (理由づけ). For more information, read the article on **thesis statements**. 
+* Second, state **Reason #1**. If there is evidence that goes along with this, include it. Make sure to elaborate (詳述する). 
+* Third, state **Reason #2**. If there is evidence that goes along with this, include it. Make sure to elaborate (詳述する). 
+* Finally, write your **conclusion(結論)**. This is basically going to be a reiteration (繰り返し) of your thesis, but in different terms (言い回し).  
 
 For example:
 
 > AI should be banned in schools, as it can be used to cheat and stunt learning. <br><br> Firstly, many students use AI to cheat. Tools like Gemini and ChatGPT can complete homework assignments with very little effort, and it is hard for teachers to tell when AI has been used. <br><br> Secondly, AI can stunt students’ learning. When students use AI to write essays, do research, or help with homework, they avoid putting in their own effort. As a result, they do not get enough practice and do not learn as much as they should. In fact, a recent study found that people who use AI show less brain activity than those who do not use AI. <br><br> Since school is a place for learning, tools like AI that interfere with learning should be banned. 
 
 ## Common Phrases 
-Below, we go through an assortment of phrases that can be used to help organize your essay. 
+Below, we go through an assortment (さまざま) of phrases that can be used to help organize (整理する) your essay. 
 
 ### Listing Reasons
-Suppose you have multiple reasons or pieces of evidence. When you want to address them one-by-one, you can do so using numbered language, like:
+Suppose you have multiple reasons or pieces of evidence. When you want to address (取り上げる) them one-by-one, you can do so using numbered language, like:
 * **Firstly,** 
 * **Secondly,**
 * **Thirdly,**
@@ -3963,7 +3963,7 @@ Suppose you have multiple reasons or pieces of evidence. When you want to addres
 
 > **Example:** Firstly, many students use AI to cheat.
 
-You can also address them individually, such as:
+You can also address them individually (個別に), such as:
 * **Regarding** ~
 * **With regard to** ~
 * **In terms of** ~
@@ -3981,7 +3981,7 @@ When you'd like to expand on or support one of your reasons, you can try:
 > **Example:** In fact, a recent study found that people who use AI show less brain activity than those who do not use AI.
 
 ### Disagreeing
-When you'd like to contradict or argue against something, you can use contrast words like: 
+When you'd like to contradict or argue against something, you can use contrast (対比の) words like: 
 * **However,**
 * **On the other hand,**
 * **In contrast,**
@@ -3991,7 +3991,7 @@ When you'd like to contradict or argue against something, you can use contrast w
 > **Example:** However, AI can also be a powerful study tool.
 
 ### Concluding
-To end your essay clearly and confidently, you can use the following phrases: 
+To end your essay clearly and confidently (自信を持って), you can use the following phrases: 
 * **In conclusion,**
 * **To sum up,**
 * **Overall,**
@@ -4000,7 +4000,7 @@ To end your essay clearly and confidently, you can use the following phrases:
 > **Example:** In conclusion, AI is a dangerous tool and should be banned in schools.
 
 ### Phrases to Avoid
-You learn to use many of these phrases in school, but to a native English speaker, they sound a bit unnatural. They're not grammatically incorrect, but if you can avoid them, then do so!
+You learn to use many of these phrases in school, but to a native English speaker, they sound a bit unnatural (不自然な). They're not grammatically (文法的に) incorrect, but if you can avoid them, then do so!
 * **Because**
 * **This is because** ~
 * **One reason is that** ~
@@ -4009,14 +4009,14 @@ You learn to use many of these phrases in school, but to a native English speake
 Below, we go through some tips relating to grammar and vocabularly.
 
 ### Tip 1: Avoid “A of B”
-We prefer to use the **possessive form** over “of.” When you have "A (名詞) of B (名詞)", you can make this into "B's A". This sounds more natural.
+We prefer to use the **possessive form (所有格)** over “of.” When you have "A (名詞) of B (名詞)", you can make this into "B's A". This sounds more natural.
 | Less Natural            | More Natural           |
 | ----------------------- | ---------------------- |
 | the opinion of students | **students’ opinions** |
 | the price of the ticket | **the ticket’s price** |
 | the rules of the school | **the school’s rules** |
 
-This makes your writing **smoother and more concise**.
+This makes your writing **smoother and more concise (簡潔な)**.
 
 ### Tip 2: Use Simple Verbs Instead of Nouns
 Remember: you're trying to write simply and concisely. In a lot of cases, it's better to use a single verb than a wordy noun phrase. 
@@ -4027,7 +4027,7 @@ Remember: you're trying to write simply and concisely. In a lot of cases, it's b
 | have an effect      | **affect**  |
 
 ### Tip 3: Use the Right Vocabulary
-Choosing the right vocabulary can make a huge difference in the quality of your writing. It's not strictly necessary, but it can help to memorize words that describe relationships and effects. 
+Choosing the right vocabulary (語彙) can make a huge difference in the quality of your writing. It's not strictly (厳密に) necessary (必要な), but it can help to memorize (暗記する) words that describe relationships (関係) and effects (影響). 
 | English (Essay Vocabulary) | Japanese | Example Sentence |
 |----------------------------|----------|------------------|
 | impact                     | 影響する | Social media has a strong impact on students. |
@@ -4042,7 +4042,28 @@ Choosing the right vocabulary can make a huge difference in the quality of your 
 | lead to                    | ～につながる | Poor study habits can lead to low grades. |
 | result in                  | ～という結果になる | Skipping class may result in poor performance. |
 | impede                     | 妨げる | Cheating can impede real learning. |
-| prevent                    | 防ぐ | Banning AI can prevent misuse. |`,s$=`# Thesis Statements
+| prevent                    | 防ぐ | Banning AI can prevent misuse. |
+
+### Tip 4: Maintain the Same Tense
+You want to be very careful to keep the same tense in a given sentence. For example:
+
+> **Wrong:** When I went to the store, I buy new clothes. <br> **Right:** When I went to the store, I bought new clothes.
+
+Make sure you keep your tense consistent (一貫した). 
+
+### Tip 5: Stop With the "Some"!
+Students here tend to use "some" *waaaay* too much. You won't see native English speakers use "some" as often as Japanese learners do, so avoid it unless it's strictly (厳密に) necessary (必要な). For example: 
+
+> **Weird:** I bought some clothes. <br> **Natural:** I bought clothes.
+
+Keep an eye out for that. 
+
+### Tip 6: Use "if" Statements
+Suppose you're writing an essay that argues against AI. You want to show that using AI will cause kids to cheat more often. A good way of arguing a point is using the structure (構造): "IF a, THEN b". For example:
+
+> If the government gives more funding (資金提供) to public transit (公共交通), we can reduce our negative impact (悪影響) on the environment (環境).
+
+Keep an eye out for that. `,s$=`# Thesis Statements
 In this article, we'll learn how to kick off（始める） your essays the right way. See the examples and exercise below to improve your short responses.
 
 ## What is a Thesis（論旨）?

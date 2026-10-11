@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bella Tarantino</title>
+
+  <!-- Meta -->
+  <meta name="description"
+    content="Harvard Physics &amp; CS graduate teaching English in rural Japan and building tools to measure what's working. Previously at Google, CERN, and NYC Small Business Services." />
+  <meta name="author" content="Bella Tarantino" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bellatarantino.com/" />
+  <meta property="og:title" content="Bella Tarantino" />
+  <meta property="og:description"
+    content="Harvard Physics &amp; CS grad teaching English in rural Japan and building tools to measure what's working." />
+  <meta property="og:image" content="https://bellatarantino.com/assets/portrait.png" />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Load light / dark theme  -->
+  <script>
+    try {
+      const savedTheme = JSON.parse(localStorage.getItem('portfolio-theme') || '""');
+      const systemTheme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = savedTheme || systemTheme;
+    }
+    catch (error) {
+    }
+  </script>
+
+  <link rel="stylesheet" href="/css/styles.css" />
+
+  <!-- Vendor code -->
+  <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/persist@3.14.9/dist/cdn.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.14.9/dist/cdn.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.21.0/dist/core.js"></script>
+  <script defer src="/js/site.js"></script>
+  <script defer src="/js/home.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"></script>
+</head>
+
+<body>
+  <div class="page" x-data="home">
+
+    <!-- Left column -->
+    <aside class="side">
+      <img class="portrait" src="/assets/portrait.png" alt="" onerror="this.hidden = true" />
+      <div class="side-head">
+        <!-- Name animation -->
+        <h1>
+          <span class="name" x-data="nameTicker" data-to="B" aria-hidden="true"><span x-ref="original">Isab</span><span
+              x-ref="typed"></span>ella Tarantino,</span><span class="sr-only">Isabella Tarantino,</span><br />
+          <span class="mute">educator and analyst</span>
+        </h1>
+        <span class="mute side-loc">Akita, Japan</span>
+      </div>
+      <p class="intro">Harvard Physics &amp; CS grad, now teaching English in rural Japan and building tools to measure
+        what's working.</p>
+
+      <div class="contact">
+        <!-- Email copy animation -->
+        <button :class="{ copied: emailCopied }" @click="copyEmail()" data-email="beetarantino@gmail.com">
+          <span x-show="!emailCopied">beetarantino@gmail.com</span>
+          <span x-show="emailCopied" x-cloak>Copied</span>
+        </button>
+        <a href="https://linkedin.com/in/isabella-tarantino" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="/assets/files/resume.pdf" target="_blank" rel="noopener">Resume</a>
+        <a href="https://github.com/bellatarantino" target="_blank" rel="noopener">GitHub</a>
+      </div>
+
+      <div class="side-controls">
+        <!-- Light/Dark Mode Switch  -->
+        <button class="theme" @click="$store.site.toggleTheme()"
+          :aria-label="$store.site.theme === 'dark' ? 'Light mode' : 'Dark mode'"
+          :title="$store.site.theme === 'dark' ? 'Light mode' : 'Dark mode'">
+          <i class="icon" :class="$store.site.theme === 'dark' ? 'i-sun' : 'i-moon'"></i>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Right Column w/ expandable sections  -->
+    <main class="main">
+
+      <!-- Education & Languages Header -->
+      <div class="facts">
+        <div>
+          <div class="section-head"><span>Education</span></div>
+          <strong>Harvard University Class of 2024</strong>
+          <span>A.B. Physics</span>
+          <span>Secondary Field in Computer Science</span>
+          <span>Language Citation in Chinese</span>
+          <span>GPA: 3.74 / 4.00</span>
+          <span>Awards: <a href="https://hcnyfoundation.org/community/undergrad/" target="_blank" rel="noopener">HCNY Scholar</a></span>
+          
+        </div>
+        <div>
+          <div class="section-head"><span>Languages</span></div>
+          <span><strong>English</strong>: Native</span>
+          <span><strong>Mandarin</strong>: Pre-Advanced</span>
+          <span><strong>Japanese</strong>: Intermediate</span>
+        </div>
+      </div>
+
+      <!-- Experience -->
+      <section>
+        <div class="section-head"><span>Experience</span></div>
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Assistant Language Teacher</span>
+              <span class="org">JET Program</span>
+            </span>
+            <span class="entry-meta">Jul 2025 to Present</span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <div class="loc">Yokote, Akita, Japan</div>
+              <p>Act as the primary English instructor (T1) in 10-20 English classes per week at two rural Japanese high
+                schools.</p>
+              <p>Work and live primarily in Japanese: about 50-60% of classroom instruction is delivered in Japanese,
+                and Japanese is the main language used with colleagues.</p>
+              <p>Plan and lead lessons, activities and communicative exercises; create assignments and give evaluations.
+              </p>
+              <p>Adapt to diverse learning needs, including neurodiverse (ADHD, ASD, dyslexia) learners.</p>
+              <p>Coach students for speech contests, debates, and research presentations.</p>
+              <p>Design after-school events that promote cultural exchange and language learning.</p>
+              <p>Collaborate with Japanese teachers on materials, curriculum and student engagement, acting as both
+                educator and cultural ambassador.</p>
+                <div class="chips">
+                <a class="chip" href="https://jetprogramme.org/en/" target="_blank"
+                  rel="noopener">JET Programme</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Private Tutor</span>
+              <span class="org">Freelance</span>
+            </span>
+            <span class="entry-meta">Sep 2020 to Present</span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <div class="loc">Remote</div>
+              <p>Develop curricula and syllabi across math (2nd-12th grade and college level), computer science, machine
+                learning, physics and SAT/ACT prep.</p>
+              <p>Tutor both students who are struggling and those advancing beyond their school's offerings.</p>
+              <p>Design, administer, and grade assignments and tests to assess progress and understanding.</p>
+              <p>Adapt instruction for a diverse range of students, including neurodiverse and non-native
+                English-speaking learners.</p>
+              <p>Collaborate with parents, guardians, and fellow tutors on progress updates and concerns.</p>
+              <div class="chips">
+                <a class="chip" href="https://www.wyzant.com/match/tutor/89719587" target="_blank"
+                  rel="noopener">Wyzant</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Strategy &amp; Analytics Intern</span>
+              <span class="org">NYC Department of Small Business Services</span>
+            </span>
+            <span class="entry-meta">Jun to Aug 2023</span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <div class="loc">New York, NY - Hybrid</div>
+              <p>Used Excel, Microsoft Dynamics and Python to access, clean, and analyze business data for the M/WBE
+                (Minority and Women-Owned Business Enterprises) program.</p>
+              <p>Geocoded messy, un-standardized data for thousands of businesses with QGIS and the Google Geocoding
+                API.</p>
+              <p>Built visualizations and reports in Excel, Power BI, and Python that NYC SBS officials and local
+                politicians used to monitor program success.</p>
+              <p>Completed mediation training in communication and conflict resolution.</p>
+              <div class="chips">
+                <a class="chip" href="/assets/files/mwbe.pdf" target="_blank" rel="noopener">FY23 MWBE
+                  Profile</a>
+                <a class="chip"
+                  href="https://nyc-business.nyc.gov/nycbusiness/description/minority-and-womenowned-business-enterprise-certification-program-mwbe"
+                  target="_blank" rel="noopener">NYC SBS M/WBE Program</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Research Assistant, ATLAS Experiment</span>
+              <span class="org">CERN</span>
+            </span>
+            <span class="entry-meta">Jun to Aug 2022</span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <div class="loc">Geneva, Switzerland</div>
+              <p>Coordinated with colleagues across experiments and teams to schedule, then independently ran, daily
+                test runs on the ATLAS New Small Wheel (NSW) in preparation for Run 3.</p>
+              <p>Analyzed and visualized data from ATLAS New Small Wheel (NSW) test runs with PyROOT, NumPy, SciPy and
+                Matplotlib.</p>
+              <p>Compiled test-run data and error files into reports and visualizations of the NSW's operational status
+                over two months, informing labor reallocation and funding decisions across teams.</p>
+              <p>Attended various lectures, workshops, and weekly meetings on various topics in high-energy physics.</p>
+              <div class="chips">
+                <a class="chip" href="https://atlas.cern/" target="_blank" rel="noopener">ATLAS Experiment</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">STEP Intern, Chrome Web Store</span>
+              <span class="org">Google</span>
+            </span>
+            <span class="entry-meta">May to Aug 2021</span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <div class="loc">New York, NY - Remote</div>
+              <p>Planned and executed a 12-week full-stack project delivering three end-to-end features on an internal
+                Chrome Web Store platform.</p>
+              <p>Used Kotlin and protocol buffers for data storage, remote procedure calls and database queries.</p>
+              <p>Built with Guice (dependency injection), gRPC, the Wiz frontend framework and HTML templating
+                libraries.</p>
+              <p>Read, wrote and maintained design documents</p>
+              <p>Read and edited other engineers' code in a large codebase.</p>
+              <p>Shipped production code through code review and supervisor feedback.</p>
+              <p>Attended several workshops and lectures on various topics in computer science.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section>
+        <div class="section-head"><span>Projects</span></div>
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Automated Worksheet Reader</span>
+              <span class="org">Personal project</span>
+            </span>
+            <span class="entry-meta">Fall 2026, in progress</span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <p>A Python pipeline (OpenCV, PyMuPDF, pandas) that turns scanned post-lesson reflections into structured
+                data, so students keep pen and paper practice without the need for manual data-entry.</p>
+              <p>Being used to measure engagement metrics for an ongoing study of approximately 500 English learners
+                across two high-schools in rural Japan.</p>
+              <div class="chips">
+                <a class="chip" href="https://github.com/bellatarantino/scanner" target="_blank" rel="noopener">GitHub
+                  Repository</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Lesson Engagement Tracking</span>
+              <span class="org">Independent research</span>
+            </span>
+            <span class="entry-meta">Fall 2026, ongoing</span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <p>Tracking engagement of ~500 high school English learners across two schools using worksheet-reader data
+                and mixed-effects models (statsmodels).</p>
+              <p>Findings are being shared with JET Program supervisors to improve teaching methods and track student
+                engagement, progress, and more.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Programs -->
+      <section>
+        <div class="section-head"><span>Programs</span></div>
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">QubitxQubit</span>
+              <span class="org">The Coding School - Remote</span>
+            </span>
+            <span class="entry-meta">Oct 2020 to Feb 2021</span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <p>Studied the basics of quantum mechanics, quantum computation and algorithms with MIT and Oxford
+                professors.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Computer Science Summer Institute</span>
+              <span class="org">Google</span>
+            </span>
+            <span class="entry-meta">Jul 2020</span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <p>Intensive four-week introduction to computer science for rising college freshmen, especially students
+                from groups historically underrepresented in the field.</p>
+              <p>Capstone: a three-day JavaScript group project, a visualizer that generates graphics for music.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Coursework -->
+      <section>
+        <div class="section-head"><span>Coursework (Harvard College, 2020 - 2024)</span></div>
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Physics</span>
+              <span class="org">Concentration - 9 courses</span>
+            </span>
+            <span class="entry-meta"></span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <div class="course"><span class="code">FRSEMR 52D</span><span>Quantum Entanglement and the Second Quantum
+                  Revolution</span><span class="term">Fall 2020</span></div>
+              <div class="course"><span class="code">PHYSICS 15A</span><span>Introductory Mechanics and
+                  Relativity</span><span class="term">Spring 2021</span></div>
+              <div class="course"><span class="code">PHYSICS 15C</span><span>Wave Phenomena</span><span
+                  class="term">Fall 2021</span></div>
+              <div class="course"><span class="code">PHYSICS 15B</span><span>Introductory Electromagnetism</span><span
+                  class="term">Spring 2022</span></div>
+              <div class="course"><span class="code">PHYSICS 143A</span><span>Quantum Mechanics I</span><span
+                  class="term">Spring 2022</span></div>
+              <div class="course"><span class="code">PHYSICS 195A</span><span>Introduction to Solid State
+                  Physics</span><span class="term">Fall 2022</span></div>
+              <div class="course"><span class="code">ASTRON 91R</span><span>Supervised Reading and Research</span><span
+                  class="term">Fall 2022</span></div>
+              <div class="course"><span class="code">PHYSCI 70</span><span>Introduction to Digital
+                  Fabrication</span><span class="term">Spring 2023</span></div>
+              <div class="course"><span class="code">PHYSICS 129</span><span>Energy Science</span><span
+                  class="term">Spring 2024</span></div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Computer Science &amp; Data Science</span>
+              <span class="org">Secondary field - 5 courses</span>
+            </span>
+            <span class="entry-meta"></span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <div class="course"><span class="code">COMPSCI 50</span><span>Introduction to Computer Science</span><span
+                  class="term">Fall 2020</span></div>
+              <div class="course"><span class="code">COMPSCI 20</span><span>Discrete Mathematics for Computer
+                  Science</span><span class="term">Spring 2021</span></div>
+              <div class="course"><span class="code">APMTH 120</span><span>Applied Linear Algebra and Big
+                  Data</span><span class="term">Spring 2023</span></div>
+              <div class="course"><span class="code">COMPSCI 109A</span><span>Data Science 1: Introduction to Data
+                  Science</span><span class="term">Fall 2023</span></div>
+              <div class="course"><span class="code">COMPSCI 109B</span><span>Data Science 2: Advanced Topics in Data
+                  Science</span><span class="term">Spring 2024</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Mathematics &amp; Statistics</span>
+              <span class="org">4 courses</span>
+            </span>
+            <span class="entry-meta"></span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <div class="course"><span class="code">MATH 1B</span><span>Calculus, Series, and Differential
+                  Equations</span><span class="term">Fall 2020</span></div>
+              <div class="course"><span class="code">MATH 22A</span><span>Vector Calculus and Linear Algebra
+                  I</span><span class="term">Fall 2021</span></div>
+              <div class="course"><span class="code">MATH 21A</span><span>Multivariable Calculus</span><span
+                  class="term">Spring 2022</span></div>
+              <div class="course"><span class="code">STAT 110</span><span>Introduction to Probability</span><span
+                  class="term">Fall 2022</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Chinese</span>
+              <span class="org">Language Citation - 4 courses</span>
+            </span>
+            <span class="entry-meta"></span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <div class="course"><span class="code">CHNSE 120A</span><span>Intermediate Modern Chinese</span><span
+                  class="term">Fall 2020</span></div>
+              <div class="course"><span class="code">CHNSE 120B</span><span>Intermediate Modern Chinese</span><span
+                  class="term">Spring 2021</span></div>
+              <div class="course"><span class="code">CHNSE 130A</span><span>Pre-Advanced Modern Chinese</span><span
+                  class="term">Fall 2021</span></div>
+              <div class="course"><span class="code">CHNSE 130B</span><span>Pre-Advanced Modern Chinese</span><span
+                  class="term">Spring 2022</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Humanities, Arts &amp; Social Sciences</span>
+              <span class="org">10 courses</span>
+            </span>
+            <span class="entry-meta"></span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <div class="course"><span class="code">EXPOS 20</span><span>Expository Writing: Society and the
+                  Witch</span><span class="term">Spring 2021</span></div>
+              <div class="course"><span class="code">GENED 1038</span><span>Sleep</span><span class="term">Fall
+                  2021</span></div>
+              <div class="course"><span class="code">ANTHRO 1255</span><span>Human Diet: From Neanderthals to the Future
+                  of Food</span><span class="term">Fall 2022</span></div>
+              <div class="course"><span class="code">AFVS 40H</span><span>Introduction to Still Photography</span><span
+                  class="term">Spring 2023</span></div>
+              <div class="course"><span class="code">GENED 1049</span><span>East Asian Cinema</span><span
+                  class="term">Spring 2023</span></div>
+              <div class="course"><span class="code">EMR 157</span><span>Techno-Orientalism: Asia, Technology,
+                  Futurity</span><span class="term">Fall 2023</span></div>
+              <div class="course"><span class="code">GENED 1102</span><span>Making Change When Change is Hard: the Law,
+                  Politics, and Policy of Social Change</span><span class="term">Fall 2023</span></div>
+              <div class="course"><span class="code">TDM 143</span><span>GAGA Movement</span><span class="term">Fall
+                  2023</span></div>
+              <div class="course"><span class="code">AFVS 149H</span><span>Ghost Image</span><span class="term">Spring
+                  2024</span></div>
+              <div class="course"><span class="code">GENED 1115</span><span>Human Trafficking, Slavery and Abolition in
+                  the Modern World</span><span class="term">Spring 2024</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section>
+        <div class="section-head"><span>Skills</span></div>
+        <div class="skill"><span class="mute">Programming</span><span>Python, Java, Kotlin, JavaScript, TypeScript, C,
+            C++, SQL, MATLAB, Mathematica, Bash, HTML/CSS, LaTeX</span></div>
+        <div class="skill"><span class="mute">Data &amp; ML</span><span>pandas, NumPy, SciPy, Matplotlib, statsmodels,
+            scikit-learn, PyTorch, TensorFlow, Keras, OpenCV, PyMuPDF, PyROOT</span></div>
+        <div class="skill"><span class="mute">Web &amp; backend</span><span>React, Node.js, Tailwind CSS, Flask, Django,
+            Firebase, SQLite, gRPC, protocol buffers, Guice, Wiz</span></div>
+        <div class="skill"><span class="mute">Data tools</span><span>Excel, Power BI, QGIS, Google Geocoding API,
+            Microsoft Dynamics, Jupyter</span></div>
+        <div class="skill"><span class="mute">Dev &amp; hardware</span><span>Git, GitHub, Linux, Arduino, Raspberry Pi,
+            ESP (Xiao), digital fabrication</span></div>
+        <div class="skill"><span class="mute">Teaching</span><span>Curriculum and syllabus design, assessment design,
+            differentiated instruction for neurodiverse and non-native English-speaking learners, speech and debate
+            coaching</span></div>
+        <div class="skill"><span class="mute">Professional</span><span>Data visualization, documentation and design
+            docs, code review, presentations, mediation and conflict resolution</span></div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>

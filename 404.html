@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page not found</title>
+  <meta name="robots" content="noindex" />
+
+  <!-- Load light / dark theme  -->
+  <script>
+    try {
+      const savedTheme = JSON.parse(localStorage.getItem('portfolio-theme') || '""');
+      const systemTheme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = savedTheme || systemTheme;
+    }
+    catch (error) {
+    }
+  </script>
+
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+  <div class="notfound">
+    <header class="notfound-bar">
+      <a href="/">Bella Tarantino</a>
+      <span class="mute">404</span>
+    </header>
+
+    <main class="hello-body">
+      <p>
+        The page you're looking for <strong>isn't here</strong>.
+        Head <strong><a class="home-link" href="/">back home</a></strong>
+        or check out one of the <strong>links</strong> below.
+      </p>
+      <nav class="hello-links">
+        <a href="/">Home</a>
+        <a href="https://github.com/bellatarantino" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/isabella-tarantino" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:beetarantino@gmail.com">Email</a>
+      </nav>
+    </main>
+
+    <img class="hello-portrait" src="/assets/portrait.png" alt="" />
+  </div>
+</body>
+
+</html>

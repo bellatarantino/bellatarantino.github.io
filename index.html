@@ -6,18 +6,47 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Bella Tarantino</title>
-
-  <!-- Meta -->
   <meta name="description"
-    content="Harvard Physics &amp; CS graduate teaching English in rural Japan and building tools to measure what's working. Previously at Google, CERN, and NYC Small Business Services." />
-  <meta name="author" content="Bella Tarantino" />
-  <meta property="og:type" content="website" />
+    content="Harvard Physics &amp; CS grad teaching English in rural Japan and building tools for my classroom." />
+  <meta name="author" content="Isabella (Bella) Tarantino" />
+  <link rel="canonical" href="https://bellatarantino.com/" />
+
+  <!-- og -->
+  <meta property="og:type" content="profile" />
   <meta property="og:url" content="https://bellatarantino.com/" />
+  <meta property="og:site_name" content="Bella Tarantino" />
+  <meta property="og:locale" content="en_US" />
   <meta property="og:title" content="Bella Tarantino" />
   <meta property="og:description"
-    content="Harvard Physics &amp; CS grad teaching English in rural Japan and building tools to measure what's working." />
+    content="Harvard Physics &amp; CS grad teaching English in rural Japan and building tools for my classroom." />
   <meta property="og:image" content="https://bellatarantino.com/assets/portrait.png" />
+  <meta property="og:image:alt" content="Bella Tarantino Portrait" />
+
   <meta name="twitter:card" content="summary" />
+
+  <!-- icons -->
+  <link rel="icon" href="/assets/logos/bt-circle.ico" sizes="any">
+  <link rel="icon" href="/assets/logos/bt-circle.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/logos/bt-circle.png"> 
+
+  <!-- browser results -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Isabella Tarantino",
+      "alternateName": "Bella Tarantino",
+      "url": "https://bellatarantino.com/",
+      "image": "https://bellatarantino.com/assets/portrait.png",
+      "jobTitle": "Assistant Language Teacher",
+      "worksFor": { "@type": "Organization", "name": "JET Programme" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Harvard University" },
+      "sameAs": [
+        "https://linkedin.com/in/isabella-tarantino",
+        "https://github.com/bellatarantino"
+      ]
+    }
+  </script>
 
   <!-- Load light / dark theme  -->
   <script>
@@ -56,7 +85,8 @@
         </h1>
         <span class="mute side-loc">Akita, Japan</span>
       </div>
-      <p class="intro">Harvard Physics &amp; CS grad teaching English in rural Japan and building tools for my classroom.</p>
+      <p class="intro">Harvard Physics &amp; CS grad teaching English in rural Japan and building tools for my
+        classroom.</p>
 
       <div class="contact">
         <!-- Email copy animation -->
@@ -91,16 +121,64 @@
           <span>Secondary Field in Computer Science</span>
           <span>Language Citation in Chinese</span>
           <span>GPA: 3.74 / 4.00</span>
-          <span>Awards: <a href="https://hcnyfoundation.org/community/undergrad/" target="_blank" rel="noopener">HCNY Scholar</a></span>
-          
+          <span>Awards: <a href="https://hcnyfoundation.org/community/undergrad/" target="_blank" rel="noopener">HCNY
+              Scholar</a></span>
+
         </div>
         <div>
-          <div class="section-head"><span>Languages</span></div>
-          <span><strong>English</strong>: Native</span>
-          <span><strong>Mandarin</strong>: Pre-Advanced</span>
-          <span><strong>Japanese</strong>: Intermediate</span>
+          <div class="section-head"><span>Main Skills</span></div>
+          <span><strong>Python</strong>: pandas, numpy, scikit, statsmodels, pytorch, keras</span>
+          <span><strong>Statistics &amp; ML</strong>: linear and logistic regression, regularization, neural networks, decision trees, clustering, statistical inference, model evaluation</span>
+          <span><strong>Languages</strong>: English (native), Mandarin (pre-advanced), Japanese (intermediate)</span>
         </div>
       </div>
+
+      <!-- Projects -->
+      <section>
+        <div class="section-head"><span>Projects</span></div>
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Automated Worksheet Reader</span>
+              <span class="org">Personal project</span>
+            </span>
+            <span class="entry-meta">Fall 2026, in progress</span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <p>A Python pipeline (OpenCV, PyMuPDF, pandas) that turns scanned post-lesson reflections into structured
+                data, so students keep pen and paper practice without the need for manual data-entry.</p>
+              <p>Being used to measure engagement metrics for an ongoing study of approximately 500 English learners
+                across two high-schools in rural Japan.</p>
+              <div class="chips">
+                <a class="chip" href="https://github.com/bellatarantino/scanner" target="_blank" rel="noopener">GitHub
+                  Repository</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="entry" x-data="entry" :class="{ open: isOpen }">
+          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
+            <span class="entry-title">
+              <span class="role">Lesson Engagement Tracking</span>
+              <span class="org">Independent research</span>
+            </span>
+            <span class="entry-meta">Fall 2026, ongoing</span>
+            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
+          </button>
+          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
+            <div class="entry-content">
+              <p>Tracking engagement of ~500 high school English learners across two schools using worksheet-reader data
+                and mixed-effects models (statsmodels).</p>
+              <p>Findings are being shared with JET Program supervisors to improve teaching methods and track student
+                engagement, progress, and more.</p>
+              <p>Data is being collected and analyzed with the full permission of teachers and school administrators. Only anonymized statistics and plots will be shared publicly.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Experience -->
       <section>
@@ -128,9 +206,8 @@
               <p>Design after-school events that promote cultural exchange and language learning.</p>
               <p>Collaborate with Japanese teachers on materials, curriculum and student engagement, acting as both
                 educator and cultural ambassador.</p>
-                <div class="chips">
-                <a class="chip" href="https://jetprogramme.org/en/" target="_blank"
-                  rel="noopener">JET Programme</a>
+              <div class="chips">
+                <a class="chip" href="https://jetprogramme.org/en/" target="_blank" rel="noopener">JET Programme</a>
               </div>
             </div>
           </div>
@@ -248,52 +325,6 @@
         </div>
       </section>
 
-      <!-- Projects -->
-      <section>
-        <div class="section-head"><span>Projects</span></div>
-        <div class="entry" x-data="entry" :class="{ open: isOpen }">
-          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
-            <span class="entry-title">
-              <span class="role">Automated Worksheet Reader</span>
-              <span class="org">Personal project</span>
-            </span>
-            <span class="entry-meta">Fall 2026, in progress</span>
-            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
-          </button>
-          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
-            <div class="entry-content">
-              <p>A Python pipeline (OpenCV, PyMuPDF, pandas) that turns scanned post-lesson reflections into structured
-                data, so students keep pen and paper practice without the need for manual data-entry.</p>
-              <p>Being used to measure engagement metrics for an ongoing study of approximately 500 English learners
-                across two high-schools in rural Japan.</p>
-              <div class="chips">
-                <a class="chip" href="https://github.com/bellatarantino/scanner" target="_blank" rel="noopener">GitHub
-                  Repository</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="entry" x-data="entry" :class="{ open: isOpen }">
-          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
-            <span class="entry-title">
-              <span class="role">Lesson Engagement Tracking</span>
-              <span class="org">Independent research</span>
-            </span>
-            <span class="entry-meta">Fall 2026, ongoing</span>
-            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
-          </button>
-          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
-            <div class="entry-content">
-              <p>Tracking engagement of ~500 high school English learners across two schools using worksheet-reader data
-                and mixed-effects models (statsmodels).</p>
-              <p>Findings are being shared with JET Program supervisors to improve teaching methods and track student
-                engagement, progress, and more.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- Programs -->
       <section>
         <div class="section-head"><span>Programs</span></div>
@@ -365,7 +396,7 @@
                   Fabrication</span><span class="term">Spring 2023</span></div>
               <div class="course"><span class="code">PHYSICS 129</span><span>Energy Science</span><span
                   class="term">Spring 2024</span></div>
-              
+
             </div>
           </div>
         </div>

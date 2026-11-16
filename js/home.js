@@ -71,7 +71,7 @@ document.addEventListener('alpine:init', () => {
 
       // one full cuucle
       const queueCycle = isFirstCycle => {
-        typewriter.pauseFor(3000).callFunction(showCursor)
+        typewriter.pauseFor(6000).callFunction(showCursor)
 
         const afterDeleting = isFirstCycle
           ? deleteOriginalLetters()
@@ -79,18 +79,22 @@ document.addEventListener('alpine:init', () => {
 
         afterDeleting
           // Isabella -> Bella
-          .pauseFor(350)
+          .pauseFor(500)
           .typeString(replacementLetters)
           .callFunction(hideCursor)
-          .pauseFor(4500)
+          .pauseFor(6000)
           // Bella -> Isabella
           .callFunction(showCursor)
           .deleteChars(replacementLetters.length)
-          .pauseFor(350)
+          .pauseFor(500)
           .typeString(originalLetters)
           .callFunction(hideCursor)
           // and again
-          .callFunction(() => queueCycle(false))
+          .callFunction(() => setTimeout(() => {
+            typewriter.stop()      // cancel the frames the library already scheduled
+            queueCycle(false)
+            typewriter.start()     // restart the loop
+          }))
       }
 
       queueCycle(true)

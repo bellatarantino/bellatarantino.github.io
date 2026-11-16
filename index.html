@@ -27,7 +27,7 @@
   <!-- icons -->
   <link rel="icon" href="/assets/logos/bt-circle.ico" sizes="any">
   <link rel="icon" href="/assets/logos/bt-circle.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/assets/logos/bt-circle.png"> 
+  <link rel="apple-touch-icon" href="/assets/logos/bt-circle.png">
 
   <!-- browser results -->
   <script type="application/ld+json">
@@ -85,9 +85,10 @@
         </h1>
         <span class="mute side-loc">Akita, Japan</span>
       </div>
-      <p class="intro">Harvard Physics &amp; CS grad teaching English in rural Japan and building tools for my
-        classroom.</p>
-
+      <p class="intro">I'm recent Harvard physics graduate and English teacher in rural Japan hoping to research and develop tools to support independent and supplemental learning.
+        <br> <br> 
+        At the moment, I'm using my quantitative background to create a large corpus of tutoring transcripts and an assortment of tools for my classroom.
+        
       <div class="contact">
         <!-- Email copy animation -->
         <button :class="{ copied: emailCopied }" @click="copyEmail()" data-email="beetarantino@gmail.com">
@@ -125,10 +126,11 @@
               Scholar</a></span>
 
         </div>
-        <div>
+         <div>
           <div class="section-head"><span>Main Skills</span></div>
-          <span><strong>Python</strong>: pandas, numpy, scikit, statsmodels, pytorch, keras</span>
-          <span><strong>Statistics &amp; ML</strong>: linear and logistic regression, regularization, neural networks, decision trees, clustering, statistical inference, model evaluation</span>
+          <span><strong>Statistics</strong>: regression, Bayesian &amp; hierarchical models, hypothesis testing</span>
+          <span><strong>ML &amp; NLP</strong>: Transformers, attention, word embeddings, language modeling,
+            sequence models (RNN/LSTM), ensemble methods, clustering</span>
           <span><strong>Languages</strong>: English (native), Mandarin (pre-advanced), Japanese (intermediate)</span>
         </div>
       </div>
@@ -139,44 +141,47 @@
         <div class="entry" x-data="entry" :class="{ open: isOpen }">
           <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
             <span class="entry-title">
-              <span class="role">Automated Worksheet Reader</span>
-              <span class="org">Personal project</span>
+              <span class="role">Tutoring Transcript Corpus</span>
+              <span class="org">Independent Research</span>
             </span>
-            <span class="entry-meta">Fall 2026, complete</span>
+            <span class="entry-meta">Fall 2025, ongoing</span>
             <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
           </button>
           <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
             <div class="entry-content">
-              <p>A Python pipeline (OpenCV, PyMuPDF, pandas) that turns scanned post-lesson reflections into structured
-                data, so students keep pen and paper practice without the need for manual data-entry.</p>
-              <p>Being used to measure engagement metrics for an ongoing informal study of approximately 400 English learners
-                in rural Japan.</p>
-              <div class="chips">
-                <a class="chip" href="https://github.com/bellatarantino/scanner" target="_blank" rel="noopener">GitHub
-                  Repository</a>
-              </div>
+              <p>A corpus of ~290 hours of individual and small-group math and computer science tutoring session transcripts with middle and
+                high-school students.</p>
+              <p>Transcripts are being de-identified, cleaned, and standardized into a turn-level schema (JSONL), segmented into turns, exchanges, and problem episodes, and annotated.</p>
+              <p>Tutor move annotations (focus, probing, telling, generic) are adapted from MathDial (Macina et al., 2023) and student engagement (passive, active, constructive, interactive) uses the ICAP framework (Chi & Wylie, 2014).</p>
+              <p>From August 2025 to November 2026, ~200 hours of computer science and ~90 hours of mathematics tutoring have been recorded.</p>
+              <p>All sessions are recorded with student and guardian consent. Data kept private due to identification risk.</p>
             </div>
           </div>
         </div>
+
 
         <div class="entry" x-data="entry" :class="{ open: isOpen }">
           <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
             <span class="entry-title">
               <span class="role">Lesson Engagement Tracking</span>
-              <span class="org">Independent research</span>
+              <span class="org">Personal Project</span>
             </span>
             <span class="entry-meta">Fall 2026, ongoing</span>
             <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
           </button>
           <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
             <div class="entry-content">
-              <p>Tracking engagement of ~400 high school English learners in a rural Japanese high school using worksheet-reader data.</p>
-              <p>Findings are being shared with JET Program supervisors to improve teaching methods and track student
-                engagement, progress, and more.</p>
-              <p>Data is being collected and analyzed with the full permission of teachers and school administrators. Only anonymized statistics and plots will be shared publicly.</p>
+              <p>Built a Python pipeline using OpenCV that turns pen-and-paper reflections into
+                structured data for teachers to gain long-term engagement metrics.</p>
+              <p>Tracking engagement of ~400 high school English learners in a rural Japanese high school using
+                worksheet-reader data.</p>
+              <p>Findings are being shared with JET Program supervisors to improve teaching methods and provide insights into the classroom.</p>
+              <p>Data is being collected and analyzed with the full permission of teachers and school administrators.
+                Only anonymized statistics and plots will be shared publicly.</p>
             </div>
           </div>
         </div>
+
       </section>
 
       <!-- Experience -->
@@ -223,7 +228,7 @@
           </button>
           <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
             <div class="entry-content">
-              <div class="loc">Remote</div>
+              <div class="loc">Hybrid - New York, NY ; Cambridge, MA ; Akita, Japan</div>
               <p>Develop curricula and syllabi across math (2nd-12th grade and college level), computer science, machine
                 learning, physics and SAT/ACT prep.</p>
               <p>Tutor both students who are struggling and those advancing beyond their school's offerings.</p>
@@ -276,7 +281,7 @@
           <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
             <span class="entry-title">
               <span class="role">Research Assistant, ATLAS Experiment</span>
-              <span class="org">CERN</span>
+              <span class="org">Large Hadron Collider @ CERN</span>
             </span>
             <span class="entry-meta">Jun to Aug 2022</span>
             <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
@@ -404,7 +409,7 @@
           <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
             <span class="entry-title">
               <span class="role">Computer Science &amp; Data Science</span>
-              <span class="org">Secondary field - 5 courses</span>
+              <span class="org">Secondary Field - 5 courses</span>
             </span>
             <span class="entry-meta"></span>
             <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
@@ -429,7 +434,7 @@
           <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
             <span class="entry-title">
               <span class="role">Mathematics &amp; Statistics</span>
-              <span class="org">4 courses</span>
+              <span class="org">Concentration - 4 courses</span>
             </span>
             <span class="entry-meta"></span>
             <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
@@ -511,20 +516,17 @@
       <section>
         <div class="section-head"><span>Skills</span></div>
         <div class="skill"><span class="mute">Programming</span><span>Python, Java, Kotlin, JavaScript, TypeScript, C,
-            C++, SQL, MATLAB, Mathematica, Bash, HTML/CSS, LaTeX</span></div>
-        <div class="skill"><span class="mute">Data &amp; ML</span><span>pandas, NumPy, SciPy, Matplotlib, statsmodels,
+            C++, SQL, MATLAB, Mathematica, Bash, HTML/CSS, LaTeX, ROOT</span></div>
+        <div class="skill"><span class="mute">Data Science</span><span>pandas, NumPy, SciPy, Matplotlib, statsmodels,
             scikit-learn, PyTorch, TensorFlow, Keras, OpenCV, PyMuPDF, PyROOT</span></div>
+            <div class="skill"><span class="mute">Data Analytics</span><span>Excel, Power BI, QGIS, Google Geocoding API,
+            Microsoft Dynamics</span></div>
         <div class="skill"><span class="mute">Web &amp; backend</span><span>React, Node.js, Tailwind CSS, Flask, Django,
             Firebase, SQLite, gRPC, protocol buffers, Guice, Wiz</span></div>
-        <div class="skill"><span class="mute">Data tools</span><span>Excel, Power BI, QGIS, Google Geocoding API,
-            Microsoft Dynamics, Jupyter</span></div>
-        <div class="skill"><span class="mute">Dev &amp; hardware</span><span>Git, GitHub, Linux, Arduino, Raspberry Pi,
-            ESP (Xiao), digital fabrication</span></div>
-        <div class="skill"><span class="mute">Teaching</span><span>Curriculum and syllabus design, assessment design,
-            differentiated instruction for neurodiverse and non-native English-speaking learners, speech and debate
-            coaching</span></div>
-        <div class="skill"><span class="mute">Professional</span><span>Data visualization, documentation and design
-            docs, code review, presentations, mediation and conflict resolution</span></div>
+        <div class="skill"><span class="mute">Dev &amp; Hardware</span><span>Git, Linux, Arduino, Raspberry Pi,
+            ESP, Fusion 360, CNC Milling</span></div>
+<div class="skill"><span class="mute">Teaching</span><span>Multilingual instruction (English, Japanese, Mandarin),
+    EFL, team teaching, one-on-one and small-group instruction, materials design, adaptations for ADHD, ASD and dyslexic learners</span></div>
       </section>
     </main>
   </div>

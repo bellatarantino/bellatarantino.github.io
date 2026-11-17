@@ -27,23 +27,8 @@
   <link rel="icon" href="/assets/logos/bt-circle.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/logos/bt-circle.png">
 
-  <!-- Load light / dark theme  -->
-  <script>
-    try {
-      const savedTheme = JSON.parse(localStorage.getItem('portfolio-theme') || '""');
-      const systemTheme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      document.documentElement.dataset.theme = savedTheme || systemTheme;
-    }
-    catch (error) {
-    }
-  </script>
-
   <link rel="stylesheet" href="/css/styles.css" />
 
-  <!-- Vendor code -->
-  <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/persist@3.14.9/dist/cdn.min.js"></script>
-  <script defer src="/js/site.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"></script>
 </head>
 
 <body>
@@ -62,14 +47,6 @@
       <p class="intro">This tutoring transcript, shared with the permission of both the student and parents, is of a
         one-on-one session with a high-school Algebra I student reviewing for a multi-step equations test.</p>
 
-      <div class="side-controls">
-        <!-- Light/Dark Mode Switch  -->
-        <button class="theme" @click="$store.site.toggleTheme()"
-          :aria-label="$store.site.theme === 'dark' ? 'Light mode' : 'Dark mode'"
-          :title="$store.site.theme === 'dark' ? 'Light mode' : 'Dark mode'">
-          <i class="icon" :class="$store.site.theme === 'dark' ? 'i-sun' : 'i-moon'"></i>
-        </button>
-      </div>
     </aside>
 
     <!-- Right column: transcript, converted with Claude API -->
@@ -1139,7 +1116,7 @@
           </li>
           <li class="turn student">
             <div class="turn-meta"><span class="speaker">Student</span></div>
-            <p class="bubble">Yeah, but wouldn't it... isn't the [inaudible]?</p>
+            <p class="bubble">Yeah, but wouldn't it... isn't the <span class="redact">[inaudible]</span>?</p>
           </li>
           <li class="turn tutor">
             <div class="turn-meta"><span class="speaker">Tutor</span></div>
@@ -1334,7 +1311,7 @@
           </li>
           <li class="turn student">
             <div class="turn-meta"><span class="speaker">Student</span></div>
-            <p class="bubble">25.621.</p>
+            <p class="bubble">25<span class="redact">[inaudible]</span></p>
           </li>
           <li class="turn tutor">
             <div class="turn-meta"><span class="speaker">Tutor</span></div>

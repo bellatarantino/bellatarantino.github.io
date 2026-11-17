@@ -11,7 +11,7 @@
   <meta name="author" content="Isabella (Bella) Tarantino" />
   <link rel="canonical" href="https://bellatarantino.com/" />
 
-  <!-- og -->
+  <!-- goog -->
   <meta property="og:type" content="profile" />
   <meta property="og:url" content="https://bellatarantino.com/" />
   <meta property="og:site_name" content="Bella Tarantino" />
@@ -21,8 +21,6 @@
     content="Harvard Physics &amp; CS grad teaching English in rural Japan and building tools for my classroom." />
   <meta property="og:image" content="https://bellatarantino.com/assets/portrait.png" />
   <meta property="og:image:alt" content="Bella Tarantino Portrait" />
-
-  <meta name="twitter:card" content="summary" />
 
   <!-- icons -->
   <link rel="icon" href="/assets/logos/bt-circle.ico" sizes="any">
@@ -48,24 +46,11 @@
     }
   </script>
 
-  <!-- Load light / dark theme  -->
-  <script>
-    try {
-      const savedTheme = JSON.parse(localStorage.getItem('portfolio-theme') || '""');
-      const systemTheme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      document.documentElement.dataset.theme = savedTheme || systemTheme;
-    }
-    catch (error) {
-    }
-  </script>
-
   <link rel="stylesheet" href="/css/styles.css" />
 
   <!-- Vendor code -->
-  <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/persist@3.14.9/dist/cdn.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.14.9/dist/cdn.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.21.0/dist/core.js"></script>
-  <script defer src="/js/site.js"></script>
   <script defer src="/js/home.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"></script>
 </head>
@@ -85,7 +70,7 @@
         </h1>
         <span class="mute side-loc">Akita, Japan</span>
       </div>
-      <p class="intro">I'm recent Harvard physics graduate and English teacher in rural Japan hoping to research and develop tools to support independent and supplemental learning.
+      <p class="intro">I'm a recent Harvard physics graduate and English teacher in rural Japan hoping to research and develop tools to support independent and supplemental learning.
         <br> <br> 
         At the moment, I'm using my quantitative background to create a small corpus of tutoring transcripts and an assortment of tools for my classroom.
         
@@ -93,21 +78,13 @@
         <!-- Email copy animation -->
         <button :class="{ copied: emailCopied }" @click="copyEmail()" data-email="beetarantino@gmail.com">
           <span x-show="!emailCopied">beetarantino@gmail.com</span>
-          <span x-show="emailCopied" x-cloak>Copied</span>
+          <span x-show="emailCopied" x-cloak>Copied!</span>
         </button>
         <a href="https://linkedin.com/in/isabella-tarantino" target="_blank" rel="noopener">LinkedIn</a>
         <a href="/assets/files/resume.pdf" target="_blank" rel="noopener">Resume</a>
         <a href="https://github.com/bellatarantino" target="_blank" rel="noopener">GitHub</a>
       </div>
 
-      <div class="side-controls">
-        <!-- Light/Dark Mode Switch  -->
-        <button class="theme" @click="$store.site.toggleTheme()"
-          :aria-label="$store.site.theme === 'dark' ? 'Light mode' : 'Dark mode'"
-          :title="$store.site.theme === 'dark' ? 'Light mode' : 'Dark mode'">
-          <i class="icon" :class="$store.site.theme === 'dark' ? 'i-sun' : 'i-moon'"></i>
-        </button>
-      </div>
     </aside>
 
     <!-- Right Column w/ expandable sections  -->
@@ -178,7 +155,7 @@
                 structured data for teachers to gain long-term engagement metrics.</p>
               <p>Tracking engagement of ~400 high school English learners in a rural Japanese high school using
                 worksheet-reader data.</p>
-              <p>Findings are being shared with JET Program supervisors to improve teaching methods and provide insights into the classroom.</p>
+              <p>Findings are being shared with JET Programme supervisors to improve teaching methods and provide insights into the classroom.</p>
               <p>Data is being collected and analyzed with the full permission of teachers and school administrators.
                 Only anonymized statistics and plots will be shared publicly.</p>
                 <div class="chips"><a class="chip" href="https://github.com/bellatarantino/scanner" target="_blank" rel="noopener">GitHub Repository</a></div>
@@ -196,7 +173,7 @@
           <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
             <span class="entry-title">
               <span class="role">Assistant Language Teacher</span>
-              <span class="org">JET Program</span>
+              <span class="org">JET Programme</span>
             </span>
             <span class="entry-meta">Jul 2025 to Present</span>
             <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
@@ -325,7 +302,7 @@
               <p>Used Kotlin and protocol buffers for data storage, remote procedure calls and database queries.</p>
               <p>Built with Guice (dependency injection), gRPC, the Wiz frontend framework and HTML templating
                 libraries.</p>
-              <p>Read, wrote and maintained design documents</p>
+              <p>Read, wrote and maintained design documents.</p>
               <p>Read and edited other engineers' code in a large codebase.</p>
               <p>Shipped production code through code review and supervisor feedback.</p>
               <p>Attended several workshops and lectures on various topics in computer science.</p>

@@ -12,15 +12,6 @@
   color-scheme: light;
 }
 
-:root[data-theme='dark'] {
-  --bg: #161615;
-  --ink: #ecebe6;
-  --mute: #8f8c85;
-  --line: #2c2b29;
-  --chip: #232220;
-  --acc: #a3ad93;
-  color-scheme: dark;
-}
 
 /* fonts */
 @font-face {
@@ -69,6 +60,7 @@ html {
   display: none;
 }
 
+/* main things */
 body {
   margin: 0;
   min-height: 100vh;
@@ -76,7 +68,6 @@ body {
   color: var(--ink);
   font-family: var(--sans);
   -webkit-font-smoothing: antialiased;
-  transition: background var(--dur) ease, color var(--dur) ease;
 }
 
 a {
@@ -125,7 +116,7 @@ strong {
   border-radius: 2px;
 }
 
-/* icons */
+/* chevron for dropdowns from tabler.io */
 .icon {
   display: inline-block;
   width: 16px;
@@ -140,15 +131,6 @@ strong {
   --icon: url(https://cdn.jsdelivr.net/npm/@tabler/icons@3.34.1/icons/outline/chevron-down.svg);
 }
 
-.i-moon {
-  --icon: url(https://cdn.jsdelivr.net/npm/@tabler/icons@3.34.1/icons/outline/moon.svg);
-}
-
-.i-sun {
-  --icon: url(https://cdn.jsdelivr.net/npm/@tabler/icons@3.34.1/icons/outline/sun.svg);
-}
-
-
 /* headings */
 .section-head {
   display: flex;
@@ -162,13 +144,7 @@ strong {
   color: var(--mute);
 }
 
-/* light/dark toggle*/
-.theme {
-  display: inline-flex;
-  align-self: center;
-}
-
-/* resources */
+/* resources and links on dropdown elements */
 .chips {
   display: flex;
   flex-wrap: wrap;
@@ -194,7 +170,6 @@ strong {
 }
 
 /* homepage */
-
 .page {
   max-width: 1040px;
   margin: 0 auto;
@@ -205,7 +180,7 @@ strong {
   align-items: flex-start;
 }
 
-/* 2 columns */
+/* 2 column layout */
 .main {
   flex: 1 1 480px;
   min-width: 0;
@@ -214,7 +189,7 @@ strong {
   gap: 56px;
 }
 
-/* sidebar */
+/* left side bar */
 .side {
   flex: 0 1 240px;
   min-width: 200px;
@@ -251,7 +226,27 @@ strong {
   font-size: 14px;
 }
 
-/* animated name */
+.intro {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.contact button:hover,
+.contact button.copied {
+  color: var(--acc);
+}
+
+
+/* animated name on homepage */
 .name .Typewriter__cursor {
   display: none;
 }
@@ -272,33 +267,7 @@ strong {
   }
 }
 
-.intro {
-  margin: 0;
-  font-size: 15px;
-  line-height: 1.6;
-  text-wrap: pretty;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  font-size: 14px;
-}
-
-.contact button:hover,
-.contact button.copied {
-  color: var(--acc);
-}
-
-.side-controls {
-  display: flex;
-  align-items: center;
-  margin-top: 6px;
-  color: var(--mute);
-}
-
-/* top education + languages */
+/* education + languages */
 .facts {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -318,7 +287,7 @@ strong {
   margin-top: 8px;
 }
 
-/* expandable rows */
+/* expandable / dropdown rows */
 .entry {
   border-bottom: 1px solid var(--line);
 }
@@ -418,7 +387,7 @@ strong {
   color: var(--mute);
 }
 
-/* course list 3 column */
+/* 3 column list for coursework section */
 .course {
   display: grid;
   grid-template-columns: 104px minmax(0, 1fr) auto;
@@ -440,7 +409,7 @@ strong {
   white-space: nowrap;
 }
 
-/* skills */
+/* skills section layout */
 .skill {
   display: grid;
   grid-template-columns: 140px minmax(0, 1fr);
@@ -451,7 +420,7 @@ strong {
   line-height: 1.55;
 }
 
-/* 404 layout  */
+/* 404 page layout */
 .notfound {
   min-height: 100vh;
   position: relative;
@@ -533,9 +502,7 @@ strong {
     min-height: max-content;
   }
 
-  .side-controls {
-    margin-top: auto;
-  }
+
 }
 
 /* Short screens  */
@@ -612,8 +579,9 @@ strong {
     gap: 4px;
   }
 }
-/* transcript page */
 
+
+/* transcript page */
 .transcript {
   list-style: none;
   margin: 0;
@@ -652,7 +620,7 @@ strong {
   font-weight: 500;
 }
 
-/* iMessage-style bubbles: round pills, tail on the last bubble of each group */
+/* iMessage-style bubbles: tail SVG courtesy of Claude */
 .bubble {
   position: relative;
   margin: 0;
@@ -662,7 +630,6 @@ strong {
   line-height: 1.5;
   text-wrap: pretty;
   background: var(--chip);
-  transition: background var(--dur) ease;
 }
 
 .turn.student .bubble {
@@ -692,7 +659,7 @@ strong {
   transform: scaleX(-1);
 }
 
-/* [personal] / [inaudible] */
+/* [personal] / [inaudible] / etc. markup */
 .redact {
   color: var(--mute);
   font-style: italic;

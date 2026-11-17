@@ -1,0 +1,1984 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sample Transcript · Bella Tarantino</title>
+  <meta name="description"
+    content="A sample one-on-one Algebra I tutoring session from the Tutoring Transcript Corpus, shared with student and parent permission." />
+  <meta name="author" content="Isabella (Bella) Tarantino" />
+  <link rel="canonical" href="https://bellatarantino.com/transcript.html" />
+
+  <!-- og -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://bellatarantino.com/transcript.html" />
+  <meta property="og:site_name" content="Bella Tarantino" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="Sample Transcript · Tutoring Transcript Corpus" />
+  <meta property="og:description"
+    content="A sample one-on-one Algebra I tutoring session from the Tutoring Transcript Corpus." />
+
+  <meta name="twitter:card" content="summary" />
+
+  <!-- icons -->
+  <link rel="icon" href="/assets/logos/bt-circle.ico" sizes="any">
+  <link rel="icon" href="/assets/logos/bt-circle.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/logos/bt-circle.png">
+
+  <!-- Load light / dark theme  -->
+  <script>
+    try {
+      const savedTheme = JSON.parse(localStorage.getItem('portfolio-theme') || '""');
+      const systemTheme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = savedTheme || systemTheme;
+    }
+    catch (error) {
+    }
+  </script>
+
+  <link rel="stylesheet" href="/css/styles.css" />
+
+  <!-- Vendor code -->
+  <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/persist@3.14.9/dist/cdn.min.js"></script>
+  <script defer src="/js/site.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.9/dist/cdn.min.js"></script>
+</head>
+
+<body>
+  <div class="page" x-data>
+
+    <!-- Left column -->
+    <aside class="side">
+      <img class="portrait" src="/assets/portrait.png" alt="" onerror="this.hidden = true" />
+      <div class="side-head">
+        <h1>Sample Transcript<br />
+        </h1>
+        <div class="details mute">
+        <span>Tutoring Transcript Corpus</span>
+      </div>
+      </div>
+      <p class="intro">This tutoring transcript, shared with the permission of both the student and parents, is of a
+        one-on-one session with a high-school Algebra I student reviewing for a multi-step equations test.</p>
+
+      <div class="side-controls">
+        <!-- Light/Dark Mode Switch  -->
+        <button class="theme" @click="$store.site.toggleTheme()"
+          :aria-label="$store.site.theme === 'dark' ? 'Light mode' : 'Dark mode'"
+          :title="$store.site.theme === 'dark' ? 'Light mode' : 'Dark mode'">
+          <i class="icon" :class="$store.site.theme === 'dark' ? 'i-sun' : 'i-moon'"></i>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Right column: transcript, converted with Claude API -->
+    <main class="main">
+      <section>
+        <div class="section-head"><span>Transcript</span></div>
+        <ol class="transcript" aria-label="Transcript">
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble"><span class="redact">[personal]</span></p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Hi.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">What's going on?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Mmm, nothing much. It's just... I have a math test on Friday.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Oh, yeah. How are we feeling?</p>
+            <p class="bubble">I'm just pulling up my work.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">I think I... I think I understand it, but, like, there's some problems that I don't understand.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Your mom sent me your homework?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yeah, is that something you wanna look at together?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah, sure.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yes? Okay, so I'll go ahead and I'll send that to my iPad.</p>
+            <p class="bubble">Also have some extra practice, as usual. I mean, today, since we have a test, we'll just be trying to get as much practice as we can.</p>
+            <p class="bubble">Hmm... Notability... Okay, there we go. Alright.</p>
+            <p class="bubble">Hmm... Trying to make sure that this doesn't move, but I don't know if that's something you can do. Or is it? Hmm... I guess it's not something you can do. Okay, whatever.</p>
+            <p class="bubble">Um, have you looked at the homework at all? Have you started it?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah, I looked at it, and I understand most of the problems, but there's some that...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Oh, there's some specific ones that you want to talk about?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">I don't... yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Which numbers are we looking at?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um... I think, like, number 12... and, uh... number... what's it called? Uh, 10. I think those two are kind of like... tricky... for me.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Okay, so let's look at them together. What are you thinking about number 12?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So... it's like... one of them's, like, a fraction.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And the other... it's not like there's, like, two numbers I can, like, subtract or add to, but it's just, like... I don't really know what to do here, because... Do I have put, like, a 1 over the... Or, do I turn the 2 into a fraction? Or no.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Well, um, what is your goal? Like, what do you want to end up with?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">To get the variable, like, alone.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Right, the variable should be alone. Is the variable currently alone?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um, no, it's part of the fraction.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">What's preventing the variable from being alone?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">the 16.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And what's the relationship between M and 16?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">That, uh, it's like... A fraction, both of them are a part of the fraction.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Let's not use the word fraction. Use an operation. An operation is something like...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Division?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Good. Division. So how do we undo that?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Multiplication.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And what would we multiply by to get rid of the 16?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">The two... the negative 2?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So, if we multiply by negative 2, 16 doesn't go away. Here we have M divided by 16. So in order to get rid of the divided by 16, what are we going to multiply by?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">the negative 2.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So, if we multiply by negative 2, the denominator does not disappear. It just becomes smaller.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Oh, would you multiply by... Um... I don't know what you multiply by. You multiply the M by the 16?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">We're gonna multiply everything by 16. Because think about it, if we multiply by 16, then we'll have 16 in the numerator and 16 in the denominator. And what's 16 divided by 16?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um... one.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So this kind of cancels out, right? And the M becomes alone. Right.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">M would equal negative 2.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Times 16. You have to multiply both sides by 16.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay. Same.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So go ahead and basically just multiply everything by the denominator, 16.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Is it negative 32?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Absolutely. So remember, you're always doing the opposite. So if it's M divided by 16...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">You're gonna multiply by 16.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So if, like, a fraction had, like, the variable as the denominator and, like, the number as the numerator, would you... would it be the, like, the same thing where you multiply everything by that number?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">If it's... Mmm...</p>
+            <p class="bubble">Absolutely. You would multiply by M. You'd multiply by the denominator, and then this cancels out with this, so you get 16 equals minus 2M. And then it would take one more step to solve, right?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Division.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yeah, what would we divide by?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">The negative 2 to, like, everything.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Beautiful. So, this would become negative 8 equals M. So you get... you get the idea, right?</p>
+            <p class="bubble">So, you're basically going to multiply by whatever's in the denominator, because that's how we get rid of the denominator, because the opposite of division is multiplication.</p>
+            <p class="bubble">So, this is minus 22A equals 418. What are we having trouble with here?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Uh, oh. So... It's kind of like the same thing, because it doesn't really have, like, um... Uh... because they're, they're not, like, terms.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yeah, yeah.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So, like, um... I can't, like, subtract or, like, add the 22 to the...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">418, so...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Exactly, yeah, no. I got you. So, what... can you read this out?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Negative 22A equals 418.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">What operation is happening here?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Division? No. Is it multiplication?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">It's multiplication! So, to be clear, when you have a number in front of a variable... let's say this is a number. For example, 3X, negative 10X: this is always 3 times X, negative 10 times X.</p>
+            <p class="bubble">Then when you have X in a fraction, this is always X divided by that number.</p>
+            <p class="bubble">For example, X over 3 is equal to X divided by 3. X over 5 is equal to X divided by 5. The only way you get division is with a fraction.</p>
+            <p class="bubble">So this is 22 times A. So what would be the opposite of 22 times?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um, 22 divided by an A.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">You're not... ignore the A.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Uhhh...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">You're gonna just divide by 22.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So, and it's negative 22, so you want to divide by exactly the same thing, so you're going to divide everything by negative 22. And then, what's negative 22 divided by negative 22?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um, it'd cancel out.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">They cancel out! So you just get A equals... And then that little... that part that you have to do.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Does that make sense?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And that... that's gonna be a little bit of a doozy, but... give this one a shot.</p>
+            <p class="bubble">How we doing? The division?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah, I'm trying to divide it. I'm just trying to figure out.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yeah, well, it's a big one.</p>
+            <p class="bubble">Do you need a hand?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um, I think so.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So, you can do this with normal long division, right?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah, you could.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">What is it, 418?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah, it's, uh, 418 divided by the negative 22.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Okay, so we could just throw the negative on later. How many times does 22 go into 41?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um, that's what I'm trying to figure out.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Well, what's 22 times 2?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">22 times 2 would be, uh... Wouldn't it be, uh... 40... 44?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">44, and that's bigger than 41, so it must only go in one time.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay, so then... Okay.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And now you can continue.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Same thing.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And do you remember how to simplify fractions?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">You had to... it has to, like, um... It's... it's like the same number goes into... it has to be, like, the same number that can go into each of the numbers that you're dividing.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Right! So very often, this is a trick I use, is that when I'm dividing two numbers, and I'm like, damn, this would be kind of annoying and hard, what I do is, is I just simplify it as a fraction.</p>
+            <p class="bubble">So first of all, these are both even, so I can divide them by 2. And division by 2 is pretty easy.</p>
+            <p class="bubble">2 goes into 4 twice, and then 2 goes into 18 9 times. So this becomes 209. And then how many times does 2 go into 22?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um, what... wouldn't you... can you do 2 divided by 2?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">First, and then that'll be, uh, 1.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And then you do it again, so it's 11.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">11, very good. Now I have 209 divided by 11. And 11 goes into 20...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um, 11.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">There's nothing I can... Yeah, 11 goes into 20 how many times?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um... I think I goes in once.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Just once. And what's the remainder?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Uh, it would be, um... Wouldn't it be, like, um... what's it called? Is it... is it... Is it 9?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So here we get 99. How many times does 11 go into 99?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um, 11 goes into 99, 9 times.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And there's our answer. So for me, I use this trick when the division looks kind of tough. Um, I just go ahead and I simplify it as a fraction, if I can, first, and then I do the long division, because sometimes simplifying it as a fraction can make it a little bit less complicated.</p>
+            <p class="bubble">For example, like, 125 divided by 25. Both of these are divisible by 5, so I could do that first. You know what I mean?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">It's just a little trick! You don't have to use it, though. Um, any other questions about this worksheet?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um... not really. The other stuff, I kinda know how to do.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Okay. So I'll go here, and we're basically just gonna spam practice today, right? Because it's right before your test.</p>
+            <p class="bubble">Um, and this is... your test is on multi-step equations, right?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um... Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Okay. So I'm just gonna do a quick refresher of some of the tricks that we learned together.</p>
+            <p class="bubble">Um, so for example, if we have X divided by 4 equals 100, what we're gonna do is we're gonna read this out as X divided by 4. And then we say what's the opposite of division? It's multiplication.</p>
+            <p class="bubble">And so we're just gonna multiply everything by 4. This cancels out, and this becomes 400. So we get X equals 400.</p>
+            <p class="bubble">Um, so when we have just, like, X divided by a number, we're just gonna multiply by it, right? Any questions there?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um... nah, not really. So, like...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Pretty straightforward.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">With... uh, so basically what you're... so if you're dividing, like, the 4 by both sides, the X kind of just, like, goes away, so you don't really need to, uh, like...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">If we're dividing both sides by 4?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Oh, no, you're multiplying.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Okay, if we're dividing it, the X doesn't go away, the 4 should go away.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah. Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">The... or I should say, a better way to say it is the denominator goes away.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And we're left with X, right?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay, so then I would just...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So you... yeah, so you shouldn't need to worry about that side very much. The reason you multiply by 4 is so that you don't have to worry about that side. That's the point.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Could you just, um... what's it called? Could you just multiply the 4 to the 100, and then it just kinda, like... Be X equals 100.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yes, that's the same thing. That's exactly what we're doing. So, you could skip the step where you... this cancels out, and you could just say, well, I know it cancels out, so I'm just gonna write this as X equals 100 times 4.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah. Okay.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Absolutely, that's the same thing as what we're doing. So it's totally legal.</p>
+            <p class="bubble">Um, the second type of, like, kind of weird thing we ran into that I wanted to go over was something like this. 3X over 5 equals 9.</p>
+            <p class="bubble">So, our first step was we wrote this as a fraction times X. So that became 3 over 5X equals 9. And our second step was that we multiplied everything by the opposite fraction.</p>
+            <p class="bubble">So, if we take 3 over 5, what's the opposite of 3 over 5?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Uh, 5 over 3?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So we multiply by 5 over 3, and look at that! This cancels out with this. This cancels out with this.</p>
+            <p class="bubble">So we kind of just end up with X equals... oops. We end up with X equals 9 over 1 times 5 over 3. Does that make sense?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Hmm. Yeah, so now you're just multiplying it?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Now you're just multiplying it, and you can simplify it a little bit. Here we have a 9 and a 3. What's 9 divided by 3?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">9, uh, 9 divided by 3, you get, uh, 3.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And then you multiply that by 5.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">You get 15.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Couldn't you just do, um... what's it called? 9 times 5, and then 1 times 3.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yes, so then you would get 9 times 5 is 45, and the denominator would be 3.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And this will come out to... 15. Yeah. It's a little bit faster if you do it my way. Um, but there's absolutely nothing wrong with doing it the other way.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So all you're doing is dividing, uh, or what's it, yeah, dividing...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Early, I'm doing it earlier.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah, like, dividing the, uh, numerator of the first fraction and the denominator of the second fraction.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Well, yeah, because instead... so, I mean, when we multiply, this becomes 9 times 5 over 3. So they're the same fraction. That's the same as 9 over 3 times 5.</p>
+            <p class="bubble">That's what's great about fractions, you can just do that. Um, if they're multiplied, you can just do that.</p>
+            <p class="bubble">Um, so when you do the division in the first step instead of in the second step you save a little bit of time, because you're dividing smaller numbers. Does that make sense?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Like, 45 divided by 3, you might not know what that is off the bat, and you might have to do, like, long division. But 9 divided by 3, you kind of know what that is off the bat. So it's a little bit easier.</p>
+            <p class="bubble">That's why I do it first, but you absolutely do not have to do it first. You'd be totally fine if you didn't do it first.</p>
+            <p class="bubble">Um, so I'm just gonna hit you with some simple integer, um... With some simple integer based multi-step equations. So let's start with a couple of these.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So, because normally normally, um... Or, well, the 4, you can't really do anything with it, yet. What would you like... Add the 2N, like, to both sides.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">No, I... the first thing you should always, always do...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Combine like terms.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Is combine like terms.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah, so couldn't... so couldn't you basically add... No, subtract... Uh, the 2N to the 4N?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">That's what it's telling you to do, right? 4N minus 2N.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And then you get, uh... what's it called? 2... 2N. Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And you could just solve it from there.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Wait, so you're... How does the 4N minus 2N equal 4?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">It doesn't, it equals 2N.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So why is there 4 on the... Right. On the first one. Oh, because of the... yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">That's what the equation is.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So then, um... you have to divide by... 2? To both sides.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Right? This is 2 times N. The opposite would be to divide everything by 2.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So then, um, the 2N divided by 2, you get rid of it, it cancels out.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And then you divide the 2 and the 4, and you get, uh, 2. So N would equal 2.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Very straightforward, very good job! So remember, your first step is to always combine like terms.</p>
+            <p class="bubble">For me, I find this unsettling. I don't like it when the variables are on the right side. Um, I just don't like it. There's nothing wrong with it, I just don't like it. So usually...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Could you, like, change the format?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">You could just flip it. Right? Because, think about it, A equals B is the same thing as B equals A. You can flip it.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Alright. So the first thing you'd have to do is combine your like terms.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So, you have to add the 5V and the 2V, and you get 7V. So then you'd have two...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So what... yeah, yeah.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">2 plus 7V equals negative 12.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And then, um... the... you can't really do anything with the 7V yet, so the 2... You would have to, um... subtract it by both sides. And the 2s cancel out, and then with the 12, it'll become 7V equals negative 14.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Very good.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">You'd have to divide... Um... both sides by 7 and the 7 divided... 7V divided by 7 cancels out, and then you have 7 divided by negative 14, and then I think you'd get... Is it... negative... 2?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Very, very good.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay. So... this one would be...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And again, for me, I don't like how it looks, there's nothing wrong with it. You could totally solve it. I just don't like how it looks, so I'm gonna switch it for my sake.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So, first, you would have to... you'd have to combine your, like, terms. And, uh, it would be the negative 5X and the X, you'd have to subtract the X by both sides.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Hm?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah, isn't... wouldn't X, um, equal 1? So can... wouldn't you... wouldn't you just, uh, subtract, basically, like, 1 from the negative 5X? Can you do that right now?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Uh, it's X minus 5X, right?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So this is, like, 1X minus 5X. So this is 1 minus 5, not 5 minus 1.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Uh, well... so that it would be, um... so you're just subtracting one... 1 minus 5?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So wouldn't it become, um... It's called... Wouldn't it become... 4? Or negative 4?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">X. Yeah, so then we get negative 4X.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Plus 3?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Plus 3 equals 3. And then, you have to subtract the 3 by both sides.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And then... cancels out the 3. So wouldn't the answer just be negative? Oh no, wait, you can't do that. That canceled it out, but then when you're doing it there, it... That's the same kind of... that would just become zero.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So then... do you have to divide by... No. You divide it by 4.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Divide by what?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Negative 4.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Negative 4. Perfect. And what's 0 divided by anything?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">I don't... I don't think it... it's, like... Is it zero?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yeah, 0 divided by anything is zero. Zero multiplied by anything is zero.</p>
+            <p class="bubble">The only way that you get negative 4X equals 0 is if this is 0. Um, that's... that's the rule with zero.</p>
+            <p class="bubble">If you do 0 divided by A, you get 0. If you do 0 times A, you get 0. If you do A divided by 0, this is not allowed.</p>
+            <p class="bubble">Any questions there?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">No.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Okay. Alright, another easy one. Eh, that's too easy. It's too easy. Um... let's try one with distribution.</p>
+            <p class="bubble">So again, no one's making you do it, but I personally really hate this.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So, is it... this one?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">When it's in reverse order.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Alright, so this one, um... You have to distribute the negative 3.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">to the X and the 2.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So, basically, you're multiplying the negative 3 to the X, and then you get negative 3X plus, uh... negative... 6? I think.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Good, which, if you have plus negative 6, that's just minus 6.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Equal.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Equals...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Equals 6. So now what you do is, uh, you need to add the 6 to both sides. And that cancels out. And then you're gonna get negative 3X equals, uh... 12.</p>
+            <p class="bubble">And then... you're gonna divide by the negative 3, both sides by... I mean, yeah, negative 3. <span class="redact">[inaudible]</span>. Would it be negative 4?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Absolutely. Okay, um... I feel good about that.</p>
+            <p class="bubble">Um... here we go, this is one of the ones I wanted to try. So here we have variables on both sides, so there's a little bit more arranging that needs to happen before we can actually do stuff. But what do we do first?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So first, what you need to do is the stuff in the parentheses.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yeah, you need to distribute.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So, uh, you need to do negative 3 times 1, and then it's just gonna become negative 3. <span class="redact">[inaudible]</span> Uh, negative 3 times 6R. And then... it would be negative 18R, minus 18R.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Very good.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And that equals 14 minus R. Now you have to combine your like terms. So, you have to add the R to the... both sides.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Very good, we want to get all the variables on the left side.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">That cancels. And then you get, um... it's negative... 17R equals 14.</p>
+            <p class="bubble">And then, uh, you add the 3 to both sides. And then... you get, um... the 3 canceled out, and then... you're gonna get, uh... what's it called? 17.</p>
+            <p class="bubble">Now you're dividing by 17. So then you've got... cancel it out. So wouldn't you just get 1? R equals... oh, no, the negative is negative 1. Okay.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">R equals negative 1, very good. Yeah, don't forget that when you divide by something, if it's negative, you're also going to divide by the negative.</p>
+            <p class="bubble">Okay, that was good, let's do one more, this is probably harder than you'll get on the test, I think, right? Is this... have you seen things around this level?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um... not at all.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Probably not, yeah.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Ready.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Based on your homework and stuff, she's not this mean. I'm a little bit meaner.</p>
+            <p class="bubble">Um... but if you do it hard, then it's easy to do it easy, right?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Alright, so... let's look at this one. This one is several steps.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay, so the first step is, uh, distribute the two to the 5N... K, the 5K. And then, you're gonna get, um... 10K in there. Um... you're gonna do 2 times negative 6, and then that's gonna get you negative, um, 12.</p>
+            <p class="bubble">And that equals negative 3K minus 39. Alright, now you... now you have to combine your, like, terms.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Very good.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So, what you're gonna do first is... I think... you have to add the 4K to both sides.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Hmm... we want all of our variables on the left side. Generally speaking, you could move all the variables to the right side, and nothing would be wrong with that.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">But... isn't...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">But we like to have them on the left side.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">The 4... the 4K. Like, a variable, and it's on the left side.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mm-hmm. But if we added it to both sides, if we added 4K to both sides, it would go away, right?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">We don't want it to go away. It's currently on the left side, and that's the side we want it to be on.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So, can you instead, um... Of adding... or, like, doing stuff with your variables, could you add the 12 to the both sides?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">You could. There would absolutely be nothing wrong with that, but I think you should combine these three terms first.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So then when... oh, I see what you have to do. So you would have to, um, do... Um... oh. So first, you have...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">This is two different steps, technically.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">The first you'd have to subtract the 4K.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">from...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">the 10K.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">to get...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">To get, um... What's it called? You get... Um... 6K.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Good, and then we also have this 3K, negative 3K on the other side, so what would we do with that?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">You'd subtract that to the 6K, and then you get 3K.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Negative 3K. It's on the other side. We have to move it.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah, but wouldn't it... isn't the [inaudible]?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yes, but we have to move it. What do we do when we want to move it?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Do...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">It's the same as usual. It's on a different side of the equation, so to get rid of it on this side of the equation.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">You do add... add it to both sides?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Right, so we do plus 3K, and this disappears.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And then you add it, and then you get, um... what's it called? Uh... you get, uh, 9, 9K.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So 9K minus 12 equals minus 39.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So that was technically two steps, but just, like, to save us a little bit of space, we just slapped it into one.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Alright, now you add the 12 to both sides, and then that cancels out, and then you're adding the 12 if it's a 39, and I do a 39, then you get, um... What do you got? What do you got, um... 28, or nec... is it... is it negative 28?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mmm, it's not 28...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Let me get, um... you'd get... 27?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Good, and it's negative because...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Negative 27?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yes.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And then, uh, you divide it by both sides by 9. And then you're gonna get negative 3.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Absolutely good job. Okay, so you get the idea. There's some harder ones here that you can do as practice if you'd like.</p>
+            <p class="bubble">Um, but we'll move on. They get really complicated. They have many, many steps, but we'll move on to decimals and fractions. Nothing really changes when you do decimals and fractions. You're doing the same stuff, you're just doing it with decimals and fractions, right?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">No need to overthink it.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">First, what you need to do...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">What do you do? Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Is add the variables.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And you'd get, um... Do you... do you add the 7.3 to the 0.7?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And you got, um... what's it called? You get... Would you get 7.10? Hm? Oh, you do. Yeah, you're adding it. Oh, do you have to... Oh, it would be... Would it be 8.0?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Right? 3... 0.3 and 0.7 make 1, so that's just 7 plus 1.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Alright. Alright, now you add the 1.5 to both sides. And you'd get, um... 16.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Very good.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And then you divide by 8, both sides, so then your answer will be 2.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Perfect. No notes. Um, so it's the exact same thing you did before, just obviously, like, more... slightly more annoying, I mean, there's just some decimals now, that's all, you just gotta be careful with your addition.</p>
+            <p class="bubble">Um... so for me, I'm just like, okay, this and this are gonna go together. This and this are gonna go together.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay, so...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So try this one, I'm not gonna say anything.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Are you adding the decimals?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Uh... yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yeah, it's a little annoying.</p>
+            <p class="bubble">Are we adding them still?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um, I'm at the last step.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Oh, okay, beautiful.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">I'm having trouble in the last step when you're dividing them.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So, first of all, 16.3 plus 7.5, what did you get?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Uh, I got 23.8.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So, 16 plus 7 gives me 4 with a remainder of 3, so it's 23.8. And then 64.1 and 19.2.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Oh, I got what's it called? Negative?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">25.621.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">25?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Because it's, uh, when you're... it's both... they're... they were both negative, so...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Right, so it should get bigger, right?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">It's a... 44.9.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">No, it's gonna get bigger, it's gonna get more negative, right? Because it's minus 64.1 minus 19.2. So you're basically gonna add these and make it negative, right?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah, got it. Good.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">That would probably explain some of the problems you're having. So what's 0.1 plus 0.2?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah, but... when you're adding them, don't you have to, like... line up your decimals, right? Oh, wait, did I do?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">You might not line them up properly.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Uh...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So what's 0.1 plus 0.2?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Oh, I put the decimal in the wrong place. Alright, um... now, it is... it's... 83. Negative 83.3.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Good, negative 83.3. Now, this is annoying, right? This is difficult to divide. Um, 'cause we get K equals negative 83.3 over 23.8. Right. Um...</p>
+            <p class="bubble">In an ideal world, you could just use a calculator. Your teacher would never give you something this complicated. Um... 8... 6 plus 8 is 14. You might have to use a calculator, to be honest. Um... I mean, you could do this by hand.</p>
+            <p class="bubble">Uh, what you would do is you would multiply both of these by 10, and you would get 833 divided by 238, so that kind of gets rid of the decimals. But, um, doing this by hand would be absolutely disgusting, so in this case, do feel free to use a calculator.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay. Wait, why do you multiply them by 10?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">That's a good question. So, you know how when we simplify, we divide the numerator and denominator by something?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Oh, to simplify.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Here, we're kind of doing the opposite. There's a decimal, and I want to scooch it over by one place. To scooch a decimal over by one place, I multiply by 10. To scooch it over 2 places, I go 100. 3 places?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble"><span class="redact">[inaudible]</span></p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Thousand. <span class="redact">[inaudible]</span></p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Let me move the decimal.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">If you were gonna do this by hand, um, it would kind of suck to do this, but it would be less bad to do this. This decimal makes things a little bit confusing.</p>
+            <p class="bubble">So, it's just something that we're taught to do. Um, because when you're dividing by something that's not a whole number, I, like, you don't know how to do that, right? How the heck do you divide by something that's not a full number? So, if you make it a whole number by multiplying by 10, it becomes a little bit easier. Um, so this trick is mostly useful when you're doing it by hand, though.</p>
+            <p class="bubble">So suppose, for example, you have something like 25.5 divided by 0.5. How the heck do you divide something by 0.5? I don't know. So I'm just gonna multiply everything by 10.</p>
+            <p class="bubble">And this becomes 5, and this becomes 255. And that's... that's doable. This is not doable, this is doable.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">To basically, like, um... Now, after you do that, now you have to divide the 255 to the 5.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yeah, which isn't too bad, though, because how many times does 5 go into 25?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Uh, it goes in there 5 times.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And how many times does 5 go into 5?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Once.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">It goes into it very evenly. But there's no way you could have looked at this and been like, oh, heck yeah, 51. There's just no way you would have gotten that. So we gotta get rid of that decimal, because it just... it complicates things quite a bit.</p>
+            <p class="bubble">Um, so that's if you're dividing the decimals by hand. If you're... in this case, there's no frickin' way I would ask you to do this by hand, that would be so mean. Um, so I'm just gonna say, go ahead, grab a calculator. Let me know what you get.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Guessing it's between 3 and 4?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">It would...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Maybe two, even.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Be... it would... Would the negative be... would it make both of the numbers negative?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">No, only one.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">I get the fraction?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Because when... before we divided, there was only one negative, and this was pos... positive. If both were negative, what's a negative number divided by a negative number?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">A negative number divided by a negative number is positive, right?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So I wouldn't put the negative sign there in the first place. You only put the negative sign there if it only applies to one of them.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So you could either do it as... negative 83.3 divided by 23.8 or as 83.3 divided by negative 23.8. Functionally, those are the same thing.</p>
+            <p class="bubble">Or, you could just ignore the negative and stick it on at the end, which is what I would do.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Is the answer, um... negative 3.5? I think that's it.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Really, it's 3.5 on the dot?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Really?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Looks like it...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Oh, that's crazy. Um, maybe, yeah, I don't know. Let me check. I don't want to do it by hand, either. Um... so, it was 83.3 divided by 23.8... yep. So I guess it was between 3 and 4.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Um, so that's that. These got mixed up a little bit, didn't they? Here we go.</p>
+            <p class="bubble">Oh, you can't see my screen. Why isn't it updating? Oh, there we go.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">I can see.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">There you go, this one's a little bit more straightforward, uses that trick we talked about.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Oh, so first off, you'd have to add the 6 to both sides.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And then you get that canceled out, and then, um... be 2 over 3Y equals, uh, 8. And then... um... would you have to multiply it? <span class="redact">[inaudible]</span> The 2 over 3, take 3 over 2, and multiply that by both sides?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Absolutely perfect.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So then I canceled out. And then... Would the answer be Y equals... Um... 24 over 2?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">You gotta simplify that, but yeah.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Would it be too... But no, you can't divide it.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">It'd be 12.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">It would be 12, yeah, you just divide it. For me, I do that one step faster. Again, your way is totally correct! I'm just showing you the trick until you feel like it's intuitive.</p>
+            <p class="bubble">Um, here we have 8... and divided by 2, so that's just gonna be 4 times 3... which ends up being 12. Same exact thing you got, same exact process, I just did the division before the multiplication. You did the multiplication before the division. No difference.</p>
+            <p class="bubble">Okay, very good job. This one involves some fraction stuff. Um, this you might want to write down because you're adding a fraction, and a whole number, and...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Alright, well, this one...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">That takes quite a few steps, right?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">I have a question. Are fractions, like, you know how, like, variables...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mhm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">You can't add variables to, like, numbers that don't have a variable.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">You're asking if we can add a whole number and a fraction?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">We can, but they need to have the same denominator, so you gotta do some stuff to it.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Oh, okay, so then...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So that's... that's kind of a pain in the butt, but somehow you gotta give 2 a denominator of 8. But it's a whole number, so...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">You need some... <span class="redact">[inaudible]</span>?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Well, first of all, if you were gonna make 2 into a fraction, what would it be?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Uh... 2 over 1?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">2 over 1, but now we need it to be a denominator of 8, so what do you get...</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">You have to multiply... Uh... wait, so are you multiplying 1 by a number to get it to 8, or the 2?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">You're multiplying both by a number to... you're multiplying the denominator by a number to get it to 8, and then you're multiplying the numerator by that same number.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay, so then you'd get... can you just multiply 1 and 8?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Uh, well, so you get 7 over 8, and it's 5 over 8.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And you get 2 over 1, and you're saying, okay, I'll multiply this by 8, but if you multiply that by 8, you also gotta multiply this by 8.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So then it would become, um, 16 over 8?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">7 over 8H minus 5 over 8 equals 16 over 8. And now you can do stuff.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay, so now you can add the 5 over 8 to both sides.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yes.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And then you'd get, um... The denominator stays as an 8, and then you get, um... 21... over 8.</p>
+            <p class="bubble">Yeah, yeah, yeah. And now you... now, you multiply... uh, 8 over 7 both sides. And then you'd get, um...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And now here's where... here's where doing the multiplication first becomes kind of unsustainable, right? Because then you have 21 over... 21 times 8 divided by 8 times 7. And that is something that you can do by hand, but you'd probably want to do with a calculator.</p>
+            <p class="bubble">So, an easy way to do this is to say, well, there's an 8 in the denominator and there's an 8 in the numerator. So that's just gonna end up being, at some point, 8 divided by 8, and we don't care. We can just get rid of it. So what are we left with?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Left with, um, 21 over 7. <span class="redact">[inaudible]</span></p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">3. So that's where this trick really comes in handy, is where multiplying it out would make them giant numbers, and we do not want them to be giant numbers, because dividing that is just, like, terrible. It's just not sustainable, it's not quick, it's not easy. It's none of those things.</p>
+            <p class="bubble">Um... I have a lot of decimals, but oh well. I wanted to do fractions first. Where's... where the heck are all my fraction questions? There we go.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Alright, so first you need to make the...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">This is gonna be several, several steps.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So, first, you need to, uh... you need to make the 2 are a fraction. And... so then it would become... Alright, so what you have to do is you have to make... I would make the common denominator, um... three...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Hmm.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So I think that you could just multiply the one by 3. And then... 3... so then your denominator... would become, uh, 6.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">You mean your numerator?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">over... yeah, numerator.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Okay.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And then, um... Now, you have to add 6 over 3 to both sides.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Hmm?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">No, yeah, with the... you have to add 6 over 3 to the 5 over 3. Right? Can you do that? Oh, no. If it's the negative.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yeah, that's... that's subtraction, that's just 5 over 3 minus 6 over 3.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Oh, I thought you had to do a, like, add... turn it into a positive, add it to 6 over...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">If you add it to both sides, it goes away here, and then you just end up with 6 over 3 over here, and there's nothing to combine here.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Yeah. No, I... yeah, so I'll say... And when you combine it to the 5 over 3R?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Exactly, so we wouldn't be adding it.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So you'd be subtracting it?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Well, it's 5 over 3R minus 6 over 3R.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Then you just got, um...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">We only do the opposite if we're trying to move it to the other side.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay. So now, wouldn't you get 1 over 3R?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Negative 1 over 3.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Equals negative 11 over 9.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And why is it negative?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Because, um, the <span class="redact">[inaudible]</span> is... bigger.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yeah, because it's 5 minus 6, right? The 6 is bigger. Okay, so now both sides are negative, so that kinda... the negatives just go away when both sides are negative.</p>
+            <p class="bubble">What are we... what are we gonna do here?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">To now... now what you need to do is... you're, you're supposed to, uh... add 3 over 1. Uh, well, you changed the positive?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yeah, I just... well, because both sides are negative.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Didn't... but then, wouldn't they be negative?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Nah, because if you've got a negative on this side and a negative on this side... think about it. Over here, when you get rid of this, you're gonna do something with a negative number, and then this'll be a negative number and a negative number, and that'll give you a positive number.</p>
+            <p class="bubble">But this is just our trick from before, right? It's a fraction times a variable equals a number. So, how do we undo that?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Oh, multiplication.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Bam!</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">3 over 1.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And we're gonna make it negative.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Totally. Yeah, so it'll be 11. None...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So this totally goes away. And then here, you see that there's a negative and a negative? What does that become?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay. Positive?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So we get... yeah, so we get R equals 11 over 9.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">No, yeah, yeah, positive. And then...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Times 3 over 1.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">And then you're gonna get 33 over 9.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And in this case, I'd really like us to... it's not... 33 over 9 is not neat, but we can simplify it a little bit.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Do you divide it?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Yes!</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Can you just divide 9 and 33?</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">It... we can, but it'll give us a decimal.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Um... so...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble"><span class="redact">[inaudible]</span> is... does 9 evenly go into 33?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">No.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">No, so that's why it's gonna give us a decimal, so we could just simplify the fraction.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Can you change it to be... um... um...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">What could we divide both the numerator and denominator by?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">2...</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Mmm, is 33 an even number?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Uh, no.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And is 9 an even number?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">No.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">So we can't divide by 2.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Divide by 3.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">You divide by 3, because 33 is divisible by 3, and 9 is divisible by 3. What's 33 divided by 3?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">So then you're gonna get, uh... 11? And... 3.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">And there you go. And now again, if you wanted, you could do this using the trick. Here we have 3, and here we have 9. So this just becomes 3, because 9 divided by 3 is 3. There's a leftover 3. Um, and then we would have just gotten 11 over 3 from the start.</p>
+            <p class="bubble">Or you could do it your way. Same, literal, same answer. Does not matter. Same stuff, different font. Um... Okay, so, your test is coming up, so I will go ahead and, um, I'm just gonna take the existing practice we haven't gotten to on here, and I'm just gonna slap it into a worksheet for you and send that over, and you can use that as extra practice.</p>
+            <p class="bubble">Um, I will also just, um... you know, send over the solutions, that way you can check it yourself. Since the test is kind of soon, it'll just be, like, you do it, and then you check it yourself. Um, and... but any questions?</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">No, not really.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Alright, I think you'll be fine. Everything we do is harder than what your class does. Um... and I'll send that practice, maybe, like, 10 questions or so, with the solutions.</p>
+            <p class="bubble"><span class="redact">[personal]</span></p>
+            <p class="bubble">Um, so that's it. Fly free.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Alright.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble">Enjoy the rest of your... evening.</p>
+          </li>
+          <li class="turn student">
+            <div class="turn-meta"><span class="speaker">Student</span></div>
+            <p class="bubble">Okay, thank you, bye.</p>
+          </li>
+          <li class="turn tutor">
+            <div class="turn-meta"><span class="speaker">Tutor</span></div>
+            <p class="bubble"><span class="redact">[personal]</span></p>
+          </li>
+        </ol>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>

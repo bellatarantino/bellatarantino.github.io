@@ -87,7 +87,7 @@
       </div>
       <p class="intro">I'm recent Harvard physics graduate and English teacher in rural Japan hoping to research and develop tools to support independent and supplemental learning.
         <br> <br> 
-        At the moment, I'm using my quantitative background to create a large corpus of tutoring transcripts and an assortment of tools for my classroom.
+        At the moment, I'm using my quantitative background to create a small corpus of tutoring transcripts and an assortment of tools for my classroom.
         
       <div class="contact">
         <!-- Email copy animation -->
@@ -151,10 +151,13 @@
             <div class="entry-content">
               <p>A corpus of ~290 hours of individual and small-group math and computer science tutoring session transcripts with middle and
                 high-school students.</p>
-              <p>Transcripts are being de-identified, cleaned, and standardized into a turn-level schema (JSONL), segmented into turns, exchanges, and problem episodes, and annotated.</p>
+              <p>Transcripts are being de-identified, cleaned, and standardized, then annotated by hand.</p>
               <p>Tutor move annotations (focus, probing, telling, generic) are adapted from MathDial (Macina et al., 2023) and student engagement (passive, active, constructive, interactive) uses the ICAP framework (Chi & Wylie, 2014).</p>
               <p>From August 2025 to November 2026, ~200 hours of computer science and ~90 hours of mathematics tutoring have been recorded.</p>
               <p>All sessions are recorded with student and guardian consent. Data kept private due to identification risk.</p>
+              <div class="chips">
+                <a class="chip" href="https://bellatarantino.com/transcript" target="_blank" rel="noopener">Interactive Sample</a>
+              </div>
             </div>
           </div>
         </div>
@@ -178,6 +181,8 @@
               <p>Findings are being shared with JET Program supervisors to improve teaching methods and provide insights into the classroom.</p>
               <p>Data is being collected and analyzed with the full permission of teachers and school administrators.
                 Only anonymized statistics and plots will be shared publicly.</p>
+                <div class="chips"><a class="chip" href="https://github.com/bellatarantino/scanner" target="_blank" rel="noopener">GitHub Repository</a></div>
+                
             </div>
           </div>
         </div>
@@ -324,45 +329,6 @@
               <p>Read and edited other engineers' code in a large codebase.</p>
               <p>Shipped production code through code review and supervisor feedback.</p>
               <p>Attended several workshops and lectures on various topics in computer science.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Programs -->
-      <section>
-        <div class="section-head"><span>Programs</span></div>
-        <div class="entry" x-data="entry" :class="{ open: isOpen }">
-          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
-            <span class="entry-title">
-              <span class="role">QubitxQubit</span>
-              <span class="org">The Coding School - Remote</span>
-            </span>
-            <span class="entry-meta">Oct 2020 to Feb 2021</span>
-            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
-          </button>
-          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
-            <div class="entry-content">
-              <p>Studied the basics of quantum mechanics, quantum computation and algorithms with MIT and Oxford
-                professors.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="entry" x-data="entry" :class="{ open: isOpen }">
-          <button class="entry-head" @click="toggle()" :aria-expanded="isOpen">
-            <span class="entry-title">
-              <span class="role">Computer Science Summer Institute</span>
-              <span class="org">Google</span>
-            </span>
-            <span class="entry-meta">Jul 2020</span>
-            <span class="sign" aria-hidden="true"><i class="icon i-chevron"></i></span>
-          </button>
-          <div class="entry-body" x-show="isOpen" x-collapse.duration.450ms x-cloak>
-            <div class="entry-content">
-              <p>Intensive four-week introduction to computer science for rising college freshmen, especially students
-                from groups historically underrepresented in the field.</p>
-              <p>Capstone: a three-day JavaScript group project, a visualizer that generates graphics for music.</p>
             </div>
           </div>
         </div>

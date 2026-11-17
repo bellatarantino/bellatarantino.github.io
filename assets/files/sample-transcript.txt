@@ -1,0 +1,2874 @@
+00:00:52.000 --> 00:00:54.000
+TUTOR: [PERSONAL]
+
+00:00:54.000 --> 00:00:56.000
+STUDENT 3: Hi.
+
+00:00:55.000 --> 00:00:57.000
+TUTOR: What's going on?
+
+00:00:57.000 --> 00:01:02.000
+STUDENT 3: Mmm, nothing much. It's just... I have a math test on Friday.
+
+00:01:02.000 --> 00:01:04.000
+TUTOR: Oh, yeah. How are we feeling?
+
+00:01:04.000 --> 00:01:06.000
+TUTOR: I'm just pulling up my work.
+
+00:01:04.000 --> 00:01:09.000
+STUDENT 3: I think I... I think I understand it, but, like, there's some problems that I don't understand.
+
+00:01:10.000 --> 00:01:12.000
+TUTOR: Your mom sent me your homework?
+
+00:01:12.000 --> 00:01:14.000
+STUDENT 3: Yeah.
+
+00:01:14.000 --> 00:01:18.000
+TUTOR: Yeah, is that something you wanna look at together?
+
+00:01:19.000 --> 00:01:21.000
+STUDENT 3: Yeah, sure.
+
+00:01:20.000 --> 00:01:23.000
+TUTOR: Yes? Okay, so I'll go ahead and I'll send that to my iPad.
+
+00:01:27.000 --> 00:01:32.000
+TUTOR: Also have some extra practice, as usual. I mean, today, since we have a test, we'll just be...
+
+00:01:33.000 --> 00:01:35.000
+TUTOR: Trying to get as much practice as we can.
+
+00:01:39.000 --> 00:01:41.000
+TUTOR: Hmm...
+
+00:01:43.000 --> 00:01:45.000
+TUTOR: Notability...
+
+00:01:57.000 --> 00:01:59.000
+TUTOR: Okay, there we go. Alright.
+
+00:02:02.000 --> 00:02:04.000
+TUTOR: Hmm...
+
+00:02:09.000 --> 00:02:14.000
+TUTOR: Trying to make sure that this doesn't move, but I don't know if that's something you can do.
+
+00:02:16.000 --> 00:02:19.000
+TUTOR: Oh it? Hmm...
+
+00:02:19.000 --> 00:02:22.000
+TUTOR: I guess it's not something you can do. Okay, whatever.
+
+00:02:23.000 --> 00:02:26.000
+TUTOR: Um, have you looked at the homework at all? Have you started it?
+
+00:02:26.000 --> 00:02:31.000
+STUDENT 3: Yeah, I looked at it, and I understand most of the problems, but there's some that...
+
+00:02:31.000 --> 00:02:34.000
+TUTOR: Oh, there's some specific ones that you want to talk about?
+
+00:02:33.000 --> 00:02:35.000
+STUDENT 3: I don't... yeah.
+
+00:02:36.000 --> 00:02:38.000
+TUTOR: Which numbers are we looking at?
+
+00:02:38.000 --> 00:02:40.000
+STUDENT 3: Um...
+
+00:02:40.000 --> 00:02:43.000
+STUDENT 3: I think, like, number...
+
+00:02:44.000 --> 00:02:46.000
+STUDENT 3: 12...
+
+00:02:47.000 --> 00:02:51.000
+STUDENT 3: And, uh... number... what's it called?
+
+00:02:52.000 --> 00:02:54.000
+STUDENT 3: Uh, 10.
+
+00:02:55.000 --> 00:02:57.000
+STUDENT 3: I think those two are kind of like...
+
+00:02:57.000 --> 00:02:59.000
+STUDENT 3: Tricky... for me.
+
+00:02:59.000 --> 00:03:02.000
+TUTOR: Okay, so let's look at them together.
+
+00:03:02.000 --> 00:03:04.000
+TUTOR: What are you thinking about number 12?
+
+00:03:04.000 --> 00:03:06.000
+STUDENT 3: So...
+
+00:03:06.000 --> 00:03:09.000
+STUDENT 3: It's like... one of them's, like, a fraction.
+
+00:03:10.000 --> 00:03:12.000
+TUTOR: Mhm.
+
+00:03:11.000 --> 00:03:19.000
+STUDENT 3: And the other... it's not like there's, like, two numbers I can, like, subtract or add to, but it's just, like...
+
+00:03:20.000 --> 00:03:23.000
+STUDENT 3: I don't really know what to do here, because...
+
+00:03:24.000 --> 00:03:26.000
+STUDENT 3: Do I have put, like, a 1 over the...
+
+00:03:26.000 --> 00:03:29.000
+STUDENT 3: Or, do I turn the 2 into a fraction?
+
+00:03:30.000 --> 00:03:32.000
+STUDENT 3: Or no.
+
+00:03:31.000 --> 00:03:35.000
+TUTOR: Well, um, what is your goal? Like, what do you want to end up with?
+
+00:03:35.000 --> 00:03:37.000
+STUDENT 3: To get the variable, like, alone.
+
+00:03:37.000 --> 00:03:41.000
+TUTOR: Right, the variable should be alone. Is the variable currently alone?
+
+00:03:42.000 --> 00:03:44.000
+STUDENT 3: Um, no, it's part of the fraction.
+
+00:03:42.000 --> 00:03:46.000
+TUTOR: What's preventing the variable from being alone?
+
+00:03:46.000 --> 00:03:48.000
+STUDENT 3: the 16.
+
+00:03:47.000 --> 00:03:51.000
+TUTOR: And what's the relationship between M and 16?
+
+00:03:51.000 --> 00:03:54.000
+STUDENT 3: That, uh, it's like...
+
+00:03:54.000 --> 00:03:57.000
+STUDENT 3: A fraction, both of them are a part of the fraction.
+
+00:03:55.000 --> 00:04:01.000
+TUTOR: Let's not use the word fraction. Use an operation. An operation is something like...
+
+00:04:00.000 --> 00:04:02.000
+STUDENT 3: Division?
+
+00:04:01.000 --> 00:04:05.000
+TUTOR: Good. Division. So how do we undo that?
+
+00:04:05.000 --> 00:04:07.000
+STUDENT 3: Multiplication.
+
+00:04:07.000 --> 00:04:11.000
+TUTOR: And what would we multiply by to get rid of the 16?
+
+00:04:13.000 --> 00:04:15.000
+STUDENT 3: The two... the negative 2?
+
+00:04:16.000 --> 00:04:20.000
+TUTOR: So, if we multiply by negative 2, 16 doesn't go away.
+
+00:04:22.000 --> 00:04:26.000
+TUTOR: Here we have M divided by 16.
+
+00:04:26.000 --> 00:04:30.000
+TUTOR: So in order to get rid of the divided by 16, what are we going to multiply by?
+
+00:04:32.000 --> 00:04:34.000
+STUDENT 3: the negative 2.
+
+00:04:34.000 --> 00:04:37.000
+TUTOR: So, if we multiply by negative 2.
+
+00:04:37.000 --> 00:04:39.000
+TUTOR: The denominator does not...
+
+00:04:39.000 --> 00:04:42.000
+TUTOR: disappear. It just becomes smaller.
+
+00:04:40.000 --> 00:04:42.000
+STUDENT 3: Oh, would you multiply...
+
+00:04:44.000 --> 00:04:45.000
+STUDENT 3: by...
+
+00:04:46.000 --> 00:04:48.000
+STUDENT 3: Um...
+
+00:04:50.000 --> 00:04:52.000
+STUDENT 3: I don't know what you multiply by.
+
+00:04:53.000 --> 00:04:57.000
+STUDENT 3: You multiply the M by the 16?
+
+00:04:57.000 --> 00:05:00.000
+TUTOR: We're gonna multiply everything by 16.
+
+00:05:00.000 --> 00:05:03.000
+TUTOR: Because think about it, if we multiply by 16.
+
+00:05:04.000 --> 00:05:07.000
+TUTOR: Then we'll have 16 in the numerator and 16 in the denominator.
+
+00:05:08.000 --> 00:05:10.000
+TUTOR: And what's 16 divided by 16?
+
+00:05:10.000 --> 00:05:13.000
+STUDENT 3: Um... one.
+
+00:05:13.000 --> 00:05:17.000
+TUTOR: So this kind of cancels out, right? And the M becomes alone.
+
+00:05:18.000 --> 00:05:20.000
+TUTOR: Right.
+
+00:05:18.000 --> 00:05:21.000
+STUDENT 3: M would equal negative 2.
+
+00:05:21.000 --> 00:05:25.000
+TUTOR: times 16. You have to multiply both sides by 16.
+
+00:05:26.000 --> 00:05:28.000
+STUDENT 3: Okay. Same.
+
+00:05:27.000 --> 00:05:32.000
+TUTOR: So go ahead and basically just multiply everything by the denominator, 16.
+
+00:05:59.000 --> 00:06:01.000
+STUDENT 3: Is it negative 32?
+
+00:06:02.000 --> 00:06:03.000
+TUTOR: Absolutely.
+
+00:06:05.000 --> 00:06:08.000
+TUTOR: So remember, you're always doing the opposite.
+
+00:06:08.000 --> 00:06:10.000
+TUTOR: So if it's M divided by 16.
+
+00:06:08.000 --> 00:06:10.000
+STUDENT 3: So...
+
+00:06:11.000 --> 00:06:13.000
+TUTOR: You're gonna multiply by 16.
+
+00:06:13.000 --> 00:06:25.000
+STUDENT 3: So if, like, a fraction had, like, the variable as the denominator and, like, the number as the numerator, would you... would it be the, like, the same thing where you multiply everything by that number?
+
+00:06:13.000 --> 00:06:15.000
+TUTOR: If it's...
+
+00:06:20.000 --> 00:06:22.000
+TUTOR: Mmm...
+
+00:06:26.000 --> 00:06:30.000
+TUTOR: Absolutely. You would multiply by M.
+
+00:06:30.000 --> 00:06:37.000
+TUTOR: You'd multiply by the denominator, and then this cancels out with this, so you get 16 equals minus 2M.
+
+00:06:38.000 --> 00:06:40.000
+TUTOR: And then it would take one more step to solve, right?
+
+00:06:41.000 --> 00:06:43.000
+STUDENT 3: division.
+
+00:06:43.000 --> 00:06:45.000
+TUTOR: Yeah, what would we divide by?
+
+00:06:45.000 --> 00:06:48.000
+STUDENT 3: The negative 2 to, like, everything.
+
+00:06:48.000 --> 00:06:52.000
+TUTOR: Beautiful. So, this would become negative 8 equals M.
+
+00:06:52.000 --> 00:06:54.000
+TUTOR: So you get... you get the idea, right?
+
+00:06:55.000 --> 00:07:05.000
+TUTOR: So, you're basically going to multiply by whatever's in the denominator, because that's how we get rid of the denominator, because the opposite of division is multiplication.
+
+00:07:08.000 --> 00:07:10.000
+TUTOR: So, this is minus...
+
+00:07:11.000 --> 00:07:13.000
+TUTOR: 22A.
+
+00:07:13.000 --> 00:07:16.000
+TUTOR: equals 418. What are we having trouble with here?
+
+00:07:17.000 --> 00:07:19.000
+STUDENT 3: Uh, oh. So...
+
+00:07:19.000 --> 00:07:23.000
+STUDENT 3: It's kind of like the same thing, because it doesn't really have, like, um...
+
+00:07:23.000 --> 00:07:27.000
+STUDENT 3: Uh... because they're, they're not, like, terms.
+
+00:07:27.000 --> 00:07:29.000
+TUTOR: Yeah, yeah.
+
+00:07:30.000 --> 00:07:31.000
+STUDENT 3: So, like, um...
+
+00:07:32.000 --> 00:07:37.000
+STUDENT 3: I can't, like, subtract or, like, add the 22 to the...
+
+00:07:36.000 --> 00:07:38.000
+TUTOR: Mhm.
+
+00:07:37.000 --> 00:07:40.000
+STUDENT 3: 418, so...
+
+00:07:38.000 --> 00:07:42.000
+TUTOR: Exactly, yeah, no. I got you. So, what... can you read this out?
+
+00:07:43.000 --> 00:07:48.000
+STUDENT 3: Negative 22A equals 418.
+
+00:07:48.000 --> 00:07:50.000
+TUTOR: What operation is happening here?
+
+00:07:54.000 --> 00:07:56.000
+STUDENT 3: Division? No.
+
+00:07:56.000 --> 00:07:58.000
+STUDENT 3: Is it...
+
+00:08:00.000 --> 00:08:02.000
+STUDENT 3: multiplication?
+
+00:08:01.000 --> 00:08:03.000
+TUTOR: It's multiplication! So, to be clear...
+
+00:08:03.000 --> 00:08:07.000
+TUTOR: When you have a number in front of a variable... Let's say this is a number.
+
+00:08:07.000 --> 00:08:15.000
+TUTOR: for example, 3X, negative 10X, this is always 3 times X.
+
+00:08:15.000 --> 00:08:17.000
+TUTOR: Negative 10 times X.
+
+00:08:17.000 --> 00:08:19.000
+TUTOR: Then when you have...
+
+00:08:21.000 --> 00:08:23.000
+TUTOR: X in a fraction?
+
+00:08:23.000 --> 00:08:26.000
+TUTOR: This is always X divided by that number.
+
+00:08:29.000 --> 00:08:32.000
+TUTOR: for example, X over 3...
+
+00:08:32.000 --> 00:08:34.000
+TUTOR: is equal to X divided by 3.
+
+00:08:35.000 --> 00:08:41.000
+TUTOR: X over 5 is equal to X divided by 5. The only way you get division is with a fraction.
+
+00:08:42.000 --> 00:08:45.000
+TUTOR: So this is 22 times A.
+
+00:08:45.000 --> 00:08:48.000
+TUTOR: So what would be the opposite of 22 times?
+
+00:08:49.000 --> 00:08:53.000
+STUDENT 3: Um, 22 divided by an A.
+
+00:08:53.000 --> 00:08:55.000
+TUTOR: You're not... ignore the A.
+
+00:08:56.000 --> 00:08:58.000
+STUDENT 3: Uhhh...
+
+00:08:56.000 --> 00:08:58.000
+TUTOR: You're gonna just divide by 22.
+
+00:08:59.000 --> 00:09:00.000
+STUDENT 3: Okay.
+
+00:09:00.000 --> 00:09:07.000
+TUTOR: So, and it's negative 22, so you want to divide by exactly the same thing, so you're going to divide everything by negative 22.
+
+00:09:08.000 --> 00:09:11.000
+TUTOR: And then, what's negative 22 divided by negative 22?
+
+00:09:12.000 --> 00:09:15.000
+STUDENT 3: Um, it'd cancel out.
+
+00:09:15.000 --> 00:09:18.000
+TUTOR: They cancel out! So you just get A equals...
+
+00:09:18.000 --> 00:09:20.000
+TUTOR: And then that little... that part that you have to do.
+
+00:09:21.000 --> 00:09:23.000
+STUDENT 3: Okay.
+
+00:09:23.000 --> 00:09:25.000
+TUTOR: Does that make sense?
+
+00:09:24.000 --> 00:09:26.000
+STUDENT 3: Yeah.
+
+00:09:33.000 --> 00:09:36.000
+TUTOR: And that... that's gonna be a little bit of a doozy, but... give this one a shot. 
+
+00:11:09.000 --> 00:11:11.000
+TUTOR: How we doing? The division?
+
+00:11:11.000 --> 00:11:15.000
+STUDENT 3: Yeah, I'm trying to divide it. I'm just trying to figure out.
+
+00:11:13.000 --> 00:11:16.000
+TUTOR: Yeah, well, it's a big one.
+
+00:12:10.000 --> 00:12:12.000
+TUTOR: Do you need a hand?
+
+00:12:12.000 --> 00:12:14.000
+STUDENT 3: Um, I think so.
+
+00:12:17.000 --> 00:12:19.000
+TUTOR: So, you can do this with normal long division, right?
+
+00:12:20.000 --> 00:12:22.000
+STUDENT 3: Yeah, you could.
+
+00:12:25.000 --> 00:12:27.000
+TUTOR: What is it, 418?
+
+00:12:27.000 --> 00:12:32.000
+STUDENT 3: Yeah, it's, uh, 418 divided by the negative 22.
+
+00:12:32.000 --> 00:12:37.000
+TUTOR: Okay, so we could just throw the negative on later. How many times does 22 go into 41?
+
+00:12:37.000 --> 00:12:40.000
+STUDENT 3: Um, that's what I'm trying to figure out.
+
+00:12:40.000 --> 00:12:42.000
+TUTOR: Well, what's 22 times 2?
+
+00:12:43.000 --> 00:12:48.000
+STUDENT 3: 22 times 2 would be, uh...
+
+00:12:49.000 --> 00:12:51.000
+STUDENT 3: Wouldn't it be, uh...
+
+00:12:52.000 --> 00:12:54.000
+STUDENT 3: 40... 44?
+
+00:12:54.000 --> 00:12:59.000
+TUTOR: 44, and that's bigger than 41, so it must only go in one time.
+
+00:13:01.000 --> 00:13:03.000
+STUDENT 3: Okay, so then...
+
+00:13:03.000 --> 00:13:05.000
+STUDENT 3: Okay.
+
+00:13:05.000 --> 00:13:07.000
+TUTOR: And now you can continue.
+
+00:13:07.000 --> 00:13:09.000
+STUDENT 3: Okay.
+
+00:13:50.000 --> 00:13:52.000
+TUTOR: Same thing.
+
+00:13:51.000 --> 00:13:53.000
+STUDENT 3: Yeah.
+
+00:13:53.000 --> 00:13:56.000
+TUTOR: And do you remember how to simplify fractions?
+
+00:13:57.000 --> 00:13:59.000
+STUDENT 3: You had to... it has to, like, um...
+
+00:14:01.000 --> 00:14:10.000
+STUDENT 3: It's... it's like the same number goes into... it has to be, like, the same number that can go into each of the numbers that you're dividing.
+
+00:14:10.000 --> 00:14:17.000
+TUTOR: Right! So very often, this is a trick I use, is that when I'm dividing two numbers, and I'm like, damn, this would be kind of annoying and hard.
+
+00:14:17.000 --> 00:14:20.000
+TUTOR: What I do is, is I just simplify it as a fraction.
+
+00:14:20.000 --> 00:14:26.000
+TUTOR: So first of all, these are both even, so I can divide them by 2. And division by 2 is pretty easy.
+
+00:14:26.000 --> 00:14:29.000
+TUTOR: 2 goes into 4 twice.
+
+00:14:29.000 --> 00:14:34.000
+TUTOR: And then 2 goes into 18 9 times. So this becomes 209.
+
+00:14:35.000 --> 00:14:38.000
+TUTOR: And then how many times does 2 go into 22?
+
+00:14:38.000 --> 00:14:44.000
+STUDENT 3: Um, what... wouldn't you... can you do 2 divided by 2?
+
+00:14:44.000 --> 00:14:45.000
+TUTOR: Mhm.
+
+00:14:44.000 --> 00:14:47.000
+STUDENT 3: First, and then that'll be, uh, 1.
+
+00:14:47.000 --> 00:14:49.000
+TUTOR: Mhm.
+
+00:14:48.000 --> 00:14:50.000
+STUDENT 3: And then you do it again, so it's 11.
+
+00:14:50.000 --> 00:14:54.000
+TUTOR: 11, very good. Now I have 209 divided by 11.
+
+00:14:54.000 --> 00:14:56.000
+TUTOR: And 11 goes into 20.
+
+00:14:58.000 --> 00:15:00.000
+STUDENT 3: Um, 11.
+
+00:14:58.000 --> 00:15:00.000
+TUTOR: There's nothing I can...
+
+00:15:00.000 --> 00:15:02.000
+TUTOR: Yeah, 11 goes into 20 how many times?
+
+00:15:02.000 --> 00:15:06.000
+STUDENT 3: Um... I think I go into 21s.
+
+00:15:06.000 --> 00:15:08.000
+TUTOR: Just once. And what's the remainder?
+
+00:15:09.000 --> 00:15:11.000
+STUDENT 3: Uh, it would be, um...
+
+00:15:13.000 --> 00:15:18.000
+STUDENT 3: Wouldn't it be, like, um... what's it called? Is it... is it...
+
+00:15:18.000 --> 00:15:20.000
+STUDENT 3: Is it 9?
+
+00:15:19.000 --> 00:15:23.000
+TUTOR: So here we get 99. How many times does 11 go into 99?
+
+00:15:24.000 --> 00:15:27.000
+STUDENT 3: Um, 11 goes into 99, 9 times.
+
+00:15:28.000 --> 00:15:33.000
+TUTOR: And there's our answer. So for me, I use this trick when the division looks kind of tough.
+
+00:15:33.000 --> 00:15:37.000
+TUTOR: Um, I just go ahead and I simplify it as a fraction, if I can.
+
+00:15:37.000 --> 00:15:44.000
+TUTOR: first, and then I do the long division, because sometimes simplifying it as a fraction can make it a little bit...
+
+00:15:44.000 --> 00:15:46.000
+TUTOR: less complicated.
+
+00:15:50.000 --> 00:15:54.000
+TUTOR: For example, like, 125 divided by 25.
+
+00:15:54.000 --> 00:15:57.000
+TUTOR: Both of these are divisible by 5.
+
+00:15:58.000 --> 00:16:00.000
+TUTOR: So I could do that first.
+
+00:16:00.000 --> 00:16:02.000
+TUTOR: You know what I mean?
+
+00:16:02.000 --> 00:16:04.000
+STUDENT 3: Mhm.
+
+00:16:03.000 --> 00:16:05.000
+TUTOR: It's just a little trick!
+
+00:16:05.000 --> 00:16:10.000
+TUTOR: You don't have to use it, though. Um, any other questions about this worksheet?
+
+00:16:10.000 --> 00:16:12.000
+STUDENT 3: Um...
+
+00:16:13.000 --> 00:16:17.000
+STUDENT 3: Not really. The other stuff, I kinda know how to do.
+
+00:16:17.000 --> 00:16:19.000
+TUTOR: Okay.
+
+00:16:20.000 --> 00:16:26.000
+TUTOR: So I'll go here, and we're basically just gonna spam practice today, right? Because it's right before your test.
+
+00:16:26.000 --> 00:16:30.000
+TUTOR: Um, and this is... your test is on multi-step equations, right?
+
+00:16:31.000 --> 00:16:33.000
+STUDENT 3: Um... Yeah.
+
+00:16:33.000 --> 00:16:37.000
+TUTOR: Okay. So I'm just gonna do a quick refresher.
+
+00:16:37.000 --> 00:16:40.000
+TUTOR: Of some of the tricks that we learned together.
+
+00:16:41.000 --> 00:16:45.000
+TUTOR: Um, so for example, if we have X divided by 4.
+
+00:16:45.000 --> 00:16:47.000
+TUTOR: equals 100.
+
+00:16:48.000 --> 00:16:50.000
+TUTOR: What we're gonna do is we're gonna read this out.
+
+00:16:53.000 --> 00:16:55.000
+TUTOR: as X divided by 4.
+
+00:16:57.000 --> 00:17:00.000
+TUTOR: And then we say, what's the opposite of division?
+
+00:17:02.000 --> 00:17:04.000
+TUTOR: is multiplication.
+
+00:17:05.000 --> 00:17:08.000
+TUTOR: And so we're just gonna multiply everything by 4.
+
+00:17:11.000 --> 00:17:12.000
+TUTOR: This cancels out.
+
+00:17:13.000 --> 00:17:15.000
+TUTOR: And this becomes 400.
+
+00:17:15.000 --> 00:17:17.000
+TUTOR: So we get...
+
+00:17:18.000 --> 00:17:20.000
+TUTOR: X equals 400.
+
+00:17:20.000 --> 00:17:25.000
+TUTOR: Um, so when we have just, like, X divided by a number, we're just gonna multiply by it, right?
+
+00:17:26.000 --> 00:17:28.000
+TUTOR: Any questions there?
+
+00:17:28.000 --> 00:17:30.000
+STUDENT 3: Um...
+
+00:17:31.000 --> 00:17:33.000
+STUDENT 3: Nah, not really. So, like...
+
+00:17:32.000 --> 00:17:34.000
+TUTOR: Pretty straightforward.
+
+00:17:34.000 --> 00:17:41.000
+STUDENT 3: With... uh, so basically what you're... so if you're dividing, like, the 4 by both sides.
+
+00:17:41.000 --> 00:17:45.000
+STUDENT 3: The X kind of just, like, goes away, so you don't really need to...
+
+00:17:46.000 --> 00:17:48.000
+STUDENT 3: uh, like...
+
+00:17:47.000 --> 00:17:49.000
+TUTOR: If we're dividing both sides by 4?
+
+00:17:49.000 --> 00:17:51.000
+STUDENT 3: Oh, no, I'm multiplying.
+
+00:17:50.000 --> 00:17:54.000
+TUTOR: Okay, if we're dividing it, the X doesn't go away, the 4 goes away.
+
+00:17:53.000 --> 00:17:55.000
+STUDENT 3: Yeah.
+
+00:17:55.000 --> 00:17:57.000
+STUDENT 3: Yeah.
+
+00:17:57.000 --> 00:18:01.000
+TUTOR: The... or I should say, a better way to say it is the denominator goes away.
+
+00:18:00.000 --> 00:18:02.000
+STUDENT 3: Okay.
+
+00:18:01.000 --> 00:18:03.000
+TUTOR: And we're left with X, right?
+
+00:18:03.000 --> 00:18:06.000
+STUDENT 3: Okay, so then I would just...
+
+00:18:04.000 --> 00:18:09.000
+TUTOR: So you... yeah, so you shouldn't need to worry about that side very much.
+
+00:18:09.000 --> 00:18:14.000
+TUTOR: The reason you multiply by 4 is so that you don't have to worry about that side. That's the point.
+
+00:18:13.000 --> 00:18:15.000
+STUDENT 3: Could you just, um...
+
+00:18:15.000 --> 00:18:18.000
+STUDENT 3: what's it called? Could you just multiply...
+
+00:18:19.000 --> 00:18:21.000
+STUDENT 3: the 4...
+
+00:18:21.000 --> 00:18:24.000
+STUDENT 3: To the 100, and then it just kinda, like...
+
+00:18:24.000 --> 00:18:26.000
+STUDENT 3: Be X equals 100.
+
+00:18:24.000 --> 00:18:28.000
+TUTOR: Yes, that's the same thing. That's exactly what we're doing.
+
+00:18:32.000 --> 00:18:41.000
+TUTOR: So, you could skip the step where you... this cancels out, and you could just say, well, I know it cancels out, so I'm just gonna write this as X equals 100 times 4.
+
+00:18:36.000 --> 00:18:38.000
+STUDENT 3: Yeah.
+
+00:18:41.000 --> 00:18:43.000
+STUDENT 3: Okay.
+
+00:18:42.000 --> 00:18:45.000
+TUTOR: Absolutely, that's the same thing as what we're doing.
+
+00:18:45.000 --> 00:18:47.000
+TUTOR: So it's totally legal.
+
+00:18:48.000 --> 00:18:51.000
+TUTOR: Um, the second...
+
+00:18:51.000 --> 00:18:55.000
+TUTOR: type of, like, kind of weird thing we ran into that I wanted to go over.
+
+00:18:55.000 --> 00:18:57.000
+TUTOR: was something like this.
+
+00:19:03.000 --> 00:19:07.000
+TUTOR: 3X over 5 equals 9. So, our first step...
+
+00:19:08.000 --> 00:19:11.000
+TUTOR: Was we wrote this as a fraction times.
+
+00:19:11.000 --> 00:19:14.000
+TUTOR: X. So that became 3 over 5X.
+
+00:19:15.000 --> 00:19:20.000
+TUTOR: equals 9. And our second step was that we multiplied everything.
+
+00:19:20.000 --> 00:19:23.000
+TUTOR: By the opposite fraction.
+
+00:19:28.000 --> 00:19:33.000
+TUTOR: So, if we take 3 over 5, what's the opposite of 3 over 5?
+
+00:19:34.000 --> 00:19:36.000
+STUDENT 3: Uh, 5 over 3?
+
+00:19:36.000 --> 00:19:40.000
+TUTOR: So we multiply by 5 over 3, and look at that! This cancels out with this.
+
+00:19:40.000 --> 00:19:42.000
+TUTOR: This cancels out with this.
+
+00:19:42.000 --> 00:19:44.000
+TUTOR: So we kind of just end up with...
+
+00:19:44.000 --> 00:19:46.000
+TUTOR: X equals...
+
+00:19:48.000 --> 00:19:49.000
+TUTOR: Oops.
+
+00:19:51.000 --> 00:19:53.000
+TUTOR: We end up with X equals...
+
+00:19:53.000 --> 00:19:55.000
+TUTOR: 9 over 1...
+
+00:19:57.000 --> 00:20:00.000
+TUTOR: times 5 over 3. Does that make sense?
+
+00:19:57.000 --> 00:19:59.000
+STUDENT 3: Hmm.
+
+00:20:00.000 --> 00:20:02.000
+STUDENT 3: Yeah, so now you're just multiplying it?
+
+00:20:02.000 --> 00:20:09.000
+TUTOR: Now you're just multiplying it, and you can simplify it a little bit. Here we have a 9 and a 3. What's 9 divided by 3?
+
+00:20:09.000 --> 00:20:14.000
+STUDENT 3: 9, uh, 9 divided by 3, you get, uh, 3.
+
+00:20:14.000 --> 00:20:16.000
+TUTOR: And then you multiply that by 5.
+
+00:20:16.000 --> 00:20:18.000
+STUDENT 3: Yeah.
+
+00:20:18.000 --> 00:20:20.000
+TUTOR: You get 15.
+
+00:20:19.000 --> 00:20:21.000
+STUDENT 3: Couldn't you just do, um...
+
+00:20:22.000 --> 00:20:24.000
+STUDENT 3: What's it called?
+
+00:20:24.000 --> 00:20:27.000
+STUDENT 3: 9 times 5, and then 1 times 3.
+
+00:20:27.000 --> 00:20:29.000
+TUTOR: Yes, so then you would get...
+
+00:20:29.000 --> 00:20:33.000
+TUTOR: 9 times 5 is 45, and the denominator would be 3.
+
+00:20:32.000 --> 00:20:34.000
+STUDENT 3: Yeah.
+
+00:20:33.000 --> 00:20:36.000
+TUTOR: And this will come out to... 15.
+
+00:20:38.000 --> 00:20:41.000
+TUTOR: Yeah. It's a little bit faster if you do it my way.
+
+00:20:41.000 --> 00:20:46.000
+TUTOR: Um, but there's absolutely nothing wrong with doing it the other way.
+
+00:20:45.000 --> 00:20:51.000
+STUDENT 3: So all you're doing is dividing, uh, or what's it, yeah, dividing...
+
+00:20:50.000 --> 00:20:51.000
+TUTOR: Early, I'm doing it earlier.
+
+00:20:52.000 --> 00:20:59.000
+STUDENT 3: Yeah, like, dividing the, uh, numerator on the first fraction, so the denominator on the second fraction.
+
+00:20:59.000 --> 00:21:07.000
+TUTOR: Well, yeah, because instead... so, I mean, when we multiply, this becomes 9 times 5 over 3.
+
+00:21:07.000 --> 00:21:12.000
+TUTOR: So they're the same fraction. That's the same as 9 over 3 times 5.
+
+00:21:12.000 --> 00:21:15.000
+TUTOR: That's what's great about fractions, you can just do that.
+
+00:21:15.000 --> 00:21:18.000
+TUTOR: Um, if they're multiplied, you can just do that.
+
+00:21:18.000 --> 00:21:24.000
+TUTOR: Um, so when you do the division in the first step instead of in the second step.
+
+00:21:25.000 --> 00:21:29.000
+TUTOR: you save a little bit of time, because you're dividing smaller numbers. Does that make sense?
+
+00:21:30.000 --> 00:21:32.000
+STUDENT 3: Yeah.
+
+00:21:31.000 --> 00:21:36.000
+TUTOR: Like, 45 divided by 3, you might not know what that is off the bat.
+
+00:21:36.000 --> 00:21:38.000
+TUTOR: And you might have to do, like, long division.
+
+00:21:39.000 --> 00:21:42.000
+TUTOR: But 9 divided by 3, you kind of know what that is off the bat.
+
+00:21:42.000 --> 00:21:44.000
+TUTOR: So it's a little bit easier.
+
+00:21:46.000 --> 00:21:49.000
+TUTOR: That's why I do it first, but you absolutely do not.
+
+00:21:50.000 --> 00:21:52.000
+TUTOR: Have to do it first.
+
+00:21:52.000 --> 00:21:55.000
+TUTOR: You'd be totally fine if you didn't do it first.
+
+00:21:55.000 --> 00:21:59.000
+TUTOR: Um, so I'm just gonna hit you with some simple integer, um...
+
+00:22:00.000 --> 00:22:02.000
+TUTOR: With some simple integer...
+
+00:22:03.000 --> 00:22:07.000
+TUTOR: based multi-step equations. So let's start with a couple of these.
+
+00:22:08.000 --> 00:22:11.000
+STUDENT 3: So, because normally...
+
+00:22:11.000 --> 00:22:13.000
+STUDENT 3: normally, um...
+
+00:22:13.000 --> 00:22:18.000
+STUDENT 3: Or, well, the 4, you can't really do anything with it, yes. What would you like...
+
+00:22:18.000 --> 00:22:20.000
+STUDENT 3: Add the...
+
+00:22:20.000 --> 00:22:23.000
+STUDENT 3: 2N, like, to both sides.
+
+00:22:23.000 --> 00:22:27.000
+TUTOR: No, I... the first thing you should always, always do...
+
+00:22:23.000 --> 00:22:25.000
+STUDENT 3: Combine like terms.
+
+00:22:27.000 --> 00:22:29.000
+TUTOR: Is combine like terms.
+
+00:22:29.000 --> 00:22:32.000
+STUDENT 3: Yeah, so couldn't... so couldn't you basically add...
+
+00:22:32.000 --> 00:22:34.000
+STUDENT 3: No, subtract...
+
+00:22:34.000 --> 00:22:37.000
+STUDENT 3: Uh, the 2N to the 4N?
+
+00:22:38.000 --> 00:22:40.000
+TUTOR: That's what it's telling you to do, right? 4N.
+
+00:22:41.000 --> 00:22:42.000
+TUTOR: minus 2N.
+
+00:22:43.000 --> 00:22:47.000
+STUDENT 3: And then you get, uh... what's it called? 2... 2N.
+
+00:22:49.000 --> 00:22:51.000
+STUDENT 3: Yeah.
+
+00:22:57.000 --> 00:22:59.000
+TUTOR: And you could just solve it from there.
+
+00:23:01.000 --> 00:23:03.000
+STUDENT 3: Wait, so you're...
+
+00:23:04.000 --> 00:23:08.000
+STUDENT 3: How does the 4n minus 2N equal 4?
+
+00:23:08.000 --> 00:23:10.000
+TUTOR: It doesn't, it equals 2N.
+
+00:23:12.000 --> 00:23:14.000
+STUDENT 3: So why is there 4 on the...
+
+00:23:14.000 --> 00:23:16.000
+STUDENT 3: Right. On the first one.
+
+00:23:17.000 --> 00:23:19.000
+STUDENT 3: Oh, because of the... yeah.
+
+00:23:18.000 --> 00:23:19.000
+TUTOR: That's what the equation is.
+
+00:23:20.000 --> 00:23:23.000
+STUDENT 3: So then, um... you have to divide.
+
+00:23:24.000 --> 00:23:26.000
+STUDENT 3: by... 2?
+
+00:23:26.000 --> 00:23:28.000
+STUDENT 3: to both sides.
+
+00:23:27.000 --> 00:23:33.000
+TUTOR: Right? This is 2 times N. The opposite would be to divide everything by 2.
+
+00:23:34.000 --> 00:23:40.000
+STUDENT 3: So then, um, the 2N divided by 2, you get rid of it, it cancels out.
+
+00:23:40.000 --> 00:23:42.000
+TUTOR: Mhm.
+
+00:23:40.000 --> 00:23:47.000
+STUDENT 3: And then you divide the 2 and the 4, and you get, uh, 2. So N would equal 2.
+
+00:23:48.000 --> 00:23:50.000
+TUTOR: Very straightforward, very good job!
+
+00:23:52.000 --> 00:23:56.000
+TUTOR: So remember, your first step is to always combine.
+
+00:23:56.000 --> 00:23:58.000
+TUTOR: like terms.
+
+00:24:02.000 --> 00:24:09.000
+TUTOR: For me, I find this unsettling. I don't like it when the variables are on the right side.
+
+00:24:09.000 --> 00:24:13.000
+TUTOR: Um, I just don't like it. There's nothing wrong with it, I just don't like it.
+
+00:24:13.000 --> 00:24:15.000
+TUTOR: So usually...
+
+00:24:13.000 --> 00:24:15.000
+STUDENT 3: Could you, like, change the format?
+
+00:24:15.000 --> 00:24:17.000
+TUTOR: You could just flip it.
+
+00:24:19.000 --> 00:24:22.000
+TUTOR: Right? Because, think about it, A equals B.
+
+00:24:22.000 --> 00:24:24.000
+TUTOR: is the same thing as B equals A.
+
+00:24:25.000 --> 00:24:27.000
+TUTOR: You can flip it.
+
+00:24:28.000 --> 00:24:30.000
+STUDENT 3: Alright.
+
+00:24:30.000 --> 00:24:34.000
+STUDENT 3: So the first thing you'd have to do is combine your like terms.
+
+00:24:34.000 --> 00:24:36.000
+TUTOR: Mhm.
+
+00:24:35.000 --> 00:24:42.000
+STUDENT 3: So, you have to add the 5V and the 2V, and you get 7V.
+
+00:24:42.000 --> 00:24:44.000
+STUDENT 3: So then you'd have two...
+
+00:24:42.000 --> 00:24:44.000
+TUTOR: So what... yeah, yeah.
+
+00:24:44.000 --> 00:24:48.000
+STUDENT 3: 2 plus 7V equals negative 12.
+
+00:24:48.000 --> 00:24:50.000
+TUTOR: Mhm.
+
+00:24:49.000 --> 00:24:51.000
+STUDENT 3: And then, um...
+
+00:24:52.000 --> 00:24:57.000
+STUDENT 3: the... you can't really do anything with the 7V yet, so the 2...
+
+00:24:57.000 --> 00:24:59.000
+STUDENT 3: You would have to, um...
+
+00:24:59.000 --> 00:25:02.000
+STUDENT 3: Subtract it by...
+
+00:25:02.000 --> 00:25:04.000
+STUDENT 3: both sides.
+
+00:25:04.000 --> 00:25:11.000
+STUDENT 3: And the 2s cancel out, and then with the 12, it'll become 7V equals negative 14.
+
+00:25:13.000 --> 00:25:15.000
+TUTOR: Very good.
+
+00:25:14.000 --> 00:25:16.000
+STUDENT 3: You'd have to divide...
+
+00:25:16.000 --> 00:25:20.000
+STUDENT 3: Um... both sides by 7.
+
+00:25:22.000 --> 00:25:27.000
+STUDENT 3: and the 7 divided... 7B divided by 7 cancels out, and then you have...
+
+00:25:27.000 --> 00:25:33.000
+STUDENT 3: 7 divided by negative 14, and then I think you'd get...
+
+00:25:35.000 --> 00:25:38.000
+STUDENT 3: Is it... negative...?
+
+00:25:40.000 --> 00:25:42.000
+STUDENT 3: 2?
+
+00:25:42.000 --> 00:25:44.000
+TUTOR: Very, very good.
+
+00:25:45.000 --> 00:25:47.000
+STUDENT 3: Okay.
+
+00:25:48.000 --> 00:25:52.000
+STUDENT 3: So... this one would be...
+
+00:25:53.000 --> 00:25:55.000
+TUTOR: And again, for me.
+
+00:25:56.000 --> 00:25:59.000
+TUTOR: I don't like how it looks, there's nothing wrong with it.
+
+00:26:00.000 --> 00:26:02.000
+TUTOR: You could totally solve it.
+
+00:26:02.000 --> 00:26:05.000
+TUTOR: I just don't like how it looks, so I'm gonna switch it for my sake.
+
+00:26:08.000 --> 00:26:11.000
+STUDENT 3: So, first, you would have to...
+
+00:26:14.000 --> 00:26:17.000
+STUDENT 3: You'd have to combine your, like, terms.
+
+00:26:17.000 --> 00:26:21.000
+STUDENT 3: And, uh, it would be the...
+
+00:26:21.000 --> 00:26:25.000
+STUDENT 3: negative 5X and the X, you'd have to...
+
+00:26:26.000 --> 00:26:29.000
+STUDENT 3: Subtract the X by both sides.
+
+00:26:29.000 --> 00:26:31.000
+TUTOR: Hm?
+
+00:26:30.000 --> 00:26:34.000
+STUDENT 3: Yeah, isn't... wouldn't X, um, equal 1?
+
+00:26:35.000 --> 00:26:41.000
+STUDENT 3: So can... wouldn't you... wouldn't you just, uh, subtract, basically, like, 1 from the negative 5X?
+
+00:26:41.000 --> 00:26:43.000
+STUDENT 3: Can you do that right now?
+
+00:26:42.000 --> 00:26:44.000
+TUTOR: Uh, it's X...
+
+00:26:44.000 --> 00:26:47.000
+TUTOR: minus 5X, right?
+
+00:26:46.000 --> 00:26:48.000
+STUDENT 3: Yeah.
+
+00:26:47.000 --> 00:26:53.000
+TUTOR: So this is, like, 1X minus 5X. So this is 1 minus 5, not 5 minus 1.
+
+00:26:54.000 --> 00:26:56.000
+STUDENT 3: Uh, well...
+
+00:26:56.000 --> 00:26:59.000
+STUDENT 3: So that it would be, um... so you're just subtracting one...
+
+00:26:59.000 --> 00:27:01.000
+STUDENT 3: 1 minus 5?
+
+00:27:01.000 --> 00:27:03.000
+TUTOR: Mhm.
+
+00:27:02.000 --> 00:27:05.000
+STUDENT 3: So wouldn't it become, um...
+
+00:27:05.000 --> 00:27:07.000
+STUDENT 3: It's called...
+
+00:27:07.000 --> 00:27:10.000
+STUDENT 3: Wouldn't it become... 4?
+
+00:27:10.000 --> 00:27:12.000
+STUDENT 3: Or negative 4?
+
+00:27:15.000 --> 00:27:19.000
+TUTOR: X. Yeah, so then we get negative 4X.
+
+00:27:15.000 --> 00:27:17.000
+STUDENT 3: Yeah.
+
+00:27:20.000 --> 00:27:21.000
+TUTOR: Plus 3?
+
+00:27:20.000 --> 00:27:23.000
+STUDENT 3: Plus 3 equals 3.
+
+00:27:25.000 --> 00:27:29.000
+STUDENT 3: And then, you have to subtract the 3 by both sides.
+
+00:27:29.000 --> 00:27:31.000
+TUTOR: Mhm.
+
+00:27:30.000 --> 00:27:32.000
+STUDENT 3: And then...
+
+00:27:32.000 --> 00:27:34.000
+STUDENT 3: Cancels out the 3.
+
+00:27:35.000 --> 00:27:40.000
+STUDENT 3: So wouldn't the answer just be negative? Oh no, wait, you can't do that.
+
+00:27:41.000 --> 00:27:43.000
+STUDENT 3: That canceled it out, but then when you're doing it there, it...
+
+00:27:43.000 --> 00:27:46.000
+STUDENT 3: That's the same kind of... that would just become zero.
+
+00:27:50.000 --> 00:27:52.000
+TUTOR: Mhm.
+
+00:27:52.000 --> 00:27:54.000
+STUDENT 3: So then...
+
+00:27:54.000 --> 00:27:57.000
+STUDENT 3: Do you have to divide by...
+
+00:27:57.000 --> 00:27:59.000
+STUDENT 3: No.
+
+00:28:00.000 --> 00:28:02.000
+STUDENT 3: You divide it by 4.
+
+00:28:00.000 --> 00:28:02.000
+TUTOR: Divide by what?
+
+00:28:02.000 --> 00:28:04.000
+TUTOR: Negative 4.
+
+00:28:03.000 --> 00:28:05.000
+STUDENT 3: Negative 4. Perfect.
+
+00:28:05.000 --> 00:28:07.000
+TUTOR: And what's 0 divided by anything?
+
+00:28:08.000 --> 00:28:11.000
+STUDENT 3: I don't... I don't think it... it's, like...
+
+00:28:11.000 --> 00:28:13.000
+STUDENT 3: Is it zero?
+
+00:28:13.000 --> 00:28:16.000
+TUTOR: Yeah, 0 divided by anything is zero.
+
+00:28:16.000 --> 00:28:18.000
+TUTOR: Zero multiplied by anything is zero.
+
+00:28:20.000 --> 00:28:25.000
+TUTOR: The only way that you get negative 4x equals 0 is if this is 0.
+
+00:28:27.000 --> 00:28:29.000
+TUTOR: Um, that's... that's the rule with zero.
+
+00:28:30.000 --> 00:28:33.000
+TUTOR: If you do 0 divided by A.
+
+00:28:33.000 --> 00:28:37.000
+TUTOR: you get 0. If you do 0 times A, you get 0.
+
+00:28:38.000 --> 00:28:40.000
+TUTOR: If you do A divided by 0.
+
+00:28:40.000 --> 00:28:42.000
+TUTOR: This is not allowed.
+
+00:28:50.000 --> 00:28:52.000
+TUTOR: Any questions there?
+
+00:28:52.000 --> 00:28:54.000
+STUDENT 3: No.
+
+00:28:53.000 --> 00:28:55.000
+TUTOR: Okay.
+
+00:28:55.000 --> 00:28:58.000
+TUTOR: Alright, another easy one. Eh, that's too easy.
+
+00:28:59.000 --> 00:29:03.000
+TUTOR: It's too easy. Um...
+
+00:29:03.000 --> 00:29:05.000
+TUTOR: Let's try one with distribution.
+
+00:29:05.000 --> 00:29:11.000
+TUTOR: So again, no one's making you do it, but I personally really hate this.
+
+00:29:05.000 --> 00:29:08.000
+STUDENT 3: So, is it... this one?
+
+00:29:11.000 --> 00:29:13.000
+TUTOR: When it's in reverse order.
+
+00:29:16.000 --> 00:29:19.000
+STUDENT 3: Alright, so this one, um...
+
+00:29:19.000 --> 00:29:22.000
+STUDENT 3: You have to distribute the negative 3.
+
+00:29:22.000 --> 00:29:24.000
+TUTOR: Mhm.
+
+00:29:23.000 --> 00:29:26.000
+STUDENT 3: to the X and the 2.
+
+00:29:26.000 --> 00:29:28.000
+TUTOR: Mhm.
+
+00:29:27.000 --> 00:29:33.000
+STUDENT 3: So, basically, you're multiplying the negative 3 to the X, and then you get negative 3x.
+
+00:29:33.000 --> 00:29:36.000
+STUDENT 3: Plus, uh...
+
+00:29:37.000 --> 00:29:39.000
+STUDENT 3: Negative...
+
+00:29:39.000 --> 00:29:41.000
+STUDENT 3: 6?
+
+00:29:42.000 --> 00:29:44.000
+STUDENT 3: I think.
+
+00:29:43.000 --> 00:29:47.000
+TUTOR: Good, which, if you have plus negative 6, that's just minus 6.
+
+00:29:44.000 --> 00:29:46.000
+STUDENT 3: Equal.
+
+00:29:49.000 --> 00:29:51.000
+TUTOR: Equals...
+
+00:29:50.000 --> 00:29:52.000
+STUDENT 3: equals 6.
+
+00:29:52.000 --> 00:29:58.000
+STUDENT 3: So now what you do is, uh, you need to add the 6 to both sides.
+
+00:30:00.000 --> 00:30:05.000
+STUDENT 3: And that cancels out. And then you're gonna get negative 3x equals, uh...
+
+00:30:05.000 --> 00:30:07.000
+STUDENT 3: 12.
+
+00:30:09.000 --> 00:30:13.000
+STUDENT 3: And then... you're gonna divide...
+
+00:30:14.000 --> 00:30:17.000
+STUDENT 3: by the negative 3.
+
+00:30:17.000 --> 00:30:21.000
+STUDENT 3: both sides by... I mean, yeah, negative 3.
+
+00:30:22.000 --> 00:30:24.000
+STUDENT 3: [INAUDIBLE].
+
+00:30:26.000 --> 00:30:28.000
+STUDENT 3: Would it be negative 4?
+
+00:30:29.000 --> 00:30:31.000
+TUTOR: Absolutely.
+
+00:30:31.000 --> 00:30:37.000
+TUTOR: Okay, um... I feel good about that.
+
+00:30:38.000 --> 00:30:41.000
+TUTOR: Um... here we go, this is one of the ones I wanted to try.
+
+00:30:41.000 --> 00:30:45.000
+TUTOR: So here we have variables on both sides.
+
+00:30:47.000 --> 00:30:52.000
+TUTOR: So there's a little bit more arranging that needs to happen before we can actually do stuff.
+
+00:30:56.000 --> 00:30:58.000
+TUTOR: But what do we do first?
+
+00:30:58.000 --> 00:31:02.000
+STUDENT 3: So first, what you need to do is the stuff in the parentheses.
+
+00:31:01.000 --> 00:31:03.000
+TUTOR: Yeah, you need to distribute.
+
+00:31:03.000 --> 00:31:05.000
+STUDENT 3: So, uh, you need to do...
+
+00:31:05.000 --> 00:31:07.000
+STUDENT 3: Negative 3 times 1.
+
+00:31:07.000 --> 00:31:10.000
+STUDENT 3: And then it's just gonna become negative 3.
+
+00:31:12.000 --> 00:31:14.000
+STUDENT 3: [INAUDIBLE]
+
+00:31:16.000 --> 00:31:18.000
+STUDENT 3: uh, negative 3...
+
+00:31:19.000 --> 00:31:21.000
+STUDENT 3: times 6R.
+
+00:31:22.000 --> 00:31:24.000
+STUDENT 3: And then...
+
+00:31:24.000 --> 00:31:26.000
+STUDENT 3: It would be...
+
+00:31:27.000 --> 00:31:31.000
+STUDENT 3: negative 18R, minus 18R.
+
+00:31:31.000 --> 00:31:33.000
+TUTOR: Very good.
+
+00:31:34.000 --> 00:31:36.000
+STUDENT 3: And that equals 14 minus 4.
+
+00:31:36.000 --> 00:31:39.000
+STUDENT 3: Now you have to combine your like terms.
+
+00:31:40.000 --> 00:31:43.000
+STUDENT 3: So, you have to add the...
+
+00:31:43.000 --> 00:31:46.000
+STUDENT 3: R to the... both sides.
+
+00:31:47.000 --> 00:31:50.000
+TUTOR: Very good, we want to get all the variables on the left side.
+
+00:31:50.000 --> 00:31:54.000
+STUDENT 3: That cancels. And then you get, um...
+
+00:31:55.000 --> 00:31:58.000
+STUDENT 3: It's negative... 17R.
+
+00:32:00.000 --> 00:32:02.000
+STUDENT 3: Equals 14.
+
+00:32:02.000 --> 00:32:07.000
+STUDENT 3: And then, uh, you add the 3 to both sides.
+
+00:32:12.000 --> 00:32:14.000
+STUDENT 3: And then...
+
+00:32:15.000 --> 00:32:17.000
+STUDENT 3: You get, um...
+
+00:32:17.000 --> 00:32:19.000
+STUDENT 3: The 3 canceled out, and then...
+
+00:32:19.000 --> 00:32:21.000
+STUDENT 3: You're gonna get, uh...
+
+00:32:21.000 --> 00:32:24.000
+STUDENT 3: what's it called? 17.
+
+00:32:29.000 --> 00:32:32.000
+STUDENT 3: Now you're dividing by 17.
+
+00:32:33.000 --> 00:32:35.000
+STUDENT 3: So then you've got... cancel it out.
+
+00:32:35.000 --> 00:32:37.000
+STUDENT 3: So wouldn't you just get...
+
+00:32:37.000 --> 00:32:39.000
+STUDENT 3: 1...
+
+00:32:40.000 --> 00:32:43.000
+STUDENT 3: R equals... oh, no, the negative is negative 1.
+
+00:32:45.000 --> 00:32:47.000
+STUDENT 3: Okay.
+
+00:32:45.000 --> 00:32:52.000
+TUTOR: R equals negative 1, very good. Yeah, don't forget that when you divide by something, if it's negative, you're also going to divide by the negative.
+
+00:32:55.000 --> 00:32:57.000
+TUTOR: Okay, that was good, let's do...
+
+00:32:57.000 --> 00:32:59.000
+TUTOR: One more, this is probably...
+
+00:33:00.000 --> 00:33:05.000
+TUTOR: Harder than you'll get on the test, I think, right? Is this... have you seen things around this level?
+
+00:33:06.000 --> 00:33:08.000
+STUDENT 3: Um... not at all.
+
+00:33:07.000 --> 00:33:09.000
+TUTOR: Probably not, yeah.
+
+00:33:08.000 --> 00:33:10.000
+STUDENT 3: Ready.
+
+00:33:10.000 --> 00:33:14.000
+TUTOR: Based on your homework and stuff, she's not this mean. I'm a little bit meaner.
+
+00:33:14.000 --> 00:33:19.000
+TUTOR: Um... but if you do it hard, then it's easy to do it easy, right?
+
+00:33:19.000 --> 00:33:21.000
+STUDENT 3: Mhm.
+
+00:33:20.000 --> 00:33:24.000
+TUTOR: Alright, so... let's look at this one. This one is several steps.
+
+00:33:24.000 --> 00:33:29.000
+STUDENT 3: Okay, so the first step is, uh, distribute the two.
+
+00:33:29.000 --> 00:33:33.000
+STUDENT 3: to the 5N... K, the 5K.
+
+00:33:33.000 --> 00:33:36.000
+STUDENT 3: And then, you're gonna get, um...
+
+00:33:37.000 --> 00:33:39.000
+STUDENT 3: 10K.
+
+00:33:41.000 --> 00:33:43.000
+STUDENT 3: in there. Um...
+
+00:33:43.000 --> 00:33:48.000
+STUDENT 3: You're gonna do 2 times negative 6.
+
+00:33:48.000 --> 00:33:52.000
+STUDENT 3: And then that's gonna get you negative, um, 12.
+
+00:33:53.000 --> 00:33:57.000
+STUDENT 3: And that equals negative 3K minus 39.
+
+00:33:58.000 --> 00:34:02.000
+STUDENT 3: Alright, now you... now you have to combine your, like, terms.
+
+00:33:58.000 --> 00:34:00.000
+TUTOR: Very good.
+
+00:34:03.000 --> 00:34:06.000
+STUDENT 3: So, what you're gonna do first is...
+
+00:34:06.000 --> 00:34:08.000
+STUDENT 3: I think... you have to...
+
+00:34:09.000 --> 00:34:13.000
+STUDENT 3: add the 4K to both sides.
+
+00:34:13.000 --> 00:34:17.000
+TUTOR: Hmm... we want all of our variables on the left side.
+
+00:34:18.000 --> 00:34:23.000
+TUTOR: Generally speaking, you could move all the variables to the right side, and nothing would be wrong with that.
+
+00:34:22.000 --> 00:34:24.000
+STUDENT 3: But... isn't...
+
+00:34:24.000 --> 00:34:27.000
+TUTOR: But we like to have them on the left side.
+
+00:34:25.000 --> 00:34:28.000
+STUDENT 3: the 4... the 4K.
+
+00:34:28.000 --> 00:34:31.000
+STUDENT 3: Like, a variable, and it's on the left side.
+
+00:34:31.000 --> 00:34:37.000
+TUTOR: Mm-hmm. But if we added it to both sides, if we added 4K to both sides, it would go away, right?
+
+00:34:38.000 --> 00:34:40.000
+STUDENT 3: Yeah.
+
+00:34:39.000 --> 00:34:44.000
+TUTOR: We don't want it to go away. It's currently on the left side, and that's the side we want it to be on.
+
+00:34:45.000 --> 00:34:49.000
+STUDENT 3: So, can you instead, um...
+
+00:34:49.000 --> 00:34:55.000
+STUDENT 3: Of adding... or, like, doing stuff with your variables, could you add the 12 to the...
+
+00:34:55.000 --> 00:34:57.000
+STUDENT 3: Both sides?
+
+00:34:57.000 --> 00:35:02.000
+TUTOR: You could. There would absolutely be nothing wrong with that, but I think you should combine these three terms first. 
+
+00:35:02.000 --> 00:35:07.000
+STUDENT 3: So then when... oh, I see what you have to do. So you would have to, um, do...
+
+00:35:09.000 --> 00:35:11.000
+STUDENT 3: Um... oh.
+
+00:35:12.000 --> 00:35:14.000
+STUDENT 3: So first, you have...
+
+00:35:12.000 --> 00:35:14.000
+TUTOR: This is two different steps, technically.
+
+00:35:15.000 --> 00:35:18.000
+STUDENT 3: The first you'd have to subtract the 4K.
+
+00:35:18.000 --> 00:35:20.000
+TUTOR: from...
+
+00:35:19.000 --> 00:35:21.000
+STUDENT 3: the 10K.
+
+00:35:21.000 --> 00:35:23.000
+TUTOR: to get...
+
+00:35:23.000 --> 00:35:25.000
+STUDENT 3: To get, um...
+
+00:35:25.000 --> 00:35:27.000
+STUDENT 3: What's it called? You get...
+
+00:35:27.000 --> 00:35:30.000
+STUDENT 3: Um... 6K.
+
+00:35:30.000 --> 00:35:35.000
+TUTOR: Good, and then we also have this 3K, negative 3K on the other side, so what would we do with that?
+
+00:35:36.000 --> 00:35:40.000
+STUDENT 3: You'd subtract that to the 6K, and then you get 3K.
+
+00:35:39.000 --> 00:35:41.000
+TUTOR: Negative 3K.
+
+00:35:43.000 --> 00:35:45.000
+TUTOR: It's on the other side.
+
+00:35:45.000 --> 00:35:47.000
+TUTOR: We have to move it.
+
+00:35:47.000 --> 00:35:50.000
+STUDENT 3: Yeah, but wouldn't it... isn't the sixth figure?
+
+00:35:50.000 --> 00:35:53.000
+TUTOR: Yes, but we have to move it. What do we do when we want to move it?
+
+00:35:56.000 --> 00:35:58.000
+STUDENT 3: Do...
+
+00:35:57.000 --> 00:36:04.000
+TUTOR: It's the same as usual. It's on a different side of the equation, so to get rid of it on this side of the equation.
+
+00:36:04.000 --> 00:36:08.000
+STUDENT 3: You do add... add it to both sides?
+
+00:36:06.000 --> 00:36:10.000
+TUTOR: Right, so we do plus 3K, and this disappears.
+
+00:36:10.000 --> 00:36:13.000
+STUDENT 3: And then you add it, and then you get, um...
+
+00:36:13.000 --> 00:36:19.000
+STUDENT 3: what's it called? Uh... you get, uh, 9, 9K.
+
+00:36:19.000 --> 00:36:21.000
+TUTOR: So 9K minus 12.
+
+00:36:21.000 --> 00:36:23.000
+TUTOR: Equals minus 39.
+
+00:36:23.000 --> 00:36:25.000
+STUDENT 3: Mhm.
+
+00:36:24.000 --> 00:36:30.000
+TUTOR: So that was technically two steps, but just, like, to save us a little bit of space, we just slapped it into one.
+
+00:36:30.000 --> 00:36:37.000
+STUDENT 3: Alright, now you add the 12 to both sides, and then that cancels out, and then you're adding the 12...
+
+00:36:38.000 --> 00:36:42.000
+STUDENT 3: If it's a 39, and I do a 39, then you get, um...
+
+00:36:50.000 --> 00:36:52.000
+STUDENT 3: What do you got? What do you got, um...
+
+00:36:52.000 --> 00:36:56.000
+STUDENT 3: 28, or nec... is it... is it negative 28?
+
+00:36:56.000 --> 00:36:58.000
+TUTOR: Mmm, it's not 28...
+
+00:37:00.000 --> 00:37:02.000
+STUDENT 3: Let me get, um...
+
+00:37:07.000 --> 00:37:09.000
+STUDENT 3: you'd get
+
+00:37:16.000 --> 00:37:18.000
+STUDENT 3: 27?
+
+00:37:18.000 --> 00:37:20.000
+TUTOR: Good, and it's negative because...
+
+00:37:19.000 --> 00:37:21.000
+STUDENT 3: Negative 27?
+
+00:37:20.000 --> 00:37:22.000
+TUTOR: Yes.
+
+00:37:25.000 --> 00:37:29.000
+STUDENT 3: And then, uh, you divide it by both sides by 9.
+
+00:37:29.000 --> 00:37:33.000
+STUDENT 3: And then you're gonna get negative 3.
+
+00:37:37.000 --> 00:37:39.000
+TUTOR: Absolutely good job.
+
+00:37:42.000 --> 00:37:45.000
+TUTOR: Okay, so you get the idea. There's some harder ones here.
+
+00:37:45.000 --> 00:37:48.000
+TUTOR: That you can do as practice if you'd like.
+
+00:37:48.000 --> 00:37:55.000
+TUTOR: Um, but we'll move on. They get really complicated. They have many, many steps, but we'll move on to.
+
+00:37:55.000 --> 00:38:03.000
+TUTOR: Decimals and fractions. Nothing really changes when you do decimals and fractions. You're doing the same stuff, you're just doing it with decimals and fractions, right?
+
+00:38:04.000 --> 00:38:06.000
+STUDENT 3: Yeah. 
+
+00:38:05.000 --> 00:38:07.000
+TUTOR: No need to overthink it.
+
+00:38:09.000 --> 00:38:12.000
+STUDENT 3: First, what you need to do...
+
+00:38:10.000 --> 00:38:11.000
+TUTOR: What do you do?
+
+00:38:12.000 --> 00:38:14.000
+TUTOR: Mhm.
+
+00:38:13.000 --> 00:38:16.000
+STUDENT 3: Is add the variables.
+
+00:38:17.000 --> 00:38:19.000
+TUTOR: Mhm.
+
+00:38:18.000 --> 00:38:20.000
+STUDENT 3: And you'd get, um...
+
+00:38:21.000 --> 00:38:25.000
+STUDENT 3: Do you... do you add the 7.3?
+
+00:38:26.000 --> 00:38:27.000
+STUDENT 3: to the 0.7.
+
+00:38:28.000 --> 00:38:30.000
+TUTOR: Mhm.
+
+00:38:29.000 --> 00:38:31.000
+STUDENT 3: And you got, um...
+
+00:38:31.000 --> 00:38:34.000
+STUDENT 3: what's it called? You get...
+
+00:38:34.000 --> 00:38:37.000
+STUDENT 3: Would you get 7.10?
+
+00:38:37.000 --> 00:38:39.000
+STUDENT 3: Hm?
+
+00:38:43.000 --> 00:38:45.000
+STUDENT 3: Oh, you do.
+
+00:38:46.000 --> 00:38:50.000
+STUDENT 3: Yeah, you're adding it. Oh, do you have to...
+
+00:38:51.000 --> 00:38:53.000
+STUDENT 3: Oh, it would be...
+
+00:39:02.000 --> 00:39:04.000
+STUDENT 3: Would it be 8.0?
+
+00:39:05.000 --> 00:39:07.000
+TUTOR: Mhm.
+
+00:39:05.000 --> 00:39:07.000
+STUDENT 3: Okay.
+
+00:39:12.000 --> 00:39:16.000
+TUTOR: Right? 3... 0.3 and 0.7.
+
+00:39:16.000 --> 00:39:19.000
+TUTOR: Make 1, so that's just 7 plus 1.
+
+00:39:21.000 --> 00:39:23.000
+STUDENT 3: Alright.
+
+00:39:29.000 --> 00:39:33.000
+STUDENT 3: Alright, now you add the 1.5 to both sides.
+
+00:39:36.000 --> 00:39:38.000
+STUDENT 3: And you'd get, um...
+
+00:39:55.000 --> 00:39:57.000
+STUDENT 3: 16.
+
+00:39:57.000 --> 00:39:59.000
+TUTOR: Very good.
+
+00:40:00.000 --> 00:40:07.000
+STUDENT 3: And then you divide by 8, both sides, so then your answer will be...
+
+00:40:07.000 --> 00:40:09.000
+STUDENT 3: 2.
+
+00:40:08.000 --> 00:40:11.000
+TUTOR: Perfect. No notes.
+
+00:40:11.000 --> 00:40:16.000
+TUTOR: Um, so it's the exact same thing you did before, just obviously, like, more...
+
+00:40:16.000 --> 00:40:21.000
+TUTOR: Slightly more annoying, I mean, there's just some decimals now, that's all, you just gotta be careful with your addition.
+
+00:40:21.000 --> 00:40:26.000
+TUTOR: Um... so for me, I'm just like, okay, this and this are gonna go together.
+
+00:40:27.000 --> 00:40:29.000
+TUTOR: This and this are gonna go together.
+
+00:40:31.000 --> 00:40:33.000
+STUDENT 3: Okay, so...
+
+00:40:31.000 --> 00:40:34.000
+TUTOR: So try this one, I'm not gonna say anything.
+
+00:40:34.000 --> 00:40:36.000
+STUDENT 3: Okay.
+
+00:41:27.000 --> 00:41:29.000
+TUTOR: Are you adding the decimals?
+
+00:41:30.000 --> 00:41:33.000
+STUDENT 3: Uh... yeah.
+
+00:41:32.000 --> 00:41:34.000
+TUTOR: Yeah, it's a little annoying.
+
+00:42:42.000 --> 00:42:44.000
+TUTOR: Are we adding them still?
+
+00:42:44.000 --> 00:42:48.000
+STUDENT 3: Um, I'm at the last step.
+
+00:42:48.000 --> 00:42:50.000
+TUTOR: Oh, okay, beautiful.
+
+00:44:37.000 --> 00:44:41.000
+STUDENT 3: I'm having trouble in the last step when you're dividing them.
+
+00:44:42.000 --> 00:44:46.000
+TUTOR: So, first of all, 16.3 plus 7.5, what did you get?
+
+00:44:46.000 --> 00:44:49.000
+STUDENT 3: Uh, I got 23.8.
+
+00:44:50.000 --> 00:44:52.000
+TUTOR: So, 16 plus 7...
+
+00:44:53.000 --> 00:44:57.000
+TUTOR: Gives me 4 with a remainder of 3, so it's 23.8.
+
+00:44:57.000 --> 00:45:00.000
+TUTOR: And then 64 and 19.2.
+
+00:45:02.000 --> 00:45:04.000
+STUDENT 3: Oh, I got...
+
+00:45:04.000 --> 00:45:06.000
+STUDENT 3: what's it called? Negative?
+
+00:45:06.000 --> 00:45:08.000
+TUTOR: Mhm.
+
+00:45:07.000 --> 00:45:09.000
+STUDENT 3: 25.621.
+
+00:45:09.000 --> 00:45:11.000
+TUTOR: 25?
+
+00:45:12.000 --> 00:45:16.000
+STUDENT 3: Because it's, uh, when you're... it's both... they're... they were both negative, so...
+
+00:45:16.000 --> 00:45:18.000
+TUTOR: Right, so it should get bigger, right?
+
+00:45:20.000 --> 00:45:22.000
+STUDENT 3: He's a...
+
+00:45:22.000 --> 00:45:24.000
+STUDENT 3: 44.9.
+
+00:45:24.000 --> 00:45:34.000
+TUTOR: No, it's gonna get bigger, it's gonna get more negative, right? Because it's minus 64.1 minus 19.2. So you're basically gonna add these and make it negative, right?
+
+00:45:35.000 --> 00:45:37.000
+STUDENT 3: Yeah, got it. Good.
+
+00:45:36.000 --> 00:45:39.000
+TUTOR: That would probably explain some of the problems you're having.
+
+00:45:41.000 --> 00:45:43.000
+TUTOR: So what's 0.1 plus 0.2?
+
+00:45:42.000 --> 00:45:45.000
+STUDENT 3: Yeah, but... when you're adding them, don't you have to, like...
+
+00:45:47.000 --> 00:45:49.000
+STUDENT 3: Line up your decimals, right?
+
+00:45:49.000 --> 00:45:51.000
+STUDENT 3: Oh, wait, did I do?
+
+00:45:51.000 --> 00:45:53.000
+TUTOR: You might not line them up properly.
+
+00:45:51.000 --> 00:45:53.000
+STUDENT 3: Uh...
+
+00:45:55.000 --> 00:45:57.000
+TUTOR: So what's 0.1 plus 0.2?
+
+00:45:59.000 --> 00:46:01.000
+STUDENT 3: Oh, I put the decimal in the wrong place.
+
+00:46:03.000 --> 00:46:05.000
+STUDENT 3: Alright, um...
+
+00:46:05.000 --> 00:46:07.000
+STUDENT 3: Now, it is...
+
+00:46:11.000 --> 00:46:13.000
+STUDENT 3: It's...
+
+00:46:13.000 --> 00:46:17.000
+STUDENT 3: 83. Negative 83.3.
+
+00:46:17.000 --> 00:46:19.000
+TUTOR: Good, negative 83...
+
+00:46:19.000 --> 00:46:21.000
+TUTOR: 0.3. Now.
+
+00:46:23.000 --> 00:46:26.000
+TUTOR: this is annoying, right? This is difficult to divide.
+
+00:46:27.000 --> 00:46:30.000
+TUTOR: Um, cause we get K equals...
+
+00:46:31.000 --> 00:46:35.000
+TUTOR: Negative 83.3 over...
+
+00:46:37.000 --> 00:46:39.000
+TUTOR: 23.8.
+
+00:46:39.000 --> 00:46:41.000
+TUTOR: Right. Um...
+
+00:46:41.000 --> 00:46:46.000
+TUTOR: In an ideal world, you could just use a calculator. Your teacher would never give you something this complicated.
+
+00:46:46.000 --> 00:46:51.000
+TUTOR: Um... 8... 6 plus 8 is 14.
+
+00:46:51.000 --> 00:46:55.000
+TUTOR: You might have to use a calculator, to be honest. Um...
+
+00:46:56.000 --> 00:46:58.000
+TUTOR: I mean, you could do this by hand.
+
+00:46:58.000 --> 00:47:02.000
+TUTOR: Uh, what you would do is you would multiply both of these by 10.
+
+00:47:03.000 --> 00:47:10.000
+TUTOR: And you would get 833 divided by 238, so that kind of gets rid of the decimals.
+
+00:47:10.000 --> 00:47:16.000
+TUTOR: But, um, doing this by hand would be absolutely disgusting, so in this case, do feel free to use a calculator.
+
+00:47:17.000 --> 00:47:19.000
+STUDENT 3: Okay.
+
+00:47:29.000 --> 00:47:32.000
+STUDENT 3: Wait, why do you multiply them by 10?
+
+00:47:32.000 --> 00:47:38.000
+TUTOR: That's a good question. So, you know how when we simplify, we divide the numerator and denominator by something?
+
+00:47:37.000 --> 00:47:39.000
+STUDENT 3: Oh, to simplify.
+
+00:47:38.000 --> 00:47:40.000
+TUTOR: Here, we're kind of doing the opposite.
+
+00:47:40.000 --> 00:47:44.000
+TUTOR: There's a decimal, and I want to scooch it over by one place.
+
+00:47:44.000 --> 00:47:47.000
+TUTOR: To scooch a decimal over by one place, I multiply by 10.
+
+00:47:47.000 --> 00:47:51.000
+TUTOR: To scooch it over 2 places, I go 100. 3 places?
+
+00:47:50.000 --> 00:47:52.000
+STUDENT 3: [INAUDIBLE]
+
+00:47:51.000 --> 00:47:53.000
+TUTOR: Thousand. [INAUDIBLE]
+
+00:47:53.000 --> 00:47:55.000
+STUDENT 3: Let me move the decimal.
+
+00:47:55.000 --> 00:47:57.000
+TUTOR: If you were gonna do this by hand.
+
+00:47:58.000 --> 00:48:00.000
+TUTOR: Um, it would kind of suck to do...
+
+00:48:02.000 --> 00:48:06.000
+TUTOR: This, but it would be less bad to do...
+
+00:48:08.000 --> 00:48:12.000
+TUTOR: this. This decimal makes things a little bit confusing.
+
+00:48:14.000 --> 00:48:17.000
+TUTOR: So, it's just something that we're taught to do.
+
+00:48:17.000 --> 00:48:21.000
+TUTOR: Um, because when you're dividing by something that's not a whole number.
+
+00:48:21.000 --> 00:48:24.000
+TUTOR: I, like, you don't know how to do that, right? How the heck do you divide by something that's not a full number?
+
+00:48:24.000 --> 00:48:28.000
+TUTOR: So, if you make it a whole number by multiplying by 10.
+
+00:48:35.000 --> 00:48:40.000
+TUTOR: it becomes a little bit easier. Um, so this trick is mostly useful when you're doing it by hand, though.
+
+00:48:40.000 --> 00:48:43.000
+TUTOR: So suppose, for example, you have something like 25.5.
+
+00:48:44.000 --> 00:48:46.000
+TUTOR: Divided by 0.5.
+
+00:48:46.000 --> 00:48:49.000
+TUTOR: How the heck do you divide something by 0.5? I don't know.
+
+00:48:49.000 --> 00:48:51.000
+TUTOR: So I'm just gonna multiply everything by 10.
+
+00:48:53.000 --> 00:48:56.000
+TUTOR: And this becomes 5, and this becomes 255.
+
+00:49:00.000 --> 00:49:02.000
+TUTOR: And that's... that's doable.
+
+00:49:02.000 --> 00:49:04.000
+TUTOR: This is not doable, this is doable.
+
+00:49:05.000 --> 00:49:07.000
+STUDENT 3: To basically, like, um...
+
+00:49:07.000 --> 00:49:12.000
+STUDENT 3: Now, after you do that, now you have to divide the 255 to the 5.
+
+00:49:13.000 --> 00:49:16.000
+TUTOR: Yeah, which isn't too bad, though, because how many times does 5 go into 25?
+
+00:49:17.000 --> 00:49:19.000
+STUDENT 3: Uh, it goes in there 5 times.
+
+00:49:19.000 --> 00:49:21.000
+TUTOR: And how many times does 5 go into 5?
+
+00:49:21.000 --> 00:49:23.000
+STUDENT 3: Once.
+
+00:49:22.000 --> 00:49:24.000
+TUTOR: It goes into it very evenly.
+
+00:49:25.000 --> 00:49:30.000
+TUTOR: But there's no way you could have looked at this and been like, oh, heck yeah, 51. There's just no way you would have gotten that.
+
+00:49:30.000 --> 00:49:34.000
+TUTOR: So we gotta get rid of that decimal, because it just... it complicates things quite a bit.
+
+00:49:38.000 --> 00:49:46.000
+TUTOR: Um, so that's if you're dividing the decimals by hand. If you're... in this case, there's no frickin' way I would ask you to do this by hand, that would be so mean.
+
+00:49:46.000 --> 00:49:49.000
+TUTOR: Um, so I'm just gonna say, go ahead, grab a calculator.
+
+00:49:50.000 --> 00:49:51.000
+TUTOR: Let me know what you get.
+
+00:49:54.000 --> 00:49:56.000
+STUDENT 3: Okay.
+
+00:49:55.000 --> 00:49:57.000
+TUTOR: Guessing it's between 3 and 4?
+
+00:50:08.000 --> 00:50:10.000
+STUDENT 3: It would...
+
+00:50:10.000 --> 00:50:12.000
+TUTOR: Maybe two, even.
+
+00:50:10.000 --> 00:50:12.000
+STUDENT 3: be...
+
+00:50:12.000 --> 00:50:14.000
+STUDENT 3: It would...
+
+00:50:15.000 --> 00:50:20.000
+STUDENT 3: Would the negative be... would it make both of the numbers negative?
+
+00:50:20.000 --> 00:50:22.000
+TUTOR: No, only one.
+
+00:50:20.000 --> 00:50:22.000
+STUDENT 3: I get the fraction?
+
+00:50:22.000 --> 00:50:24.000
+TUTOR: Because when... before we divided.
+
+00:50:25.000 --> 00:50:27.000
+TUTOR: There was only one negative, and this was pos...
+
+00:50:27.000 --> 00:50:31.000
+TUTOR: positive. If both were negative, what's a negative number divided by a negative number?
+
+00:50:32.000 --> 00:50:36.000
+STUDENT 3: A negative number divided by a negative number is positive, right?
+
+00:50:35.000 --> 00:50:38.000
+TUTOR: So I wouldn't put the negative sign there in the first place.
+
+00:50:38.000 --> 00:50:41.000
+TUTOR: You only put the negative sign there if it only applies to one of them.
+
+00:50:42.000 --> 00:50:44.000
+STUDENT 3: Okay.
+
+00:50:43.000 --> 00:50:45.000
+TUTOR: So you could either do it...
+
+00:50:45.000 --> 00:50:50.000
+TUTOR: As... negative 83.3 divided by 23.8.
+
+00:50:50.000 --> 00:50:56.000
+TUTOR: or as 83.3 divided by negative 23.8. Functionally, those are the same thing.
+
+00:50:57.000 --> 00:51:00.000
+TUTOR: Or, you could just ignore the negative and stick it on at the end.
+
+00:51:02.000 --> 00:51:04.000
+TUTOR: Which is what I would do.
+
+00:51:04.000 --> 00:51:06.000
+STUDENT 3: Is the answer, um...
+
+00:51:07.000 --> 00:51:09.000
+STUDENT 3: Negative...
+
+00:51:10.000 --> 00:51:12.000
+STUDENT 3: 3.5?
+
+00:51:13.000 --> 00:51:15.000
+STUDENT 3: I think that's it.
+
+00:51:15.000 --> 00:51:17.000
+TUTOR: Really, it's 3.5 on the dot?
+
+00:51:17.000 --> 00:51:19.000
+STUDENT 3: Yeah.
+
+00:51:18.000 --> 00:51:20.000
+TUTOR: Really?
+
+00:51:19.000 --> 00:51:21.000
+STUDENT 3: Looks like it...
+
+00:51:21.000 --> 00:51:24.000
+TUTOR: Oh, that's crazy. Um, maybe, yeah, I don't know. Let me check.
+
+00:51:25.000 --> 00:51:28.000
+TUTOR: I don't want to do it by hand, either. Um...
+
+00:51:30.000 --> 00:51:34.000
+TUTOR: So, it was 83.3...
+
+00:51:35.000 --> 00:51:37.000
+TUTOR: divided by...
+
+00:51:37.000 --> 00:51:40.000
+TUTOR: 23.8...
+
+00:51:40.000 --> 00:51:42.000
+TUTOR: Yep.
+
+00:51:42.000 --> 00:51:44.000
+TUTOR: So I guess it was between 3 and 4.
+
+00:51:46.000 --> 00:51:48.000
+STUDENT 3: Mhm.
+
+00:51:50.000 --> 00:51:52.000
+TUTOR: Um, so that's that.
+
+00:51:55.000 --> 00:51:57.000
+TUTOR: These got mixed up a little bit, didn't they?
+
+00:51:57.000 --> 00:51:59.000
+TUTOR: Here we go.
+
+00:52:06.000 --> 00:52:08.000
+TUTOR: Oh, you can't see my screen.
+
+00:52:09.000 --> 00:52:10.000
+TUTOR: Why isn't it updating?
+
+00:52:11.000 --> 00:52:13.000
+TUTOR: Oh, there we go.
+
+00:52:12.000 --> 00:52:14.000
+STUDENT 3: I can see.
+
+00:52:16.000 --> 00:52:20.000
+TUTOR: There you go, this one's a little bit more straightforward, uses that trick we talked about.
+
+00:52:21.000 --> 00:52:26.000
+STUDENT 3: Oh, so first off, you'd have to add the 6 to both sides.
+
+00:52:26.000 --> 00:52:28.000
+TUTOR: Mhm.
+
+00:52:26.000 --> 00:52:30.000
+STUDENT 3: And then you get that canceled out, and then, um...
+
+00:52:30.000 --> 00:52:34.000
+STUDENT 3: be 2 over 3Y equals.
+
+00:52:34.000 --> 00:52:36.000
+STUDENT 3: uh, 8.
+
+00:52:37.000 --> 00:52:39.000
+STUDENT 3: And then...
+
+00:52:39.000 --> 00:52:41.000
+STUDENT 3: Um...
+
+00:52:44.000 --> 00:52:45.000
+STUDENT 3: Would you have to...
+
+00:52:47.000 --> 00:52:49.000
+STUDENT 3: Multiply it.
+
+00:52:50.000 --> 00:52:52.000
+STUDENT 3: [INAUDIBLE]
+
+00:52:53.000 --> 00:52:58.000
+STUDENT 3: The 2 over 3, take 3 over 2, and multiply that by both sides?
+
+00:52:59.000 --> 00:53:01.000
+TUTOR: Absolutely perfect.
+
+00:53:00.000 --> 00:53:03.000
+STUDENT 3: So then I canceled out. And then...
+
+00:53:05.000 --> 00:53:08.000
+STUDENT 3: Would the answer be Y equals...
+
+00:53:09.000 --> 00:53:11.000
+STUDENT 3: Um...
+
+00:53:13.000 --> 00:53:16.000
+STUDENT 3: 24 over...
+
+00:53:17.000 --> 00:53:19.000
+STUDENT 3: 2?
+
+00:53:18.000 --> 00:53:20.000
+TUTOR: You gotta simplify that, but yeah.
+
+00:53:21.000 --> 00:53:23.000
+STUDENT 3: Would it be too...
+
+00:53:23.000 --> 00:53:25.000
+STUDENT 3: But no, you can't divide it.
+
+00:53:24.000 --> 00:53:26.000
+TUTOR: Mhm.
+
+00:53:25.000 --> 00:53:27.000
+STUDENT 3: It'd be 12.
+
+00:53:26.000 --> 00:53:28.000
+TUTOR: It would be 12, yeah, you just divide it.
+
+00:53:28.000 --> 00:53:35.000
+TUTOR: For me, I do that one step faster. Again, your way is totally correct! I'm just showing you the trick until you feel like it's intuitive.
+
+00:53:35.000 --> 00:53:37.000
+TUTOR: Um, here we have 8...
+
+00:53:38.000 --> 00:53:40.000
+TUTOR: And divided by 2.
+
+00:53:40.000 --> 00:53:42.000
+TUTOR: So that's just gonna be...
+
+00:53:42.000 --> 00:53:45.000
+TUTOR: 4 times 3... which ends up being 12.
+
+00:53:47.000 --> 00:53:53.000
+TUTOR: Same exact thing you got, same exact process, I just did the division before the multiplication.
+
+00:53:53.000 --> 00:53:56.000
+TUTOR: You did the multiplication before the division.
+
+00:53:56.000 --> 00:53:58.000
+TUTOR: No difference.
+
+00:53:58.000 --> 00:54:00.000
+TUTOR: Okay, very good job.
+
+00:54:03.000 --> 00:54:06.000
+TUTOR: This one involves some fraction...
+
+00:54:07.000 --> 00:54:11.000
+TUTOR: stuff. Um, this you might want to write down because you're adding.
+
+00:54:11.000 --> 00:54:14.000
+TUTOR: A fraction, and a whole number, and...
+
+00:54:15.000 --> 00:54:17.000
+STUDENT 3: Alright, well, this one...
+
+00:54:15.000 --> 00:54:17.000
+TUTOR: That takes quite a few steps, right?
+
+00:54:20.000 --> 00:54:25.000
+STUDENT 3: I have a question. Are fractions, like, you know how, like, variables...
+
+00:54:25.000 --> 00:54:27.000
+TUTOR: Mhm.
+
+00:54:25.000 --> 00:54:29.000
+STUDENT 3: You can't add variables to, like, numbers that don't have a variable.
+
+00:54:29.000 --> 00:54:32.000
+TUTOR: You're asking if we can add a whole number and a fraction?
+
+00:54:32.000 --> 00:54:34.000
+STUDENT 3: Yeah.
+
+00:54:33.000 --> 00:54:37.000
+TUTOR: We can, but they need to have the same denominator, so you gotta do some stuff to it.
+
+00:54:36.000 --> 00:54:38.000
+STUDENT 3: Oh, okay, so then...
+
+00:54:39.000 --> 00:54:44.000
+TUTOR: So that's... that's kind of a pain in the butt, but somehow you gotta give 2 a denominator of 8.
+
+00:54:44.000 --> 00:54:46.000
+TUTOR: But it's a whole number, so...
+
+00:54:46.000 --> 00:54:49.000
+STUDENT 3: You need some... [INAUDIBLE]?
+
+00:54:49.000 --> 00:54:52.000
+TUTOR: Well, first of all, if you were gonna make 2 into a fraction, what would it be?
+
+00:54:55.000 --> 00:54:57.000
+STUDENT 3: Uh... 2 over 1?
+
+00:54:57.000 --> 00:55:02.000
+TUTOR: 2 over 1, but now we need it to be a denominator of 8, so what do you get...
+
+00:55:01.000 --> 00:55:03.000
+STUDENT 3: You have to multiply...
+
+00:55:04.000 --> 00:55:09.000
+STUDENT 3: Uh... wait, so are you multiplying 1 by a number to get it to 8, or the 2?
+
+00:55:09.000 --> 00:55:16.000
+TUTOR: You're multiplying both by a number to... you're multiplying the denominator by a number to get it to 8, and then you're multiplying the numerator by that same number.
+
+00:55:16.000 --> 00:55:20.000
+STUDENT 3: Okay, so then you'd get... can you just multiply 1 and 8?
+
+00:55:21.000 --> 00:55:24.000
+TUTOR: Uh, well, so you get 7 over 8.
+
+00:55:24.000 --> 00:55:27.000
+TUTOR: And it's 5 over 8.
+
+00:55:25.000 --> 00:55:27.000
+STUDENT 3: Yeah.
+
+00:55:27.000 --> 00:55:34.000
+TUTOR: And you get 2 over 1, and you're saying, okay, I'll multiply this by 8, but if you multiply that by 8, you also gotta multiply this by 8.
+
+00:55:35.000 --> 00:55:40.000
+STUDENT 3: So then it would become, um, 16 over 8?
+
+00:55:41.000 --> 00:55:47.000
+TUTOR: 7 over 8H minus 5 over 8 equals 16 over 8.
+
+00:55:47.000 --> 00:55:49.000
+TUTOR: And now you can do stuff.
+
+00:55:50.000 --> 00:55:55.000
+STUDENT 3: Okay, so now you can add the 5 over 8 to both sides.
+
+00:55:55.000 --> 00:55:57.000
+TUTOR: Yes.
+
+00:55:56.000 --> 00:56:00.000
+STUDENT 3: And then you'd get, um...
+
+00:56:01.000 --> 00:56:06.000
+STUDENT 3: The denominator stays as an 8, and then you get, um...
+
+00:56:08.000 --> 00:56:11.000
+STUDENT 3: 21... over 8.
+
+00:56:12.000 --> 00:56:14.000
+STUDENT 3: Yeah, yeah, yeah. And now you...
+
+00:56:14.000 --> 00:56:17.000
+STUDENT 3: Now, you multiply...
+
+00:56:19.000 --> 00:56:21.000
+STUDENT 3: Uh, 8 over 7.
+
+00:56:21.000 --> 00:56:23.000
+STUDENT 3: both sides.
+
+00:56:23.000 --> 00:56:26.000
+STUDENT 3: And then you'd get, um...
+
+00:56:30.000 --> 00:56:37.000
+TUTOR: And now here's where... here's where doing the multiplication first becomes kind of unsustainable, right?
+
+00:56:37.000 --> 00:56:47.000
+TUTOR: Because then you have 21 over... 21 times 8 divided by 8 times 7. And that is something that you can do by hand, but you'd probably want to do with a calculator.
+
+00:56:47.000 --> 00:56:51.000
+TUTOR: So, an easy way to do this is to say, well, there's an 8 in the denominator.
+
+00:56:52.000 --> 00:56:56.000
+TUTOR: And there's an 8 in the numerator. So that's just gonna end up being, at some point.
+
+00:56:56.000 --> 00:56:59.000
+TUTOR: 8 divided by 8, and we don't care. We can just get rid of it.
+
+00:57:00.000 --> 00:57:01.000
+TUTOR: So what are we left with?
+
+00:57:03.000 --> 00:57:07.000
+STUDENT 3: Left with, um, 21 over 7.
+
+00:57:07.000 --> 00:57:09.000
+STUDENT 3: [INAUDIBLE]
+
+00:57:09.000 --> 00:57:15.000
+TUTOR: 3. So that's where this trick really comes in handy, is where.
+
+00:57:15.000 --> 00:57:17.000
+TUTOR: Multiplying it out would make them...
+
+00:57:17.000 --> 00:57:23.000
+TUTOR: Giant numbers, and we do not want them to be giant numbers, because dividing that is just, like, terrible.
+
+00:57:23.000 --> 00:57:26.000
+TUTOR: It's just not sustainable, it's not quick, it's not easy.
+
+00:57:27.000 --> 00:57:29.000
+TUTOR: It's none of those things.
+
+00:57:29.000 --> 00:57:31.000
+TUTOR: Um...
+
+00:57:31.000 --> 00:57:33.000
+TUTOR: I have a lot of decimals, but oh well.
+
+00:57:34.000 --> 00:57:36.000
+TUTOR: I wanted to do fractions first.
+
+00:57:36.000 --> 00:57:39.000
+TUTOR: Where's... where the heck are all my fraction questions? There we go.
+
+00:57:44.000 --> 00:57:48.000
+STUDENT 3: Alright, so first you need to make the...
+
+00:57:47.000 --> 00:57:49.000
+TUTOR: This is gonna be several, several steps.
+
+00:57:51.000 --> 00:57:55.000
+STUDENT 3: So, first, you need to, uh...
+
+00:57:55.000 --> 00:57:57.000
+STUDENT 3: You need to make...
+
+00:57:58.000 --> 00:57:59.000
+STUDENT 3: The 2 are a fraction.
+
+00:58:02.000 --> 00:58:05.000
+STUDENT 3: And... so then it would become...
+
+00:58:09.000 --> 00:58:12.000
+STUDENT 3: Alright, so what you have to do is you have to make.
+
+00:58:12.000 --> 00:58:16.000
+STUDENT 3: I would make the common denominator, um.
+
+00:58:18.000 --> 00:58:20.000
+STUDENT 3: Three...
+
+00:58:19.000 --> 00:58:21.000
+TUTOR: Hmm.
+
+00:58:21.000 --> 00:58:25.000
+STUDENT 3: So I think that you could just multiply...
+
+00:58:26.000 --> 00:58:28.000
+STUDENT 3: the one by 3.
+
+00:58:28.000 --> 00:58:30.000
+STUDENT 3: And then...
+
+00:58:31.000 --> 00:58:33.000
+STUDENT 3: 3... so then your denominator...
+
+00:58:33.000 --> 00:58:36.000
+STUDENT 3: Would become, uh, 6.
+
+00:58:36.000 --> 00:58:38.000
+TUTOR: You mean your numerator?
+
+00:58:36.000 --> 00:58:39.000
+STUDENT 3: over... yeah, numerator.
+
+00:58:40.000 --> 00:58:42.000
+TUTOR: Okay.
+
+00:58:40.000 --> 00:58:43.000
+STUDENT 3: And then, um...
+
+00:58:43.000 --> 00:58:48.000
+STUDENT 3: Now, you have to add 6 over 3 to both sides.
+
+00:58:48.000 --> 00:58:50.000
+TUTOR: Hmm?
+
+00:58:49.000 --> 00:58:53.000
+STUDENT 3: No, yeah, with the... you have to add 6 over 3 to the 5 over 3.
+
+00:58:54.000 --> 00:58:57.000
+STUDENT 3: Right? Can you do that?
+
+00:58:57.000 --> 00:58:59.000
+STUDENT 3: Oh, no. If it's the negative.
+
+00:58:59.000 --> 00:59:03.000
+TUTOR: Yeah, that's... that's subtraction, that's just 5 over 3 minus 6 over 3.
+
+00:59:04.000 --> 00:59:11.000
+STUDENT 3: Oh, I thought you had to do a, like, add... turn it into a positive, add it to 6 over...
+
+00:59:10.000 --> 00:59:17.000
+TUTOR: If you add it to both sides, it goes away here, and then you just end up with 6 over 3 over here, and there's nothing to combine here.
+
+00:59:13.000 --> 00:59:15.000
+STUDENT 3: Yeah.
+
+00:59:15.000 --> 00:59:18.000
+STUDENT 3: No, I... yeah, so I'll say...
+
+00:59:19.000 --> 00:59:22.000
+STUDENT 3: And when you combine it to the 5 over 3R?
+
+00:59:21.000 --> 00:59:23.000
+TUTOR: Exactly, so we wouldn't be adding it.
+
+00:59:24.000 --> 00:59:26.000
+STUDENT 3: So you'd be subtracting it?
+
+00:59:25.000 --> 00:59:28.000
+TUTOR: Well, it's 5 over 3R minus 6 over 3R.
+
+00:59:28.000 --> 00:59:30.000
+STUDENT 3: Then you just got, um...
+
+00:59:29.000 --> 00:59:33.000
+TUTOR: We only do the opposite if we're trying to move it to the other side.
+
+00:59:33.000 --> 00:59:38.000
+STUDENT 3: Okay. So now, wouldn't you get 1 over 3R?
+
+00:59:40.000 --> 00:59:42.000
+TUTOR: Negative 1 over 3.
+
+00:59:44.000 --> 00:59:46.000
+STUDENT 3: Equals negative 11 over 9.
+
+00:59:46.000 --> 00:59:48.000
+TUTOR: And why is it negative?
+
+00:59:49.000 --> 00:59:53.000
+STUDENT 3: Because, um, the [INAUDIBLE] is...
+
+00:59:54.000 --> 00:59:55.000
+STUDENT 3: Bigger.
+
+00:59:54.000 --> 00:59:58.000
+TUTOR: Yeah, because it's 5 minus 6, right? The 6 is bigger.
+
+00:59:59.000 --> 01:00:05.000
+TUTOR: Okay, so now both sides are negative, so that kinda... the negatives just go away when both sides are negative.
+
+01:00:06.000 --> 01:00:08.000
+TUTOR: What are we... what are we gonna do here?
+
+01:00:07.000 --> 01:00:09.000
+STUDENT 3: to now...
+
+01:00:09.000 --> 01:00:11.000
+STUDENT 3: Now what you need to do...
+
+01:00:11.000 --> 01:00:13.000
+STUDENT 3: is...
+
+01:00:15.000 --> 01:00:17.000
+STUDENT 3: You're, you're supposed to...
+
+01:00:17.000 --> 01:00:19.000
+STUDENT 3: uh... add...
+
+01:00:20.000 --> 01:00:22.000
+STUDENT 3: 3 over 1.
+
+01:00:26.000 --> 01:00:28.000
+STUDENT 3: Uh, well, you changed the positive?
+
+01:00:28.000 --> 01:00:30.000
+TUTOR: Yeah, I just... well, because both sides are negative.
+
+01:00:31.000 --> 01:00:33.000
+STUDENT 3: Didn't... but then, wouldn't they be negative?
+
+01:00:34.000 --> 01:00:38.000
+TUTOR: Nah, because if you've got a negative on this side and a negative on this side.
+
+01:00:39.000 --> 01:00:43.000
+TUTOR: Think about it. Over here, when you get rid of this.
+
+01:00:43.000 --> 01:00:50.000
+TUTOR: You're gonna do something with a negative number, and then this'll be a negative number and a negative number, and that'll give you a positive number.
+
+01:00:50.000 --> 01:00:55.000
+TUTOR: But this is just our trick from before, right? It's a fraction times a variable equals a number.
+
+01:00:55.000 --> 01:00:57.000
+TUTOR: So, how do we undo that?
+
+01:00:57.000 --> 01:00:59.000
+STUDENT 3: Oh, multiplication.
+
+01:00:59.000 --> 01:01:01.000
+TUTOR: Bam!
+
+01:01:01.000 --> 01:01:03.000
+STUDENT 3: 3 over 1.
+
+01:01:03.000 --> 01:01:05.000
+TUTOR: And we're gonna make it negative.
+
+01:01:03.000 --> 01:01:05.000
+STUDENT 3: Totally.
+
+01:01:05.000 --> 01:01:07.000
+STUDENT 3: Yeah, so it'll be 11.
+
+01:01:08.000 --> 01:01:10.000
+STUDENT 3: None...
+
+01:01:10.000 --> 01:01:12.000
+TUTOR: So this totally goes away.
+
+01:01:13.000 --> 01:01:17.000
+TUTOR: And then here, you see that there's a negative and a negative? What does that become?
+
+01:01:16.000 --> 01:01:18.000
+STUDENT 3: Okay. Positive?
+
+01:01:18.000 --> 01:01:23.000
+TUTOR: So we get... yeah, so we get R equals 11 over 9.
+
+01:01:18.000 --> 01:01:21.000
+STUDENT 3: No, yeah, yeah, positive. And then...
+
+01:01:23.000 --> 01:01:25.000
+TUTOR: Times 3 over 1.
+
+01:01:26.000 --> 01:01:30.000
+STUDENT 3: And then you're gonna get 33 over 9.
+
+01:01:31.000 --> 01:01:34.000
+TUTOR: And in this case, I'd really like us to... it's not...
+
+01:01:34.000 --> 01:01:36.000
+TUTOR: 33 over 9 is not neat.
+
+01:01:36.000 --> 01:01:38.000
+TUTOR: But we can simplify it a little bit.
+
+01:01:39.000 --> 01:01:41.000
+STUDENT 3: Do you divide it?
+
+01:01:41.000 --> 01:01:43.000
+TUTOR: Yes!
+
+01:01:44.000 --> 01:01:47.000
+STUDENT 3: Can you just divide 39 and 33?
+
+01:01:46.000 --> 01:01:49.000
+TUTOR: It... we can, but it'll give us a decimal.
+
+01:01:51.000 --> 01:01:53.000
+STUDENT 3: Um...
+
+01:01:53.000 --> 01:01:55.000
+STUDENT 3: So...
+
+01:01:54.000 --> 01:01:58.000
+TUTOR: [INAUDIBLE] is... does 9 evenly go into 33?
+
+01:01:59.000 --> 01:02:01.000
+STUDENT 3: No.
+
+01:02:00.000 --> 01:02:04.000
+TUTOR: No, so that's why it's gonna give us a decimal, so we could just simplify the fraction.
+
+01:02:05.000 --> 01:02:07.000
+STUDENT 3: Can you change it to be...
+
+01:02:11.000 --> 01:02:13.000
+STUDENT 3: Um...
+
+01:02:16.000 --> 01:02:18.000
+STUDENT 3: Um...
+
+01:02:17.000 --> 01:02:20.000
+TUTOR: What could we divide both the numerator and denominator by?
+
+01:02:21.000 --> 01:02:22.000
+STUDENT 3: 2...
+
+01:02:22.000 --> 01:02:24.000
+TUTOR: Mmm, is 33 an even number?
+
+01:02:26.000 --> 01:02:28.000
+STUDENT 3: Uh, no.
+
+01:02:27.000 --> 01:02:29.000
+TUTOR: And is 9 an even number?
+
+01:02:29.000 --> 01:02:31.000
+STUDENT 3: No.
+
+01:02:29.000 --> 01:02:31.000
+TUTOR: So we can't divide by 2.
+
+01:02:31.000 --> 01:02:33.000
+STUDENT 3: Divide by 3.
+
+01:02:32.000 --> 01:02:35.000
+TUTOR: You divide by 3, because 33 is divisible by 3.
+
+01:02:35.000 --> 01:02:38.000
+TUTOR: And 9 is divisible by 3. What's 33 divided by 3?
+
+01:02:37.000 --> 01:02:41.000
+STUDENT 3: So then you're gonna get, uh... 11?
+
+01:02:41.000 --> 01:02:43.000
+STUDENT 3: And... 3.
+
+01:02:45.000 --> 01:02:47.000
+TUTOR: And there you go. And now again.
+
+01:02:47.000 --> 01:02:50.000
+TUTOR: If you wanted, you could do this using the trick.
+
+01:02:50.000 --> 01:02:52.000
+TUTOR: Here we have 3, and here we have 9.
+
+01:02:53.000 --> 01:02:57.000
+TUTOR: So this just becomes 3, because 9 divided by 3 is 3. There's a leftover 3.
+
+01:02:58.000 --> 01:03:02.000
+TUTOR: Um, and then we would have just gotten 11 over 3 from the start.
+
+01:03:04.000 --> 01:03:07.000
+TUTOR: Or you could do it your way. Same, literal, same answer.
+
+01:03:07.000 --> 01:03:12.000
+TUTOR: Does not matter. Same stuff, different font. Um...
+
+01:03:12.000 --> 01:03:20.000
+TUTOR: Okay, so, your test is coming up, so I will go ahead and, um, I'm just gonna take the existing practice we haven't gotten to on here.
+
+01:03:20.000 --> 01:03:25.000
+TUTOR: And I'm just gonna slap it into a worksheet for you and send that over, and you can use that as extra practice.
+
+01:03:25.000 --> 01:03:28.000
+TUTOR: Um, I will also just, um...
+
+01:03:29.000 --> 01:03:33.000
+TUTOR: You know, send over the solutions, that way you can check it yourself.
+
+01:03:33.000 --> 01:03:38.000
+TUTOR: Since the test is kind of soon, it'll just be, like, you do it, and then you check it yourself.
+
+01:03:38.000 --> 01:03:40.000
+TUTOR: Um, and... but any questions?
+
+01:03:41.000 --> 01:03:43.000
+STUDENT 3: No, not really.
+
+01:03:43.000 --> 01:03:47.000
+TUTOR: Alright, I think you'll be fine. Everything we do is harder than what your class does.
+
+01:03:47.000 --> 01:03:49.000
+TUTOR: Um...
+
+01:03:50.000 --> 01:03:56.000
+TUTOR: And I'll send that practice, maybe, like, 10 questions or so, with the solutions.
+
+01:03:56.000 --> 01:04:00.000
+TUTOR: [PERSONAL]
+
+01:04:02.000 --> 01:04:04.000
+TUTOR: Um, so that's it. Fly free.
+
+01:04:02.000 --> 01:04:04.000
+STUDENT 3: Alright.
+
+01:04:04.000 --> 01:04:07.000
+TUTOR: Enjoy the rest of your... evening.
+
+01:04:07.000 --> 01:04:09.000
+STUDENT 3: Okay, thank you, bye.
+
+01:04:09.000 --> 01:04:16.000
+TUTOR: [PERSONAL]
+

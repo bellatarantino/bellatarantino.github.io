@@ -267,24 +267,37 @@ strong {
   }
 }
 
-/* education + languages */
-.facts {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 40px;
+/* education */
+.edu-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 16px;
 }
 
-.facts>div {
+.edu-meta {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  font-size: 14px;
+  color: var(--mute);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.edu-meta > :first-child {
+  font-size: 16px;
+}
+
+.edu-facts {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  padding-top: 12px;
   font-size: 14px;
   line-height: 1.5;
-}
-
-.facts>div>strong {
-  font-size: 15px;
-  margin-top: 8px;
 }
 
 /* expandable / dropdown rows */
